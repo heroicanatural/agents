@@ -5,6 +5,7 @@ Personas de agentes de IA da Heroica. Cada pasta tem o prompt de sistema, um REA
 | Agente | Papel | Pasta |
 |---|---|---|
 | Isa | CMO da Heroica. Estratégia de marca, campanhas 360, briefings de creators, peças de Instagram, análise de dados e placar semanal. | [`isa-cmo-heroica/`](isa-cmo-heroica/) |
+| Julinha | Treinadora de endurance e nutricionista esportiva da Rafa. Anamnese, plano semanal de bike e força, plano alimentar com horários, sabotadores de atleta CEO e revisão semanal com base em evidência. | [`julinha-treinadora-rafa/`](julinha-treinadora-rafa/) |
 
 ## Convenção
 
