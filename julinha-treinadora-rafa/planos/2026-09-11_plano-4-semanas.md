@@ -88,14 +88,14 @@ Objetivo: não perder o hábito, proteger o sono e o almoço, chegar na volta co
 
 ### Treino
 
-Manhã, antes das 9h30. Só peso corporal até quarta. Corrida leve porque ela tem base de triatlo, mas no máximo 40 min, no plano, e para no primeiro sinal de dor (o peso extra muda o impacto).
+Manhã, antes das 9h30. Só peso corporal até quarta e **sem corrida** (a Rafa não está podendo correr). O aeróbico da viagem é caminhada rápida em Z2 e escada, que mantêm o estímulo sem impacto. Se o hotel tiver bike ergométrica ou elíptico, ela substitui a caminhada pelo mesmo tempo. Preciso saber o motivo de não correr: se for dor ou lesão em perna, quadril ou pé, alguns exercícios de força abaixo também mudam.
 
 | Dia | Treino | Duração | Plano B se o dia desmontar |
 |---|---|---|---|
 | Sex 11 | Força corporal A (abaixo) | 30' | 15': 3 rodadas de agachamento 15 + flexão 10 + prancha 40" |
-| Sáb 12 | Corrida ou caminhada rápida em Z2, terreno plano | 40' | 25' de caminhada |
+| Sáb 12 | Caminhada rápida em Z2 (ritmo em que dá para falar frases, mas não cantar); bike ou elíptico do hotel se houver | 45' | 25' de caminhada |
 | Dom 13 | Força corporal B + 20' de caminhada | 30' + 20' | só a força |
-| Seg 14 | Corrida leve Z2 | 30' | 10 mil passos no dia |
+| Seg 14 | Escada do hotel: 8 × (2' subindo em ritmo forte, descer de elevador ou devagar), depois 15' de caminhada | 35' | 10 mil passos no dia |
 | Ter 15 | Força corporal A | 30' | plano B da sexta |
 | Qua 16 | Descanso ativo: caminhada, alongamento no hotel ou aeroporto | 20' | zero, sem culpa |
 | Qui 17 | Rolo Z2 fácil, cadência 90+, 4 × 30" de giro alto | 45' | 30' |
