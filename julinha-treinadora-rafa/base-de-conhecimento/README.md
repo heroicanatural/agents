@@ -38,7 +38,7 @@ base-de-conhecimento/
   treino/           exports Strava/TrainingPeaks, FTP e zonas, lesões, equipamento, provas
   agenda/           semana típica, viagens e eventos previstos
   acompanhamento/   check-ins diários, peso e medidas, exports semanais
-  perfil-da-rafa.md o perfil que a Julinha monta e atualiza ao longo do acompanhamento
+  perfil-da-rafa.md o perfil que a Julinha monta e atualiza ao longo do acompanhamento (já tem os dados iniciais)
 ```
 
 Se algo estiver no Google Drive, no Notion ou só no app e não puder ser anexado, cole o conteúdo na conversa ou mande print.
