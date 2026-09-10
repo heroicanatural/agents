@@ -291,7 +291,8 @@ Sinais de alerta que param o plano e viram conversa: FC de repouso 5+ bpm acima 
 | Ciclo | Irregular, usa DIU | Déficit no lado baixo da faixa; vigilância pelos outros sinais (seção 7) |
 | Quando pesou 57 kg | 2024, antes do UCI Gravel de março | Peso de pico de temporada, não de reconstrução. Meta de dezembro segue 60 |
 | Rolo | Inteligente, MyWhoosh | Sessões em ERG; teste de rampa da plataforma na sexta 25/09 |
-| Gran Fondo | 120 km de asfalto | Ver abaixo |
+| Gran Fondo | 120 km de asfalto, 1.200 m de altimetria | Ver abaixo |
+| Relógio | Garmin, mede FC de repouso e HRV | Entram no check-in diário; não precisa integrar nada agora |
 
 ### O que 120 km de asfalto pedem do bloco seguinte (12/10 a 8/11)
 
@@ -302,11 +303,13 @@ Para a Rafa isso é 3h30 a 4h de prova em pelotão, com ritmo de Z3 alto sustent
 - Um pedal em grupo ou com ritmo variado na rua, para reaprender a andar em roda com arrancadas.
 - Semana da prova (2 a 8/11): volume cai 50 %, déficit desligado, carboidrato sobe para 6 a 8 g/kg nos dois dias antes.
 
-Preciso da altimetria da prova para saber se o treino de subida da semana 3 vira prioridade ou coadjuvante.
+Com 1.200 m em 120 km, a prova é ondulada, não montanhosa: 10 m por km. Ninguém ganha na subida, mas é nas subidas de 3 a 8 minutos que o pelotão quebra. O treino de subida em Z2 da semana 3 fica como está (é disciplina, não força), e no bloco 2 a sessão de limiar vira subida real na rua quando der: 3 a 4 subidas de 6 a 8 minutos em Z4 baixo, sentada, cadência acima de 80. Peso é o que mais conta aí, e é por isso que os 4 kg até novembro valem mais na prova do que qualquer intervalo.
 
 ## 9. Check-in diário (1 minuto, de manhã)
 
-`sono Xh · energia 1-5 · humor 1-5 · dor 1-5 (pé em separado) · treino de ontem S/N · refeições de ontem (café/almoço/lanche/jantar/ceia) S/N · álcool S/N · passos`
+`sono Xh · FC repouso · HRV (status ou valor da noite) · energia 1-5 · humor 1-5 · dor 1-5 (pé em separado) · treino de ontem S/N · refeições de ontem (café/almoço/lanche/jantar/ceia) S/N · álcool S/N · passos`
+
+FC de repouso e HRV saem do Garmin Connect de manhã (FC em repouso e Status de HRV). Não precisa integrar nada: são dois números copiados no check-in. Nas duas primeiras semanas eu só registro, para saber qual é o normal dela; a partir daí, FC de repouso 5+ bpm acima da média ou HRV abaixo da faixa normal por 3 dias seguidos vira dia de Z1 ou descanso, sem discussão. Se o Garmin já sincroniza com o Strava, o histórico de treino chega por lá; se ela usar TrainingPeaks, melhor ainda, mas não é requisito.
 
 Toda manhã eu devolvo o treino e as refeições do dia, ajustados ao que ela respondeu e à agenda do dia. Segunda de manhã vem a revisão da semana.
 

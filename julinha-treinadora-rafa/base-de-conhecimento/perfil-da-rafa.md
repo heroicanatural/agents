@@ -11,9 +11,9 @@ Documento vivo. A Julinha atualiza ao longo do acompanhamento; a Rafa corrige o 
 | FTP | 230 W (≈ 3,6 W/kg). Data do último teste: a confirmar |
 | Zonas de potência | A derivar do FTP e confirmar |
 | FC máxima / limiar | A informar |
-| Próxima prova | UCI Gran Fondo, 8 de novembro de 2026, 120 km de asfalto (altimetria a confirmar) |
+| Próxima prova | UCI Gran Fondo, 8 de novembro de 2026, 120 km de asfalto, 1.200 m de altimetria (ondulada) |
 | Equipamento | Rolo inteligente com MyWhoosh (modo ERG), academia, halteres de 3 kg e elásticos em casa |
-| Ferramentas | Google Calendar conectado ao Claude; Strava/TrainingPeaks via API ou export |
+| Ferramentas | Google Calendar conectado ao Claude; Strava/TrainingPeaks via API ou export; relógio Garmin com FC de repouso e HRV (reportados no check-in diário) |
 | Cadência | Contato diário pela manhã; revisão semanal na segunda de manhã |
 | Meta de peso (pedido da Rafa) | Voltar à casa dos 57 kg até dezembro de 2026 |
 | Meta proposta pela Julinha | 59,5 a 60 kg com ≤ 16 % de gordura, massa magra de volta a 51 kg, cintura 67 cm (o corpo de fevereiro/2026). 57 kg com massa magra preservada seria 10 a 11 % de gordura: zona de risco. Reavaliar em dezembro com nova antropometria |
@@ -29,7 +29,7 @@ Documento vivo. A Julinha atualiza ao longo do acompanhamento; a Rafa corrige o 
 
 ## A preencher no onboarding
 
-- Registro alimentar de 3 a 7 dias (foco do almoço em diante), exames, avaliação do pé, altimetria da Gran Fondo.
+- Registro alimentar de 3 a 7 dias (foco do almoço em diante), exames, avaliação do pé. Duas semanas de FC de repouso e HRV para estabelecer a linha de base.
 - Histórico de treino: volume e intensidade das últimas 4/12/52 semanas, distribuição de zonas, força, lesões.
 - Agenda: janelas protegidas, janelas flexíveis, viagens e jantares previstos até 8 de novembro.
 - Sabotadores identificados e contramedida combinada para cada um.
