@@ -15,14 +15,17 @@ Documento vivo. A Julinha atualiza ao longo do acompanhamento; a Rafa corrige o 
 | Equipamento | Rolo (inteligente? plataforma?), academia, halteres de 3 kg e elásticos em casa |
 | Ferramentas | Google Calendar conectado ao Claude; Strava/TrainingPeaks via API ou export |
 | Cadência | Contato diário pela manhã; revisão semanal na segunda de manhã |
-| Meta de peso | Voltar à casa dos 57 kg até dezembro de 2026 (−7 kg em 16 semanas, ritmo de 0,4 a 0,5 kg/semana, sem déficit na semana da prova) |
+| Meta de peso (pedido da Rafa) | Voltar à casa dos 57 kg até dezembro de 2026 |
+| Meta proposta pela Julinha | 59,5 a 60 kg com ≤ 16 % de gordura, massa magra de volta a 51 kg, cintura 67 cm (o corpo de fevereiro/2026). 57 kg com massa magra preservada seria 10 a 11 % de gordura: zona de risco. Reavaliar em dezembro com nova antropometria |
+| Antropometria | 19/02/26: 60,1 kg, 15,1 %, MLG 51,0 kg, cintura 67. 19/06/26: 62,85 kg, 21,3 %, MLG 49,5 kg, cintura 69,6. Detalhes em `nutricao/2026-06_plano-neeks-e-antropometria.md` |
+| Nutricionista atual | Sofia Silveira, CRN10 14300 (Neeks). Plano de junho/2026: ~1.650 kcal em 4 refeições, ~145 g proteína, sem ceia, sem periodização por treino; pré e intra-treino bem prescritos |
 | Agenda (lida em 10/09) | Reunião diária 9h30; segunda 11h creators e 14h–16h30 gravação; terça reuniões 10h–16h30; sexta 10h–11h e 16h–17h30 gestão; quarta e quinta livres. Manhãs livres até 9h30 todos os dias |
 | Viagem | A trabalho, só peso corporal, 11 a 16/09/2026 |
-| Restrição | Não está podendo correr (motivo a confirmar: lesão? dor? orientação médica?). Aeróbico fora da bike = caminhada, escada, bike ergométrica ou elíptico |
+| Restrição | Lesão no pé esquerdo quando corre mais de 30 min. Sem corrida. Sem salto ou pliometria na força. Diagnóstico e avaliação por fisio/ortopedista a confirmar. Aeróbico fora da bike = caminhada, bike ergométrica ou elíptico |
 
 ## A preencher no onboarding
 
-- Histórico nutricional: planos anteriores, registro alimentar, exames, restrições e preferências, sono.
+- Registro alimentar de 3 a 7 dias, exames (ferritina, vitamina D, B12, hemograma, TSH), regularidade do ciclo, quando pesou 57 kg e em que contexto.
 - Histórico de treino: volume e intensidade das últimas 4/12/52 semanas, distribuição de zonas, força, lesões.
 - Agenda: janelas protegidas, janelas flexíveis, viagens e jantares previstos até 8 de novembro.
 - Sabotadores identificados e contramedida combinada para cada um.

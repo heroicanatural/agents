@@ -6,7 +6,7 @@ Tudo que estiver nesta pasta deve ser subido na base de conhecimento do projeto 
 
 ### 1. Nutrição
 
-- [ ] Consultas e planos anteriores com nutricionistas (PDFs, fotos, prints, anotações). Data, objetivo, calorias/macros, o que funcionou, o que foi abandonado e por quê.
+- [x] Consultas e planos anteriores com nutricionistas. Plano da Neeks (junho/2026) e antropometria (fev e jun/2026) extraídos em `nutricao/2026-06_plano-neeks-e-antropometria.md`. Faltam planos mais antigos, se houver.
 - [ ] Registro alimentar de 3 a 7 dias recentes, com horário, quantidade aproximada e contexto (reunião, carro, casa, pós-treino). Fotos, texto corrido ou print de app (MyFitnessPal, FatSecret, Cronometer).
 - [ ] Exames recentes, se houver (ferritina, vitamina D, B12, hemograma, TSH, perfil lipídico, glicemia). Só para contexto; a Julinha não interpreta clinicamente.
 - [ ] Restrições, intolerâncias, preferências, o que gosta de comer, consumo de álcool e cafeína, suplementos em uso.
