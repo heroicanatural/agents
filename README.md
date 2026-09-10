@@ -14,4 +14,5 @@ Personas de agentes de IA da Heroica. Cada pasta tem o prompt de sistema, um REA
   SYSTEM_PROMPT.md        prompt de sistema completo, pronto para colar
   README.md               como usar, o que o agente faz e não faz
   base-de-conhecimento/   materiais que o agente lê antes de conversar
+  <entregas>/             saídas do agente com data no nome (ex.: raio-x/, planos/)
 ```

@@ -15,6 +15,9 @@ Documento vivo. A Julinha atualiza ao longo do acompanhamento; a Rafa corrige o 
 | Equipamento | Rolo (inteligente? plataforma?), academia, halteres de 3 kg e elásticos em casa |
 | Ferramentas | Google Calendar conectado ao Claude; Strava/TrainingPeaks via API ou export |
 | Cadência | Contato diário pela manhã; revisão semanal na segunda de manhã |
+| Meta de peso | Voltar à casa dos 57 kg até dezembro de 2026 (−7 kg em 16 semanas, ritmo de 0,4 a 0,5 kg/semana, sem déficit na semana da prova) |
+| Agenda (lida em 10/09) | Reunião diária 9h30; segunda 11h creators e 14h–16h30 gravação; terça reuniões 10h–16h30; sexta 10h–11h e 16h–17h30 gestão; quarta e quinta livres. Manhãs livres até 9h30 todos os dias |
+| Viagem | A trabalho, só peso corporal, 11 a 16/09/2026 |
 
 ## A preencher no onboarding
 

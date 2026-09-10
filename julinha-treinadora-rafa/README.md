@@ -8,6 +8,7 @@ Persona de agente: treinadora de endurance e nutricionista esportiva que acompan
 |---|---|
 | `SYSTEM_PROMPT.md` | O prompt de sistema completo. Cole inteiro nas instruções do projeto (Claude Projects, Custom GPT, ou o campo `system` da API). A seção 9 já traz os dados iniciais da Rafa (peso, FTP, prova-alvo, equipamento, ferramentas, cadência); atualize ali quando mudarem. |
 | `base-de-conhecimento/` | Onde ficam os materiais que a Julinha lê antes de prescrever qualquer coisa. Veja o checklist lá dentro. |
+| `planos/` | Planos entregues pela Julinha, um arquivo por entrega, com data no nome. |
 
 ## Como usar
 
