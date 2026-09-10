@@ -1,6 +1,6 @@
 # Plano de ação: o corpo de fevereiro de volta até dezembro, e as 4 primeiras semanas
 
-Escrito por Julinha em 10 de setembro de 2026, para começar na sexta, 11 de setembro. Versão 2, depois de ler a antropometria (fevereiro e junho de 2026) e o plano alimentar atual da Neeks (Sofia Silveira, CRN10 14300, feito em junho com 62,85 kg). Dados de partida: 64 kg, 1,65 m, FTP 230 W, UCI Gran Fondo em 8/11, viagem a trabalho só com peso corporal até 16/09, lesão no pé esquerdo quando corre mais de 30 min, agenda com reunião diária às 9h30, gravação na segunda à tarde, gestão na sexta à tarde, quarta e quinta quase livres.
+Escrito por Julinha em 10 de setembro de 2026, para começar na sexta, 11 de setembro. Versão 3, depois de ler a antropometria (fevereiro e junho de 2026), o plano alimentar atual da Neeks (Sofia Silveira, CRN10 14300, feito em junho com 62,85 kg) e as respostas da Rafa de 10/09. Dados de partida: 64 kg, 1,65 m, FTP 230 W, UCI Gran Fondo em 8/11, viagem a trabalho só com peso corporal até 16/09, lesão no pé esquerdo quando corre mais de 30 min, agenda com reunião diária às 9h30, gravação na segunda à tarde, gestão na sexta à tarde, quarta e quinta quase livres.
 
 ---
 
@@ -18,9 +18,9 @@ Escrito por Julinha em 10 de setembro de 2026, para começar na sexta, 11 de set
 
 De fevereiro a junho a Rafa ganhou 4,3 kg de gordura e **perdeu 1,5 kg de massa magra**. Isso é a assinatura de estresse alto, sono curto, treino irregular e comida insuficiente nos dias certos, não de excesso de comida. Depois de junho, já com o plano da Neeks, subiu mais 1,15 kg.
 
-O que isso faz com o número 57: em fevereiro, com 60,1 kg, ela estava com 15,1 % de gordura, que a própria avaliação classifica como "excelente". Chegar a 57 kg mantendo os 51 kg de massa magra de fevereiro significa 10 a 11 % de gordura. Chegar a 57 perdendo massa magra é o que ela menos quer. Para mulher, abaixo de 12 a 14 % é a faixa em que ciclo, osso e hormônio começam a pagar a conta (IOC REDs, Mountjoy et al., 2023). Se a Rafa já esteve em 57 kg, quero saber quando, com que volume de treino e como estava o ciclo nessa época, antes de aceitar esse número como alvo.
+O que isso faz com o número 57: em fevereiro, com 60,1 kg, ela estava com 15,1 % de gordura, que a própria avaliação classifica como "excelente". Chegar a 57 kg mantendo os 51 kg de massa magra de fevereiro significa 10 a 11 % de gordura. Chegar a 57 perdendo massa magra é o que ela menos quer. Para mulher, abaixo de 12 a 14 % é a faixa em que ciclo, osso e hormônio começam a pagar a conta (IOC REDs, Mountjoy et al., 2023). A Rafa pesou 57 kg em 2024, na preparação para o UCI Gravel de março: pico de temporada, volume alto, uma vida diferente da de agora. Sem antropometria daquela época, não sei quanto daquele número era gordura e quanto era massa magra. Um peso de pico de temporada não é referência para uma fase de reconstrução com a empresa no pescoço.
 
-**Minha proposta de meta até dezembro: 59,5 a 60 kg com ≤ 16 % de gordura, massa magra de volta aos 51 kg e cintura de 67 cm.** É o corpo de fevereiro, com mais força. Chegando lá com ciclo regular, potência em alta e sono em dia, a gente reavalia juntas se faz sentido ir além. A balança vai mostrar 60; o corpo vai parecer o de 57, porque 1,5 kg de músculo a mais e 4 kg de gordura a menos mudam mais a silhueta do que 3 kg na balança.
+**Minha proposta de meta até dezembro: 59,5 a 60 kg com ≤ 16 % de gordura, massa magra de volta aos 51 kg e cintura de 67 cm.** É o corpo de fevereiro, com mais força. Chegando lá com potência em alta, sono em dia e exames limpos, a gente reavalia juntas se faz sentido ir além. Se 57 voltar a fazer sentido, é como peso de prova em 2027, construído a partir de 60, não como meta de dezembro. A balança vai mostrar 60; o corpo vai parecer o de 57, porque 1,5 kg de músculo a mais e 4 kg de gordura a menos mudam mais a silhueta do que 3 kg na balança.
 
 ### 1.2 O plano alimentar atual
 
@@ -34,13 +34,13 @@ O problema é a energia. Somando as porções, o plano entrega cerca de **1.650 
 | Rolo de 60' | ~25 kcal/kg | abaixo do piso de 30 |
 | Pedal longo de 2h30 | ~17 kcal/kg | zona de perda de massa magra e de rebote |
 
-Não estou dizendo que o plano causou o ganho de gordura. Estou dizendo que ele é um plano de emagrecimento bem-feito para quem treina pouco, e que para a Rafa ele não protege a massa magra nem periodiza o carboidrato pelo treino. Em quem é "tudo ou nada", plano curto de dia costuma virar compensação à noite ou no fim de semana, e o resultado é o que a balança mostrou desde junho. Preciso saber quanto desse plano ela segue de verdade, com um registro de 3 a 7 dias.
+Não estou dizendo que o plano causou o ganho de gordura. Estou dizendo que ele é um plano de emagrecimento bem-feito para quem treina pouco, e que para a Rafa ele não protege a massa magra nem periodiza o carboidrato pelo treino. Em quem é "tudo ou nada", plano curto de dia costuma virar compensação à noite ou no fim de semana, e o resultado é o que a balança mostrou desde junho. A Rafa disse que o café da manhã sai como no plano. O que eu ainda não sei é o que acontece do almoço em diante, que é onde a agenda aperta e onde o plano é mais curto. É isso que o registro de 3 a 7 dias vai mostrar.
 
 O que eu mudo: mais comida nos dias de treino, ceia com proteína, azeite e feijão com quantidade, e três versões de dia. A Rafa vai comer mais do que come hoje e perder gordura, porque o déficit é contra o gasto real, não contra um número fixo.
 
 ### 1.3 O pé
 
-Lesão no pé esquerdo quando corre mais de 30 min. Corrida está fora do plano inteiro. No treino de força não há salto nem pliometria, e afundo, step-up e panturrilha entram só sem dor. Quero saber qual é o diagnóstico (fascite plantar? metatarsalgia? tendão?) e se ela já passou por fisioterapeuta ou ortopedista. Se não passou, é a hora, porque pé que dói correndo pode reclamar em pedal longo, e a posição do taco na sapatilha vale uma conferida.
+Lesão no pé esquerdo quando corre mais de 30 min. Corrida está fora do plano inteiro. No treino de força não há salto nem pliometria, e afundo, step-up e panturrilha entram só sem dor. Não há diagnóstico nem avaliação. Dor que aparece sempre depois de 30 min de corrida e some é padrão de sobrecarga, e sobrecarga sem nome vira lesão com nome. Pedido concreto: consulta com fisioterapeuta esportivo ou ortopedista até o fim de setembro, com a queixa exata (onde dói, quando começou, o que alivia). Enquanto isso: sem corrida, e conferir a posição do taco na sapatilha, porque pé que reclama correndo pode reclamar em 120 km de asfalto.
 
 ---
 
@@ -167,7 +167,7 @@ Total: 6 a 7 h por semana. É o mínimo eficaz para a Gran Fondo e cabe na agend
 | Ter 22 | Rolo 60' Z2; a cada 10', 1' a 100+ rpm | 40' |
 | Qua 23 | Rolo 60' Z2 + 3 × 5' em Z4 baixo (210 a 220 W), 5' de recuperação. Prepara o teste | 45' Z2 |
 | Qui 24 | Força B, RPE 6 a 7 | força em casa |
-| Sex 25 | **Teste de referência** no rolo: aquecimento 15', rampa +20 W a cada minuto a partir de 100 W até não segurar (FTP ≈ 75 % do melhor minuto). Se o rolo não for inteligente: 20' no máximo sustentável, FTP = 95 % da média | adiar para o sábado, sem pedal longo |
+| Sex 25 | **Teste de referência** no MyWhoosh, modo ERG: teste de rampa da plataforma (aquecimento 15', +20 W por minuto até não segurar; FTP ≈ 75 % do melhor minuto). Registrar também a FC máxima do teste, que vira a referência de FC | adiar para o sábado, sem pedal longo |
 | Sáb 26 | Rua 2h Z2 | 1h15 no rolo |
 | Dom 27 | Descanso, mobilidade 20' | |
 
@@ -275,19 +275,34 @@ Ainda não tenho o registro alimentar. Pela agenda, pelo perfil e pelo plano atu
 | "Tudo ou nada": uma refeição fora vira "semana perdida" | Regra da próxima refeição. Sem treino de castigo |
 | Treinar em Z3 para "render" nos 60 minutos que tem | Z2 pelo teste da conversa. Render é o número do sábado com a mesma FC, não a sensação de cansaço |
 
-Sinais de alerta que param o plano e viram conversa: ciclo menstrual atrasado ou ausente, FC de repouso 5+ bpm acima do normal por 3 dias, sono ruim por uma semana, humor no chão, fome incontrolável à noite, dor no pé ou em osso e tendão. Nesses casos eu aumento a comida, não o treino, e recomendo médico se persistir.
+**O DIU muda a vigilância.** A Rafa usa DIU e o ciclo não é regular, então o sinal mais confiável de déficit excessivo em mulher, a menstruação, está mascarado. Isso me deixa mais conservadora, não menos: o déficit fica no lado baixo da faixa (350 a 400 kcal), e eu vigio o resto com mais atenção.
+
+Sinais de alerta que param o plano e viram conversa: FC de repouso 5+ bpm acima do normal por 3 dias, HRV caindo por uma semana (se o relógio medir), sono ruim por uma semana, humor no chão, libido sumindo, frio fora de hora, potência caindo em Z2 com a mesma FC, fome incontrolável à noite, dor no pé ou em osso e tendão. Nesses casos eu aumento a comida, não o treino, e recomendo médico se persistir.
 
 ---
 
-## 8. O que eu ainda preciso
+## 8. Respostas de 10/09 e o que ainda falta
 
-1. **Registro alimentar de 3 a 7 dias**, começando na viagem: foto ou texto, com horário e contexto. É o que diz quanto do plano da Neeks acontece de verdade.
-2. **Diagnóstico do pé** e se já passou por fisioterapeuta ou ortopedista.
-3. **Exames:** ferritina, vitamina D, B12, hemograma, TSH. Com 6 % de gordura ganhos em 4 meses e massa magra caindo, quero ver tireoide e ferro antes de apertar qualquer coisa.
-4. **Ciclo menstrual:** regular? Quando foi o último?
-5. **Quando ela pesou 57 kg**, com que treino e como estava o ciclo.
-6. **Rolo:** inteligente? Qual plataforma? Muda o formato do teste.
-7. **Gran Fondo:** distância e terreno.
+| Pergunta | Resposta | O que muda |
+|---|---|---|
+| Quanto do plano da Neeks acontece | Café da manhã sai como no plano | O registro alimentar foca do almoço em diante |
+| Diagnóstico do pé | Nenhum | Fisioterapeuta esportivo ou ortopedista até o fim de setembro. Sem corrida até lá |
+| Exames | Nenhum recente | Pedir ao médico: ferritina, vitamina D, B12, hemograma, TSH. Sem eles, dezembro fica sem referência e o DIU esconde o sinal do ciclo |
+| Ciclo | Irregular, usa DIU | Déficit no lado baixo da faixa; vigilância pelos outros sinais (seção 7) |
+| Quando pesou 57 kg | 2024, antes do UCI Gravel de março | Peso de pico de temporada, não de reconstrução. Meta de dezembro segue 60 |
+| Rolo | Inteligente, MyWhoosh | Sessões em ERG; teste de rampa da plataforma na sexta 25/09 |
+| Gran Fondo | 120 km de asfalto | Ver abaixo |
+
+### O que 120 km de asfalto pedem do bloco seguinte (12/10 a 8/11)
+
+Para a Rafa isso é 3h30 a 4h de prova em pelotão, com ritmo de Z3 alto sustentado e arrancadas. As 4 primeiras semanas são base; o bloco 2 (12/10 a 1/11) traz o que a prova exige:
+
+- Pedal longo subindo de 2h30 para 3h e 3h30 (sábados 17/10 e 24/10), com 60 a 90 g/h de carboidrato treinados, porque estômago também treina.
+- Uma sessão semanal de limiar no MyWhoosh (3 × 10' a 4 × 12' em Z4 baixo) no lugar dos intervalos curtos.
+- Um pedal em grupo ou com ritmo variado na rua, para reaprender a andar em roda com arrancadas.
+- Semana da prova (2 a 8/11): volume cai 50 %, déficit desligado, carboidrato sobe para 6 a 8 g/kg nos dois dias antes.
+
+Preciso da altimetria da prova para saber se o treino de subida da semana 3 vira prioridade ou coadjuvante.
 
 ## 9. Check-in diário (1 minuto, de manhã)
 
