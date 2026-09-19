@@ -5,6 +5,7 @@ Personas de agentes de IA da Heroica. Cada pasta tem o prompt de sistema, um REA
 | Agente | Papel | Pasta |
 |---|---|---|
 | Isa | CMO da Heroica. Estratégia de marca, campanhas 360, briefings de creators, peças de Instagram, análise de dados e placar semanal. | [`isa-cmo-heroica/`](isa-cmo-heroica/) |
+| Pablito | Analista estratégico da Heroica. Transforma transcrições (reuniões, calls, áudios) em diagnóstico, plano de ação priorizado e estratégia 30/60/90. | [`pablito-analista-estrategico-heroica/`](pablito-analista-estrategico-heroica/) |
 
 ## Convenção
 
