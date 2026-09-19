@@ -34,7 +34,7 @@ R6. Ninguém é excluída. Status "inativa" tira a pessoa das filas, mas o cupom
 ## 3. Papéis
 
 - prescritora: vê seu perfil, seus cupons e resultados, agenda de sessões, comunidade (fase 2), materiais (fase 2), mercadinho (fase 2).
-- visitadora: pessoa do time ou nutricionista parceira. Vê agenda de sessões, lista de inscritas, registra presença e notas pós-visita, publica na comunidade. Não vê financeiro, custo de amostra nem seeding.
+- visitadora: pessoa do time ou nutricionista parceira, com login próprio e ambiente próprio (item 6A). Vê quem vai visitar, registra presença e notas, acompanha como estão performando as que já visitou, publica na comunidade. Não vê financeiro, custo de amostra, seeding nem dados de outras visitadoras, salvo se a gestora liberar.
 - gestora do programa: tudo da visitadora + aprovação, fila de amostras, tiers, curadoria, KPIs.
 - admin: tudo + configurações (percentuais de cupom, tiers, regras de pontos, capacidade de sessão).
 
@@ -82,6 +82,36 @@ Amostras: fila no admin ordenada por data de visita, com tier, custo estimado e 
 - kit consultório: 1 granola com display de mesa, disponível para qualquer tier mediante pedido e endereço do consultório.
 Push e WhatsApp "sua amostra saiu" com rastreio.
 
+## 6A. Ambiente logado da visitadora
+
+A visitadora entra com login próprio e cai em um ambiente só dela, com três abas. Tudo é filtrado pelas prescritoras vinculadas a ela (as que estão nas sessões dela ou que a gestora atribuiu a ela). A gestora vê o mesmo ambiente com filtro por visitadora.
+
+Aba "A visitar":
+- próximas sessões dela com data, hora, link da reunião e lista de inscritas
+- para cada inscrita: nome, cidade, especialidade, faixa de pacientes, Instagram com link, como conheceu a Heroica, se é reagendamento por no-show
+- botão "iniciar registro" que abre a tela de presença e notas da sessão
+- fila de aprovadas ainda sem sessão marcada, para ela chamar por WhatsApp (botão que abre conversa com mensagem pré-preenchida)
+- contador: sessões na semana, inscritas na semana, vagas livres
+
+Aba "Já visitadas":
+- lista de todas as prescritoras que ela visitou, com data da visita, status atual do funil, tier atribuído, se a amostra já saiu, cupom de paciente ativo ou não
+- filtros por status, especialidade, cidade e período
+- em cada linha, as notas que ela escreveu na visita e um campo para adicionar acompanhamento depois (data + texto)
+- alertas: visitada há mais de 14 dias sem amostra enviada; visitada há mais de 30 dias sem ativar o cupom de paciente; amostra entregue há 21 dias sem uso de cupom
+- ação por linha: "mandar mensagem" (abre WhatsApp com template) e "sinalizar para gestora" (marca relevante, candidata a creator, ou pede reenvio, com motivo)
+
+Aba "Performance":
+- das prescritoras que ela visitou: quantas ativaram cupom, quantas viraram ativas, recorrentes e relevantes; taxa visitada para ativa em 60 dias
+- usos de cupom de paciente e receita atribuída, no mês e acumulado, das prescritoras dela
+- ranking das prescritoras dela por receita atribuída e por uso de cupom
+- comparação dela com a média do programa nas mesmas métricas (sem mostrar nomes de outras visitadoras)
+- sem valores de custo de amostra, sem ROI financeiro, sem dados de outras visitadoras
+
+Regras:
+- cada prescritora tem uma visitadora responsável, definida na primeira sessão em que foi marcada como presente; a gestora pode reatribuir
+- a visitadora edita só notas e acompanhamentos; não muda status, tier nem cupom (exceto o registro pós-visita, que muda para visitada e atribui tier sugerido, sujeito a revisão da gestora)
+- todas as ações dela ficam em log com data e usuário
+
 Painel da gestora, tela inicial com mês atual e anterior:
 - funil: inscritas, aprovadas, visitadas, amostras enviadas, ativas; taxa visitada para ativa em 60 dias em destaque
 - base: total, ativas, recorrentes, relevantes, inativas; % de ativas
@@ -102,7 +132,7 @@ Mensagens transacionais não entram no limite de recência de campanhas.
 
 ## 7. Critérios de aceite da fase 1
 
-Só me chame para revisar quando todos passarem, com testes automatizados cobrindo R1, R2, R4, R5 e as transições de status:
+Só me chame para revisar quando todos passarem, com testes automatizados cobrindo R1, R2, R4, R5, as transições de status e a autorização do ambiente da visitadora:
 1. Uma prescritora se inscreve, é aprovada, escolhe sessão, é marcada como visitada, recebe os dois cupons e aparece na fila com tier, sem nenhuma intervenção manual fora do app.
 2. Tentar gerar seeding para status anterior a visitada falha com erro claro, na interface e na API.
 3. Uma venda com cupom de paciente aparece no perfil dela, no painel e no ROI em até 1 hora.
@@ -110,6 +140,9 @@ Só me chame para revisar quando todos passarem, com testes automatizados cobrin
 5. Nenhum dado, rota ou tela de prescritora é acessível pelo ambiente de creators, e vice-versa. Inclua teste de autorização por papel.
 6. Uma pessoa com os dois perfis vê o seletor de ambiente e os dados não se misturam.
 7. Prescritora inativa há 90 dias muda de status automaticamente e some da fila de reenvio.
+8. A visitadora, logada com o papel dela, vê nas três abas apenas as prescritoras vinculadas a ela; uma tentativa de acessar prescritora de outra visitadora, a fila de seeding ou qualquer valor de custo retorna erro de autorização, na interface e na API.
+9. Ao marcar presença numa sessão, a prescritora aparece em "Já visitadas" com a visitadora como responsável; ao registrar uma venda no cupom de paciente dela, a aba "Performance" da visitadora atualiza em até 1 hora.
+10. Os alertas de "Já visitadas" (14 dias sem amostra, 30 dias sem cupom ativo, 21 dias sem uso após entrega) aparecem e somem conforme os dados mudam.
 
 ## 8. Fases seguintes, só para você planejar a arquitetura agora, sem implementar
 
