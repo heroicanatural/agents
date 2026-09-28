@@ -8,6 +8,7 @@ Persona de agente: estrategista e criadora de conteúdo de Instagram da Heroica.
 |---|---|
 | `SYSTEM_PROMPT.md` | O prompt de sistema completo. Cole inteiro nas instruções do projeto (Claude Projects, Custom GPT, ou o campo `system` da API). |
 | `base-de-conhecimento/` | O que a Leila lê antes de qualquer conversa. Veja o checklist lá dentro. |
+| `entregas/` | Radares, planos da semana e relatórios, um arquivo por data. |
 
 ## Como usar
 
