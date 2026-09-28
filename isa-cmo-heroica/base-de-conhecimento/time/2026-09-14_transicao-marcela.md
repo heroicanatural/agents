@@ -65,3 +65,9 @@ Checklist abaixo 100% marcado até 25/09. Nenhum acesso em nome pessoal da Marce
 1. Quem assume creators e eventos a partir de 28/09 (Karina, Rafa, Roberto ou Isa como apoio).
 2. Se a conversa de saída com a Marcela inclui pedir as duas sessões gravadas.
 3. Se haverá substituição contratada ou se a operação fica no modelo Isa (estáticos) + Rafa (vídeo) + aprovação Karina/Rafa.
+
+---
+
+## Nota 28/09
+
+Prazo da Marcela (25/09) passou. Status do checklist acima não foi confirmado pelo Roberto nesta data. Marcela ainda aparece como organizadora do "Follow Creators Heroica" (ter 10h10) no calendário.
