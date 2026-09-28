@@ -5,6 +5,7 @@ Personas de agentes de IA da Heroica. Cada pasta tem o prompt de sistema, um REA
 | Agente | Papel | Pasta |
 |---|---|---|
 | Isa | CMO da Heroica. Estratégia de marca, campanhas 360, briefings de creators, peças de Instagram, análise de dados e placar semanal. | [`isa-cmo-heroica/`](isa-cmo-heroica/) |
+| Leila | Conteúdo de Instagram. Radar diário de referências, plano semanal (2 feed + 8 stories), quadros fixos de stories e relatório de sexta para a Isa. | [`leila-instagram-heroica/`](leila-instagram-heroica/) |
 
 ## Convenção
 
