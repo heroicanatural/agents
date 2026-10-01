@@ -125,3 +125,18 @@ Feedback do Roberto. Ele tem razão: as frases saíram todas no mesmo molde ("X.
 - Primeira pessoa. Um fato real (lugar, ano, coisa que aconteceu).
 - Pode ter "juro", "tipo", frase quebrada. Não pode ter simetria perfeita.
 - Proibido: "não é X, é Y", "quem muda é você", "aprendemos", "jornada", "força", "resiliência".
+
+## 8. Frase do vídeo da subida, na voz da Rafa (01/10, após o guia `voz-da-rafa.md`)
+
+Tirada da legenda dela ("Meu rolo da câmera como founder"), só cortada:
+
+> **Eu posso ter que recalcular a rota, desacelerar o passo,**
+> **mas eu enxergo nitidamente o lugar que quero chegar.** 🤎🩷
+
+Alternativas, também dela:
+- "A gente acaba desequilibrando vários pratinhos no meio dessa jornada, mas eu vou te falar uma coisa: VALE A PENA LUTAR PELO SEU SONHO."
+- "Todo primeiro passo conta."
+
+Tela final: "sonhe.lute" (a assinatura dela) no lugar de "manda pra quem…". Se quiser CTA de envio, use as palavras dela: "Manda pra quem tá construindo um sonho."
+
+A partir daqui, as frases da série saem do banco da seção 5 do guia de voz ou dos áudios dela.
