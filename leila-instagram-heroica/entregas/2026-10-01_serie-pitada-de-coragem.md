@@ -171,3 +171,22 @@ Para não repetir "empreender" do Reels anterior. Rascunhos da Leila no vocabul�
 Variações do gancho: "Toda subida me lembra…", "Subir é muito parecido com…".
 
 Ideia de série: "Subir é igual a…" com um tema por episódio, sempre no mesmo trecho de subida.
+
+## 11. Estrutura para qualquer esporte: "[o que aparece no vídeo] é igual a [tema]" (01/10)
+
+A Rafa é multiatleta, então o gancho segue o vídeo: a primeira palavra é a ação que está na tela. Rascunhos da Leila; confirmar as modalidades que ela pratica e o material gravado.
+
+| No vídeo | Frase (tempo 1 / tempo 2) |
+|---|---|
+| Subida de bike | Subir é igual recomeçar: / o primeiro giro é sempre o mais pesado. |
+| Longão de corrida | Longão é igual sonho: / eu começo animada, no meio eu negocio comigo mesma, e no fim eu choro de felicidade. |
+| Trilha | Trilha é igual a vida: / tem hora que eu preciso olhar pro chão, tem hora que eu preciso olhar a vista. |
+| Largada | Largar é igual começar um sonho: / o frio na barriga vem junto. E tudo bem. |
+| Chegada | Cruzar a chegada é igual a Heroica: / eu nunca cheguei sozinha. 🤎 |
+| Treino de madrugada | Treinar às 5h é igual consistência: / ninguém aplaude, mas foi o que me trouxe até aqui. |
+| Descida técnica | Descer é igual crescer: / dá mais medo que subir. |
+| Natação em mar aberto (se ela nada) | Nadar no mar é igual empreender: / eu nunca vejo o fundo, então eu confio na braçada. |
+| Transição de triathlon (se ela faz) | Transição é igual vida de founder: / trocar de papel correndo, sem perder o ritmo. |
+| Descanso / alongamento | Descansar é igual cuidar de um sonho: / se eu não paro, eu não chego. |
+
+Nome da série sugerido: "É igual a…" ou manter "Pitada de Coragem" com a etiqueta fixa.
