@@ -104,3 +104,24 @@ O 05 é o único que mostra produto (granola no bolso do treino) e de leve. A s�
 2. Postar no @rafamcatao em collab com o @heroicanatural.
 3. Nome da série.
 4. Números do último Reels, para virar a régua.
+
+## 7. Revisão (01/10): as frases da seção 4 saíram com cara de IA
+
+Feedback do Roberto. Ele tem razão: as frases saíram todas no mesmo molde ("X. Quem muda é você." / "não é X, é Y"), simétricas e polidas demais, com metáfora de esporte genérica. A frase da Rafa funcionou justamente por ser falada e meio torta ("você se senta pra construir").
+
+**Novo método: a frase sai da boca da Rafa; a Leila só corta.**
+1. A Rafa responde por áudio, em 5–10 min, sem pensar muito:
+   - Qual foi o dia em que você mais quis largar a Heroica? O que te fez ficar?
+   - O que você sabe hoje que a Rafa da cozinha, em 2020, não sabia?
+   - Uma coisa que ninguém te contou sobre empreender.
+   - No que você pensa de verdade no meio de uma subida?
+   - Uma frase que alguém te disse e você nunca esqueceu.
+   - Em que você acreditava no começo e hoje acha bobagem?
+   - O que você diria para quem está começando, mas não diria numa palestra?
+2. A Leila transcreve e marca os trechos que já são frase, com o mínimo de edição: cortar palavra, nunca reescrever.
+3. A Rafa escolhe. Se ela não falaria assim em voz alta, a frase não entra.
+
+**Regras de voz da série:**
+- Primeira pessoa. Um fato real (lugar, ano, coisa que aconteceu).
+- Pode ter "juro", "tipo", frase quebrada. Não pode ter simetria perfeita.
+- Proibido: "não é X, é Y", "quem muda é você", "aprendemos", "jornada", "força", "resiliência".
