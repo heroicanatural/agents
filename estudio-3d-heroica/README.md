@@ -17,7 +17,7 @@ A Heroica não tem impressora nem oficina: o agente projeta para **serralheiros,
 ## Como usar
 
 1. Rode o agente onde ele possa **executar Python** (Claude Code ou um projeto com ferramenta de código). Sem isso ele só entrega conceito e script, sem validar o modelo nem gerar desenho e lista de corte.
-2. Dependências: `pip install cadquery trimesh` (modelagem e validação). Opcional: Blender (renders realistas).
+2. Dependências: `pip install cadquery trimesh` (modelagem e validação). Renders: `npm i three` na pasta de trabalho (usa o Chromium + Playwright do ambiente, via `ferramentas/render_cena.mjs`). Opcional: Blender para render fotorrealista.
 3. Preencha o checklist de `base-de-conhecimento/`. O que estiver marcado **[a confirmar]** na seção 5 do prompt o agente vai perguntar.
 4. Peça em linguagem natural: "preciso de um display de balcão para 6 granolas, marceneiro faz, quero que pareça premium".
 

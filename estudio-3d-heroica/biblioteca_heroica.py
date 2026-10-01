@@ -309,6 +309,45 @@ def validar(peca, nome="peca", mesa=(220, 220, 250)):
     return rel
 
 
+def cena_json(itens, vistas, arquivo, largura=900, altura=1200, fundo="#f3efe9", tol=0.5):
+    """Grava a cena para ferramentas/render_cena.mjs.
+
+    itens: lista de (cq.Workplane, cor) ou (cq.Workplane, dict) com chaves
+           cor, brilho (emissivo, ex. LED), rugosidade, metal, luz, luz_pos.
+    vistas: lista de dicts {nome, pos:(x,y,z), alvo:(x,y,z), fov}.
+    """
+    import json
+    pecas = []
+    for solido, estilo in itens:
+        estilo = {"cor": estilo} if isinstance(estilo, str) else dict(estilo)
+        verts, tris = solido.val().tessellate(tol, 0.2)
+        estilo["pos"] = [round(c, 2) for v in verts for c in (v.x, v.y, v.z)]
+        estilo["idx"] = [i for t in tris for i in t]
+        pecas.append(estilo)
+    with open(arquivo, "w") as f:
+        json.dump({"largura": largura, "altura": altura, "fundo": fundo,
+                   "pecas": pecas, "vistas": vistas}, f)
+
+
+def renderizar(itens, vistas, pasta, **kw):
+    """Renderiza com three.js no Chromium headless. Precisa de `npm i three` e playwright.
+
+    Procura three em ./node_modules ou em ESTUDIO_NODE_MODULES; devolve a lista de PNGs.
+    """
+    import subprocess
+    os.makedirs(pasta, exist_ok=True)
+    arq = os.path.join(pasta, "_cena.json")
+    cena_json(itens, vistas, arq, **kw)
+    script = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ferramentas", "render_cena.mjs")
+    raiz_global = subprocess.run(["npm", "root", "-g"], capture_output=True, text=True).stdout.strip()
+    nm = os.environ.get("ESTUDIO_NODE_MODULES", os.path.join(os.getcwd(), "node_modules"))
+    env = dict(os.environ, NODE_PATH=os.pathsep.join([nm, raiz_global]))
+    subprocess.run(["node", script, os.path.abspath(arq), os.path.abspath(pasta)],
+                   check=True, env=env, cwd=os.path.dirname(nm))
+    os.remove(arq)
+    return [os.path.join(pasta, f"{v['nome']}.png") for v in vistas]
+
+
 def exportar(peca, nome, pasta="."):
     """Exporta STL e STEP com o mesmo nome base."""
     os.makedirs(pasta, exist_ok=True)
