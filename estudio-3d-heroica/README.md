@@ -11,7 +11,7 @@ A Heroica não tem impressora nem oficina: o agente projeta para **serralheiros,
 | `SYSTEM_PROMPT.md` | O prompt de sistema completo. Cole inteiro nas instruções do projeto (Claude Projects, Claude Code, ou o campo `system` da API). |
 | `biblioteca_heroica.py` | Módulos paramétricos reutilizáveis (CadQuery). O agente reusa e amplia a cada projeto. |
 | `aprendizados.md` | Diário de projeto: o que funcionou, o que falhou, regras novas. |
-| `base-de-conhecimento/` | Brandbook, logo vetorial, medidas reais dos produtos, impressora e fornecedores. Veja o checklist lá dentro. |
+| `base-de-conhecimento/` | Brandbook, logo vetorial, medidas reais dos produtos e fichas dos fornecedores. Veja o checklist lá dentro. |
 | `projetos/` | Um diretório por projeto, com versões `v1/`, `v2/`… |
 
 ## Como usar
