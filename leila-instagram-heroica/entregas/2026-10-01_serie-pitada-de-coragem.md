@@ -140,3 +140,15 @@ Alternativas, também dela:
 Tela final: "sonhe.lute" (a assinatura dela) no lugar de "manda pra quem…". Se quiser CTA de envio, use as palavras dela: "Manda pra quem tá construindo um sonho."
 
 A partir daqui, as frases da série saem do banco da seção 5 do guia de voz ou dos áudios dela.
+
+## 9. Gancho "Subir é igual empreender…" (01/10, pedido do Roberto)
+
+Rascunhos da Leila no vocabulário da Rafa (guia de voz). Não são frases dela: ela lê em voz alta e ajusta.
+
+1. Subir é igual empreender: / no meio do caminho eu sempre me pergunto por que inventei isso. E lá em cima eu já quero de novo. 🤎
+2. Subir é igual empreender: / todo mundo quer a vista lá de cima, mas é na subida que a gente se constrói.
+3. Subir é igual empreender: / às vezes eu desacelero o passo, mas eu nunca tiro os olhos do lugar que quero chegar.
+4. Subir é igual empreender: / de passinho em passinho, a gente chega.
+5. Subir é igual construir a Heroica: / começou devagarinho, numa cozinha, e hoje eu nem acredito onde a gente chegou.
+
+Recomendação: 1 (humor leve sobre si mesma, gera identificação e envio) ou 2 (continua o "ele que constrói você" do Reels anterior).
