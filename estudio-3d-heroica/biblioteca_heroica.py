@@ -2,12 +2,18 @@
 Biblioteca de módulos paramétricos do Estúdio 3D da Heroica.
 
 Unidades em milímetros. Requer: pip install cadquery
-Cada função devolve um cq.Workplane pronto para unir (union) ou subtrair (cut).
-Ao terminar um projeto, mova para cá o que for reutilizável e registre em aprendizados.md.
+A Heroica não tem impressora nem oficina: o alvo principal é serralheria, marcenaria
+e laser/CNC terceirizados. Peças de fabricação são criadas como `Peca` (nome, material,
+quantidade) para que a lista de corte, o aproveitamento e o peso saiam do próprio modelo.
+Os módulos de encaixe (berços, slot, pino) servem para laser, CNC ou bureau de impressão 3D.
 
 Uso rápido:
-    python biblioteca_heroica.py   # gera e valida as peças de demonstração em ./saida_demo
+    python biblioteca_heroica.py   # gera e valida a demonstração em ./saida_demo
 """
+
+import math
+import os
+from dataclasses import dataclass
 
 import cadquery as cq
 
@@ -15,6 +21,13 @@ import cadquery as cq
 # CALIBRAÇÃO: ajuste aqui depois de cada teste real de impressão/corte.
 # ---------------------------------------------------------------------------
 CALIBRACAO = {
+    # oficina
+    "tolerancia_serralheria": 1.0,
+    "perda_serra_mm": 4.0,      # por corte, marcenaria e serralheria
+    "barra_mm": 6000,           # barra padrão de tubo/cantoneira
+    "chapa_mdf_mm": (2750, 1850),
+    "folga_produto_flexivel": 5.0,  # por lado, embalagem tipo pacote (granola)
+    # encaixes (laser, CNC, bureau 3D)
     "folga_deslizante": 0.25,   # encaixe que entra e sai com a mão
     "folga_justa": 0.10,        # encaixe por pressão
     "folga_parafuso": 0.30,     # somar ao diâmetro nominal do parafuso
@@ -23,6 +36,135 @@ CALIBRACAO = {
     "parede_estrutural": 2.0,
     "kerf_laser": 0.15,
 }
+
+
+# Produtos com medida informada (mm, largura × altura × profundidade).
+PRODUTOS = {
+    "granola_300g": (160, 240, 80),   # informado pelo Roberto em 01/10/2026
+}
+
+# Materiais de estoque (mm) e densidades (g/cm³) para peso estimado.
+METALON = [(20, 20), (25, 25), (30, 30), (40, 40), (20, 30), (30, 50), (20, 40)]
+PAREDES_TUBO = [1.2, 1.5, 2.0]
+ESPESSURAS_MDF = [3, 6, 9, 12, 15, 18, 25]
+DENSIDADE = {"aco": 7.85, "mdf": 0.75, "acrilico": 1.19, "pla": 1.24}
+
+
+# ---------------------------------------------------------------------------
+# Peças de fabricação (serralheria e marcenaria)
+# ---------------------------------------------------------------------------
+@dataclass
+class Peca:
+    """Uma peça física da lista de corte. `solido` já posicionado na montagem."""
+    nome: str
+    solido: cq.Workplane
+    material: str           # ex.: "metalon 20x20 #1,2" ou "MDF 18 BP branco"
+    familia: str            # "tubo" | "chapa"
+    medidas: tuple          # tubo: (comprimento,) ; chapa: (comprimento, largura, espessura)
+    densidade: float
+    quantidade: int = 1
+    obs: str = ""           # fita de borda, corte 45°, furação...
+
+    def peso_kg(self):
+        return self.solido.val().Volume() / 1000 * self.densidade / 1000 * self.quantidade
+
+
+def tubo(nome, comprimento, secao=(20, 20), parede=1.2, eixo="X", posicao=(0, 0, 0),
+         quantidade=1, obs="corte reto"):
+    """Metalon (tubo retangular) de estoque. Começa em `posicao` e cresce ao longo de `eixo`."""
+    if tuple(secao) not in METALON and tuple(secao[::-1]) not in METALON:
+        print(f"aviso: metalon {secao} não está na lista de estoque comum")
+    a, b = secao
+    # seção vazada: retângulo externo menos o interno, extrudado ao longo de X
+    perfil = cq.Workplane("YZ").rect(a, b).rect(a - 2 * parede, b - 2 * parede).extrude(comprimento)
+    rot = {"X": ((0, 0, 1), 0), "Y": ((0, 0, 1), 90), "Z": ((0, 1, 0), -90)}[eixo]
+    solido = perfil.rotate((0, 0, 0), rot[0], rot[1]).translate(posicao)
+    return Peca(nome, solido, f"metalon {a}x{b} #{str(parede).replace('.', ',')}", "tubo",
+                (round(comprimento, 1),), DENSIDADE["aco"], quantidade, obs)
+
+
+def chapa(nome, comprimento, largura, espessura=18, material="MDF", posicao=(0, 0, 0),
+          plano="XY", quantidade=1, obs=""):
+    """Painel retangular (MDF, compensado, acrílico, chapa de aço).
+
+    plano: "XY" deitado (prateleira/base), "XZ" em pé de frente (fundo/frente),
+    "YZ" em pé de lado (lateral). `posicao` é o canto de menor coordenada.
+    """
+    mat = material.lower()
+    if mat.startswith("mdf") and espessura not in ESPESSURAS_MDF:
+        print(f"aviso: MDF {espessura} mm não é espessura de estoque comum")
+    dims = {"XY": (comprimento, largura, espessura), "XZ": (comprimento, espessura, largura),
+            "YZ": (espessura, comprimento, largura)}[plano]
+    solido = cq.Workplane("XY").box(*dims, centered=False).translate(posicao)
+    dens = next((v for k, v in DENSIDADE.items() if mat.startswith(k)), DENSIDADE["mdf"])
+    if mat.startswith(("chapa", "aco", "aço")):
+        dens = DENSIDADE["aco"]
+    return Peca(nome, solido, f"{material} {espessura} mm", "chapa",
+                (round(comprimento, 1), round(largura, 1), espessura), dens, quantidade, obs)
+
+
+def montar(pecas):
+    """Une todos os sólidos (para render, validação e vistas)."""
+    total = pecas[0].solido
+    for p in pecas[1:]:
+        total = total.union(p.solido)
+    return total
+
+
+def lista_de_corte(pecas):
+    """Tabela Markdown da lista de corte, pronta para o PDF/WhatsApp do fornecedor."""
+    linhas = ["| Peça | Qtd | Material | Medida (mm) | Obs. |", "|---|---|---|---|---|"]
+    for p in pecas:
+        med = " × ".join(f"{m:g}" for m in p.medidas)
+        linhas.append(f"| {p.nome} | {p.quantidade} | {p.material} | {med} | {p.obs} |")
+    return "\n".join(linhas)
+
+
+def aproveitamento(pecas):
+    """Quantas barras de 6 m (por perfil) e qual área de chapa (por material) a peça consome."""
+    perda, barra = CALIBRACAO["perda_serra_mm"], CALIBRACAO["barra_mm"]
+    res = {}
+    tubos = {}
+    for p in pecas:
+        if p.familia == "tubo":
+            tubos.setdefault(p.material, []).extend([p.medidas[0]] * p.quantidade)
+    for mat, cortes in tubos.items():
+        barras = []  # first-fit decreasing
+        for c in sorted(cortes, reverse=True):
+            for i, livre in enumerate(barras):
+                if livre >= c + perda:
+                    barras[i] -= c + perda
+                    break
+            else:
+                barras.append(barra - c - perda)
+        res[mat] = {"barras_6m": len(barras), "metros_usados": round(sum(cortes) / 1000, 2)}
+    cl, cw = CALIBRACAO["chapa_mdf_mm"]
+    for p in pecas:
+        if p.familia == "chapa":
+            r = res.setdefault(p.material, {"area_m2": 0.0})
+            r["area_m2"] += p.medidas[0] * p.medidas[1] * p.quantidade / 1e6
+    for mat, r in res.items():
+        if "area_m2" in r:
+            r["area_m2"] = round(r["area_m2"], 3)
+            if mat.lower().startswith("mdf"):
+                # estimativa grosseira: 80% de aproveitamento da chapa inteira
+                r["chapas_inteiras_aprox"] = math.ceil(r["area_m2"] / (cl * cw / 1e6 * 0.8))
+    return res
+
+
+def peso_total_kg(pecas):
+    return round(sum(p.peso_kg() for p in pecas), 2)
+
+
+def vistas_svg(peca, nome, pasta="."):
+    """Exporta vistas frente, lateral, topo e isométrica em SVG (base do desenho cotado)."""
+    os.makedirs(pasta, exist_ok=True)
+    vistas = {"frente": (0, -1, 0), "lateral": (1, 0, 0), "topo": (0, 0, 1),
+              "iso": (1, -1, 0.8)}
+    for v, d in vistas.items():
+        cq.exporters.export(peca, os.path.join(pasta, f"{nome}_{v}.svg"),
+                            opt={"projectionDir": d, "showHidden": v != "iso",
+                                 "width": 600, "height": 450, "marginLeft": 20, "marginTop": 20})
 
 
 # ---------------------------------------------------------------------------
@@ -154,8 +296,8 @@ def validar(peca, nome="peca", mesa=(220, 220, 250)):
         "cabe_na_mesa": cabe,
     }
     try:
+        import tempfile
         import trimesh
-        import tempfile, os
         with tempfile.TemporaryDirectory() as d:
             caminho = os.path.join(d, "t.stl")
             cq.exporters.export(peca, caminho)
@@ -169,16 +311,41 @@ def validar(peca, nome="peca", mesa=(220, 220, 250)):
 
 def exportar(peca, nome, pasta="."):
     """Exporta STL e STEP com o mesmo nome base."""
-    import os
     os.makedirs(pasta, exist_ok=True)
     for ext in ("stl", "step"):
         cq.exporters.export(peca, os.path.join(pasta, f"{nome}.{ext}"))
 
 
+def _demo_display_granola(n=3, esp=15, altura_traseira=200, inclinacao=12):
+    """Demonstração: display de balcão em MDF para `n` granolas lado a lado (uma prateleira)."""
+    l, a, p = PRODUTOS["granola_300g"]
+    f = CALIBRACAO["folga_produto_flexivel"]
+    vao = n * (l + 2 * f)
+    prof = p + 2 * f + esp + 20          # fundo + respiro frontal
+    larg = vao + 2 * esp
+    pecas = [
+        chapa("base", larg, prof, esp, "MDF BP branco", (0, 0, 0), obs="fita nas 4 bordas"),
+        chapa("lateral", prof, altura_traseira, esp, "MDF BP branco", (0, 0, esp), "YZ",
+              quantidade=1, obs="fita na frente e no topo"),
+        chapa("lateral", prof, altura_traseira, esp, "MDF BP branco", (larg - esp, 0, esp), "YZ",
+              quantidade=1, obs="fita na frente e no topo"),
+        chapa("fundo", vao, altura_traseira, esp, "MDF BP branco", (esp, prof - esp, esp), "XZ",
+              obs="fita no topo; logo em adesivo"),
+        chapa("frontal_baixo", vao, 40, esp, "MDF BP branco", (esp, 0, esp), "XZ",
+              obs="fita no topo; segura os pacotes"),
+    ]
+    # junta as duas laterais iguais numa linha só da lista de corte
+    lista = [pecas[0], Peca("lateral", pecas[1].solido, pecas[1].material, "chapa",
+                            pecas[1].medidas, pecas[1].densidade, 2, pecas[1].obs)] + pecas[3:]
+    return pecas, lista
+
+
 if __name__ == "__main__":
-    # Demonstração com medidas SUPOSTAS (não são as embalagens reais da Heroica).
+    # 1) Módulos de encaixe (medidas de exemplo, exceto onde vem de PRODUTOS)
+    l, a, p = PRODUTOS["granola_300g"]
+    f = CALIBRACAO["folga_produto_flexivel"]
     demos = {
-        "berco_retangular": berco_retangular(95, 30, 60),
+        "berco_granola": berco_retangular(l, p, 60, folga=f),
         "berco_pote": berco_pote(85),
         "slot_placa_preco": slot_placa_preco(),
         "base_antitombamento": base_antitombamento(180, 120, rebaixo_pes=1.5),
@@ -186,5 +353,22 @@ if __name__ == "__main__":
         "furo_parafuso": furo_parafuso(4, 6, escareado=True),
     }
     for nome, peca in demos.items():
-        print(validar(peca, nome))
+        print(validar(peca, nome, mesa=(2750, 1850, 2000)))
         exportar(peca, nome, "saida_demo")
+
+    # 2) Peça de oficina: display de balcão em MDF para 3 granolas
+    pecas, lista = _demo_display_granola()
+    display = montar(pecas)
+    print(validar(display, "display_granola_mdf", mesa=(2750, 1850, 2000)))
+    print(lista_de_corte(lista))
+    print(aproveitamento(lista), f"peso ≈ {peso_total_kg(pecas)} kg")
+    exportar(display, "display_granola_mdf", "saida_demo")
+    vistas_svg(display, "display_granola_mdf", "saida_demo")
+
+    # 3) Peça de serralheria: quadro de metalon 20x20 (exemplo)
+    q = [tubo("travessa", 500, posicao=(0, 0, 0), quantidade=1, obs="corte 45°"),
+         tubo("travessa", 500, posicao=(0, 0, 780), quantidade=1, obs="corte 45°"),
+         tubo("montante", 800, eixo="Z", posicao=(0, 0, 0), obs="corte 45°"),
+         tubo("montante", 800, eixo="Z", posicao=(480, 0, 0), obs="corte 45°")]
+    print(validar(montar(q), "quadro_metalon", mesa=(6000, 2000, 2000)))
+    print(aproveitamento(q), f"peso ≈ {peso_total_kg(q)} kg")

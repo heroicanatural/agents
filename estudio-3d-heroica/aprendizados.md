@@ -18,7 +18,8 @@ Um bloco por projeto, mais recente no topo. Regras que se confirmarem em dois pr
 
 | Parâmetro | Valor | Origem |
 |---|---|---|
-| Folga deslizante FDM | 0,25 mm | padrão do prompt, ainda não testado |
-| Folga justa FDM | 0,10 mm | padrão do prompt, ainda não testado |
-| Folga furo de parafuso | +0,30 mm | padrão do prompt, ainda não testado |
+| Tolerância serralheria | ±1 mm | padrão do prompt, ainda não confirmado com fornecedor |
+| Perda de serra (marcenaria) | 4 mm por corte | padrão do prompt, ainda não confirmado |
+| Chapa MDF inteira | 2750 × 1850 mm | padrão de mercado, confirmar com o marceneiro |
 | Kerf laser | 0,15 mm | padrão do prompt, ainda não medido |
+| Folga de produto em berço/prateleira (embalagem flexível) | 5 mm por lado | suposição, testar com a granola |
