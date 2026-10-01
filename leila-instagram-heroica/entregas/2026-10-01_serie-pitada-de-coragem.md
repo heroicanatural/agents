@@ -190,3 +190,20 @@ A Rafa é multiatleta, então o gancho segue o vídeo: a primeira palavra é a a
 | Descanso / alongamento | Descansar é igual cuidar de um sonho: / se eu não paro, eu não chego. |
 
 Nome da série sugerido: "É igual a…" ou manter "Pitada de Coragem" com a etiqueta fixa.
+
+## 12. Revisão: tom de inspiração, sem humor (01/10)
+
+Correção do Roberto: a Rafa não faz humor, faz inspiração. As seções 9–11 têm frases com humor; estas as substituem.
+
+| No vídeo | Frase (tempo 1 / tempo 2) |
+|---|---|
+| Subida de bike | Subir é igual recomeçar: / o primeiro giro é sempre o mais pesado, mas é ele que me leva até o topo. |
+| Longão de corrida | Longão é igual construir um sonho: / quilômetro por quilômetro, sem pressa, eu sei que vou chegar. |
+| Trilha | Trilha é igual a vida: / cada passo me mostra um pouquinho mais do caminho. |
+| Largada | Largar é igual começar um sonho: / o frio na barriga vem junto, e é ele que me lembra que vale a pena. |
+| Chegada | Cruzar a chegada é igual a Heroica: / eu nunca cheguei sozinha. 🤎 |
+| Treino de madrugada | Treinar às 5h é igual consistência: / é ela que constrói a nossa sorte. 🍀 |
+| Descida técnica | Descer é igual crescer: / exige coragem, confiança e entrega. |
+| Mar aberto | Nadar no mar é igual empreender: / eu não enxergo o fundo, mas confio em cada braçada. |
+| Transição de triathlon | Transição é igual vida de founder: / trocar de papel sem nunca perder o propósito. |
+| Descanso | Descansar é igual cuidar de um sonho: / é na pausa que eu me reconecto com o porquê de tudo. |

@@ -8,7 +8,7 @@ Regra de uso: o que sai no nome da Rafa é **a fala dela, cortada**. Este guia s
 
 ## 1. Como ela soa
 
-Calorosa, emotiva, grata, sonhadora e positiva. Escreve como quem conta para amigas. Tem humor leve sobre si mesma ("Difícil achar uma foto boa de Rafa…"), nunca ironia. Quando reflete, vira mentora gentil ("Você já parou para pensar…").
+Calorosa, emotiva, grata, sonhadora e positiva. Escreve como quem conta para amigas. **O registro é inspiração, não humor** (correção do Roberto, 01/10). Mesmo o "Difícil achar uma foto boa de Rafa…" é só a porta de entrada para uma mensagem inspiradora. Quando reflete, vira mentora gentil ("Você já parou para pensar…").
 
 ## 2. Estrutura típica de legenda
 
@@ -49,7 +49,7 @@ Calorosa, emotiva, grata, sonhadora e positiva. Escreve como quem conta para ami
 
 ## 4. O que ela não faz (evitar)
 
-- Ironia, sarcasmo, humor ácido ("O boleto também não" não é ela). Humor só leve e sobre si mesma.
+- Humor de qualquer tipo como eixo da frase: ironia, piada, autodepreciação ("O boleto também não", "me pergunto por que inventei isso" não são ela). O tom é inspiração.
 - Máxima fria ou com virada de efeito ("Quem muda é você", "não é X, é Y"). As máximas dela são quentes, sobre sonho, amor, consistência, primeiro passo e coletivo.
 - Gíria de internet, palavrão, "tipo", "juro".
 - Número, dado, jargão de negócio.
