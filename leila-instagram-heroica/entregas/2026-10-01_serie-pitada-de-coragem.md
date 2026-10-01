@@ -152,3 +152,22 @@ Rascunhos da Leila no vocabulário da Rafa (guia de voz). Não são frases dela:
 5. Subir é igual construir a Heroica: / começou devagarinho, numa cozinha, e hoje eu nem acredito onde a gente chegou.
 
 Recomendação: 1 (humor leve sobre si mesma, gera identificação e envio) ou 2 (continua o "ele que constrói você" do Reels anterior).
+
+## 10. "Subir é igual a…" com outros temas (01/10)
+
+Para não repetir "empreender" do Reels anterior. Rascunhos da Leila no vocabulário da Rafa; ela ajusta.
+
+| Tema | Frase (tempo 1 / tempo 2) |
+|---|---|
+| Recomeçar | Subir é igual recomeçar: / o primeiro giro é sempre o mais pesado. |
+| Casamento (só se o parceiro pedala com ela) | Subir é igual casamento: / tem trecho que um empurra, tem trecho que o outro puxa. E a gente chega junto. 🤎 |
+| Sonhar | Subir é igual sonhar: / a gente não enxerga o topo, mas sabe que ele tá lá. |
+| Coragem | Subir é igual coragem: / eu nunca tenho ela no começo. Ela aparece no meio do caminho. |
+| Cuidar de mim | Subir é igual cuidar de mim: / ninguém faz por mim, e eu sempre agradeço depois. |
+| Rotina | Subir é igual rotina: / tem dia que pesa, mas foi ela que me trouxe até aqui. |
+| Sonho compartilhado | Subir é igual sonho compartilhado: / com as pessoas certas do lado, fica mais leve. 🍀 |
+| Crescer | Subir é igual crescer: / dói um pouquinho, mas eu não trocaria essa vista por nada. |
+
+Variações do gancho: "Toda subida me lembra…", "Subir é muito parecido com…".
+
+Ideia de série: "Subir é igual a…" com um tema por episódio, sempre no mesmo trecho de subida.
