@@ -14,6 +14,19 @@ Um bloco por projeto, mais recente no topo. Regras que se confirmarem em dois pr
 - Módulo adicionado/alterado na biblioteca:
 ```
 
+## 2026-10-01 — Tambor Heroica (v0 conceitos → v1 fabricação)
+- Processo/material: tambor de aço 200 L recortado (serralheiro) + MDF (marceneiro) + vinil (gráfica). 4 unidades.
+- Funcionou: modelo paramétrico com peças nomeadas → lista de corte, DXF, PDF e renders saem do mesmo script. Prateleira em D (frente reta) dá a borda para a testeira porta-preço.
+- Falhou na 1ª rodada (pego pela checagem de interferência, antes de chegar à oficina):
+  1. Cantoneira reta em parede curva: encosta nas **pontas**, não no meio (flecha de 2,8 mm para 80 mm em R 286). Rebite vai nas pontas.
+  2. Montantes do reforço sobrepostos aos arcos: montante vai **entre** os arcos, com solda de topo.
+  3. Canto da prateleira batendo no montante: folga da parede subiu de 3 para 5 mm.
+- Render: matplotlib não resolve profundidade em cilindros (triângulos longos). Trocado por three.js no Chromium headless (`ferramentas/render_cena.mjs`).
+- Regra nova: disco cheio não passa por vão menor que o diâmetro; checar sempre **como a peça entra** (de pé, girando, pelo topo).
+- Regra nova: altura do produto + aba da testeira + 15 mm ≤ vão livre (senão não dá para repor).
+- Módulos adicionados à biblioteca: `tambor_200l`, `setor`, `interferencias`, `cena_json`/`renderizar`.
+- Pendente de calibração real: cor RAL 3005 vs. marca; diâmetro interno do bordão (disco de centragem); vinil em superfície curva.
+
 ## Calibração atual
 
 | Parâmetro | Valor | Origem |

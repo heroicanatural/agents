@@ -1,5 +1,7 @@
 # Tambor Heroica: ativação de marca + expositor
 
+**Status (01/10/2026):** conceito A + itens do B aprovado, 4 unidades. v1 pronta para orçamento: ver `v1/FICHA.md`, `v1/saida/Tambor_Heroica_v1_fornecedores.pdf` e `v1/pedidos_de_orcamento.md`.
+
 Pedido (Roberto, 01/10/2026): tambor de 200 L recortado na frente, 2 prateleiras internas, topo como expositor, LED a pilha/bateria por dentro, identidade Heroica por fora e elementos que façam o cliente querer comprar. Referências enviadas: o tambor atual (marrom, HEROICA em branco, selo "Celebre suas conquistas") e o cooler Red Bull com espelho infinito.
 
 ## Suposições (a confirmar)

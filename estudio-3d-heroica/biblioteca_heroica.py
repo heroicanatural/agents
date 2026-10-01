@@ -152,6 +152,20 @@ def aproveitamento(pecas):
     return res
 
 
+def interferencias(pecas, tolerancia_mm3=1.0):
+    """Pares de peças que ocupam o mesmo espaço (erro de montagem). Lista de (a, b, mm³)."""
+    conflitos = []
+    for i in range(len(pecas)):
+        for j in range(i + 1, len(pecas)):
+            try:
+                v = pecas[i].solido.intersect(pecas[j].solido).val().Volume()
+            except Exception:
+                v = 0.0
+            if v > tolerancia_mm3:
+                conflitos.append((pecas[i].nome, pecas[j].nome, round(v)))
+    return conflitos
+
+
 def peso_total_kg(pecas):
     return round(sum(p.peso_kg() for p in pecas), 2)
 
@@ -165,6 +179,49 @@ def vistas_svg(peca, nome, pasta="."):
         cq.exporters.export(peca, os.path.join(pasta, f"{nome}_{v}.svg"),
                             opt={"projectionDir": d, "showHidden": v != "iso",
                                  "width": 600, "height": 450, "marginLeft": 20, "marginTop": 20})
+
+
+# ---------------------------------------------------------------------------
+# Tambor de aço 200 L (ISO 15750) — base do expositor "Tambor Heroica"
+# ---------------------------------------------------------------------------
+TAMBOR_200L = {
+    "d_ext": 585.0,      # sobre os frisos/bordões
+    "d_int": 571.5,
+    "altura": 880.0,
+    "chapa": 1.0,        # corpo 0,9–1,2 mm conforme fabricante
+    "frisos_z": (293.0, 587.0),
+}
+
+
+def setor(raio, graus, z0, z1, centro=-90.0):
+    """Fatia (vista de cima) centrada em `centro` graus (−90 = frente, lado −Y), entre z0 e z1."""
+    a0, a1 = math.radians(centro - graus / 2), math.radians(centro + graus / 2)
+    n = max(8, int(graus / 4))
+    pts = [(0, 0)] + [(raio * math.cos(a0 + (a1 - a0) * i / n), raio * math.sin(a0 + (a1 - a0) * i / n))
+                      for i in range(n + 1)]
+    return cq.Workplane("XY").workplane(offset=z0).polyline(pts).close().extrude(z1 - z0)
+
+
+def tambor_200l(recorte_graus=0.0, recorte_z=(140.0, 720.0), t=TAMBOR_200L):
+    """Casco do tambor (corpo + frisos + tampa) com recorte frontal opcional.
+
+    Retorna (casco, pedaco_recortado). O pedaço é o que sai no corte (útil como porta).
+    """
+    r_ext, r_int = t["d_int"] / 2 + t["chapa"], t["d_int"] / 2
+    casco = cq.Workplane("XY").circle(r_ext).circle(r_int).extrude(t["altura"])
+    for z in t["frisos_z"]:
+        casco = casco.union(cq.Workplane("XY").workplane(offset=z - 6)
+                            .circle(t["d_ext"] / 2).circle(r_int).extrude(12))
+    # fundo e tampa (tampa fixa ~10 mm abaixo do bordão)
+    casco = casco.union(cq.Workplane("XY").workplane(offset=8).circle(r_int).extrude(t["chapa"]))
+    casco = casco.union(cq.Workplane("XY").workplane(offset=t["altura"] - 10).circle(r_int)
+                        .extrude(t["chapa"]))
+    pedaco = None
+    if recorte_graus:
+        faca = setor(t["d_ext"], recorte_graus, *recorte_z)
+        pedaco = casco.intersect(faca)
+        casco = casco.cut(faca)
+    return casco, pedaco
 
 
 # ---------------------------------------------------------------------------

@@ -95,6 +95,8 @@ Rode verificações automáticas e reporte o resultado:
 - **Regras de DFM** do processo escolhido (seção 3).
 - Estabilidade: centro de massa dentro da base (displays e suportes).
 - Renders de pré-visualização de pelo menos 3 ângulos (frontal, isométrico, detalhe do encaixe).
+- **Interferência entre peças** (`interferencias()` da biblioteca): nenhuma peça ocupa o espaço de outra; peça reta em parede curva encosta nas pontas, não no meio.
+- **Sequência de montagem possível**: cada peça entra pelo caminho que existe (vão, porta, topo) na ordem descrita.
 - Lista de corte gerada **a partir do modelo** (não digitada à mão) e conferida contra as vistas cotadas.
 - Aproveitamento: quantas barras de 6 m ou chapas inteiras a peça consome.
 - Peso estimado e se dá para uma pessoa carregar (≤ 15 kg por volume é o ideal para evento).

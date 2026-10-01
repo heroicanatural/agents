@@ -1,0 +1,201 @@
+{
+ "pecas": [
+  {
+   "nome": "tambor 200 L recortado",
+   "valido": true,
+   "watertight": true,
+   "dimensoes_mm": [
+    585.0,
+    579.25,
+    880.0
+   ]
+  },
+  {
+   "nome": "reforço arco superior",
+   "valido": true,
+   "watertight": true,
+   "dimensoes_mm": [
+    552.03,
+    212.62,
+    25.4
+   ]
+  },
+  {
+   "nome": "reforço arco inferior",
+   "valido": true,
+   "watertight": true,
+   "dimensoes_mm": [
+    552.03,
+    212.62,
+    25.4
+   ]
+  },
+  {
+   "nome": "reforço montante esq",
+   "valido": true,
+   "watertight": true,
+   "dimensoes_mm": [
+    13.65,
+    24.37,
+    604.0
+   ]
+  },
+  {
+   "nome": "reforço montante dir",
+   "valido": true,
+   "watertight": true,
+   "dimensoes_mm": [
+    13.65,
+    24.37,
+    604.0
+   ]
+  },
+  {
+   "nome": "cantoneira prat.1",
+   "valido": true,
+   "watertight": true,
+   "dimensoes_mm": [
+    19.05,
+    80.0,
+    19.05
+   ]
+  },
+  {
+   "nome": "cantoneira prat.1",
+   "valido": true,
+   "watertight": true,
+   "dimensoes_mm": [
+    80.0,
+    19.05,
+    19.05
+   ]
+  },
+  {
+   "nome": "cantoneira prat.1",
+   "valido": true,
+   "watertight": true,
+   "dimensoes_mm": [
+    19.05,
+    80.0,
+    19.05
+   ]
+  },
+  {
+   "nome": "cantoneira prat.2",
+   "valido": true,
+   "watertight": true,
+   "dimensoes_mm": [
+    19.05,
+    80.0,
+    19.05
+   ]
+  },
+  {
+   "nome": "cantoneira prat.2",
+   "valido": true,
+   "watertight": true,
+   "dimensoes_mm": [
+    80.0,
+    19.05,
+    19.05
+   ]
+  },
+  {
+   "nome": "cantoneira prat.2",
+   "valido": true,
+   "watertight": true,
+   "dimensoes_mm": [
+    19.05,
+    80.0,
+    19.05
+   ]
+  },
+  {
+   "nome": "prateleira D 1",
+   "valido": true,
+   "watertight": true,
+   "dimensoes_mm": [
+    561.5,
+    405.75,
+    15.0
+   ]
+  },
+  {
+   "nome": "testeira 1",
+   "valido": true,
+   "watertight": true,
+   "dimensoes_mm": [
+    484.4,
+    15.0,
+    35.0
+   ]
+  },
+  {
+   "nome": "prateleira D 2",
+   "valido": true,
+   "watertight": true,
+   "dimensoes_mm": [
+    561.5,
+    405.75,
+    15.0
+   ]
+  },
+  {
+   "nome": "testeira 2",
+   "valido": true,
+   "watertight": true,
+   "dimensoes_mm": [
+    484.4,
+    15.0,
+    35.0
+   ]
+  },
+  {
+   "nome": "tampo",
+   "valido": true,
+   "watertight": true,
+   "dimensoes_mm": [
+    610.0,
+    610.0,
+    18.0
+   ]
+  },
+  {
+   "nome": "anel do tampo",
+   "valido": true,
+   "watertight": true,
+   "dimensoes_mm": [
+    610.0,
+    610.0,
+    15.0
+   ]
+  },
+  {
+   "nome": "disco de centragem",
+   "valido": true,
+   "watertight": true,
+   "dimensoes_mm": [
+    550.0,
+    550.0,
+    9.0
+   ]
+  }
+ ],
+ "interferencias_mm3": [],
+ "vao_livre_mm": {
+  "compartimento 1": 275,
+  "compartimento 2 (até o topo do vão)": 280
+ },
+ "granola_passa_sobre_testeira": {
+  "comp1": 15,
+  "comp2": 20
+ },
+ "montagem_prateleira": {
+  "largura_D": 562,
+  "profundidade_D": 406,
+  "vao_altura": 580,
+  "entra_de_pe": true
+ },
+ "peso_kg": 27.8,
+ "cg_z_mm": 508
+}
