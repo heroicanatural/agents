@@ -207,3 +207,18 @@ Correção do Roberto: a Rafa não faz humor, faz inspiração. As seções 9–
 | Mar aberto | Nadar no mar é igual empreender: / eu não enxergo o fundo, mas confio em cada braçada. |
 | Transição de triathlon | Transição é igual vida de founder: / trocar de papel sem nunca perder o propósito. |
 | Descanso | Descansar é igual cuidar de um sonho: / é na pausa que eu me reconecto com o porquê de tudo. |
+
+## 13. Decisão (01/10): a Leila para de escrever frases para a Rafa
+
+Depois de quatro rodadas, todas as frases criadas pela Leila ainda soam como IA (feedback do Roberto). As seções 4, 9, 10, 11 e 12 ficam só como registro do que não funcionou.
+
+Daqui pra frente:
+- **Gancho** "[esporte] é igual a…": é a única parte que a Leila sugere.
+- **Complemento:** só palavras da Rafa, tiradas das legendas (guia de voz, seção 5) ou do áudio dela.
+- **Exercício para a Rafa (áudio de 5 min):** completar em voz alta, sem pensar muito, "Subir é igual a…", "Correr é igual a…", "Largar é igual a…", "Chegar é igual a…", "Treinar cedo é igual a…". A Leila só transcreve e corta.
+
+Combinações possíveis já hoje (complemento = palavras dela, sem mudança):
+- Subir é igual construir um sonho: / eu posso ter que recalcular a rota, desacelerar o passo, mas eu enxergo nitidamente o lugar que quero chegar.
+- Treinar é igual empreender: / a consistência constrói a nossa sorte.
+- Largar é igual sonhar: / todo primeiro passo conta.
+- Correr junto é igual a Heroica: / quando o sonho é compartilhado, coisas extraordinárias acontecem.
