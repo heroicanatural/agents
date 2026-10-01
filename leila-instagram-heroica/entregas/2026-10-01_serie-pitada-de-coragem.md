@@ -2,7 +2,22 @@
 
 Pedido do Roberto: um novo Reels da Rafa na linha do último (frase sobre empreendedorismo), com frase de impacto igual ou maior, e uma série de vídeos compartilháveis e salváveis.
 
-Limite: não consegui ver o último Reels da Rafa nem os números dele (Instagram sem acesso). Trabalhei a partir do print do rascunho e da pesquisa de formato.
+## 0. Leitura do último Reels (print enviado em 01/10)
+
+> "Empreender é engraçado porque você se senta pra construir um negócio, mas no final é ele que constrói você."
+
+@rafamcatao, Jaraguá do Sul, há 2 dias: **205 curtidas, 27 comentários, 8 reposts, 16 envios**. Alcance, views e salvamentos: sem dado (só nos Insights).
+
+Por que funcionou:
+- **Virada:** "você constrói o negócio → o negócio constrói você". A segunda metade inverte a primeira. É isso que faz a pessoa reler.
+- **Fala de quem a pessoa virou, não de esforço.** Não é "trabalhe duro". É "isso te transformou". Quem empreende se reconhece.
+- **Abre como conversa:** "Empreender é engraçado porque…" soa como a Rafa falando, não como frase de quadro.
+- **Os 8 reposts são o sinal mais forte:** gente colocando a frase no próprio perfil é identificação. Os 27 comentários (mais que os 16 envios) vão na mesma direção.
+- A ideia de "o negócio te constrói" já circula por aí. A virada funcionou, mas as próximas frases ganham força se vierem da história dela.
+
+Correção do que eu disse antes: a frase tem 20 palavras e funcionou, porque o texto fica o vídeo todo na tela. O problema do rascunho da subida não é o tamanho, é **não ter virada**.
+
+**Régua da série:** 16 envios, 8 reposts e 27 comentários. Completar com alcance, views e salvamentos.
 
 ---
 
@@ -10,7 +25,8 @@ Limite: não consegui ver o último Reels da Rafa nem os números dele (Instagra
 
 > "É na subida que aprendemos a ser resilientes, administrar a dor e a conhecer a nossa força mental."
 
-- **19 palavras** e o texto fica uns 4 segundos na tela. Ninguém termina de ler.
+- **Não tem virada.** A frase anda numa direção só, enquanto a do último Reels inverte no meio.
+- Na timeline, o texto sai aos 4s de um vídeo de 11s. Ele deveria ficar até a tela final.
 - **Três ideias abstratas em lista** (resiliência, dor, força mental). Soa como palestra, não como a Rafa falando.
 - **Não fala de empreender.** Está falando de pedalar. A frase forte faz a ponte: a imagem é do esporte e a verdade é do negócio.
 - **Não é para ninguém.** O que se compartilha é o que dá vontade de mandar para uma pessoa específica.
@@ -26,13 +42,13 @@ Limite: não consegui ver o último Reels da Rafa nem os números dele (Instagra
 
 ## 3. O vídeo da subida (próximo Reels)
 
-**Frase recomendada (na tela, em 2 tempos):**
-- 0–2s: "Empreender é uma subida"
-- 2–6s: "sem placa dizendo quanto falta."
+**Frase recomendada (revisada depois de ver o último Reels; mesma abertura e mesma virada, ideia nova):**
+- 0–3s: "Empreender é igual subida de bike:"
+- 3s até o fim: "ela nunca fica mais curta. Quem muda é você."
 
 **Alternativas:**
-- "Tem dia que a marcha mais leve ainda pesa. / Pedala mesmo assim." (mais colada na imagem da bike)
-- "A subida não quer saber se você dormiu bem. / O boleto também não." (humor, puxa compartilhamento entre empreendedores)
+- "Na subida eu aprendi: / não é a perna que desiste primeiro. É a cabeça." (aproveita a "força mental" do rascunho da Rafa, mas concreta)
+- "Empreender é uma subida / sem placa dizendo quanto falta." (sem virada; mais identificação que transformação)
 
 **Tela final (mantém a ideia que já está na timeline):** "Manda pra quem tá na subida agora."
 
@@ -63,7 +79,8 @@ As cenas são sugestões; trocar pelo que a Rafa treina de verdade.
 
 | # | Cena | Frase (tempo 1 / tempo 2) | Tela final |
 |---|---|---|---|
-| 01 | Subida de bike (este) | Empreender é uma subida / sem placa dizendo quanto falta. | Manda pra quem tá na subida agora. |
+| 00 | (já publicado) | Empreender é engraçado porque você se senta pra construir um negócio, / mas no final é ele que constrói você. | — |
+| 01 | Subida de bike (este) | Empreender é igual subida de bike: / ela nunca fica mais curta. Quem muda é você. | Manda pra quem tá na subida agora. |
 | 02 | Treino no escuro, 5h | Ninguém vê o 5h da manhã. / Todo mundo vê o pote na prateleira. | Manda pra quem acorda antes de todo mundo. |
 | 03 | Treino na chuva | Se eu esperasse o dia perfeito, / a Heroica ainda tava na minha cozinha. | Manda pra quem tá esperando a hora certa. |
 | 04 | Km final, caminhando um trecho | Andar um pedaço / também é não desistir. | Manda pra quem precisa ouvir isso hoje. |
