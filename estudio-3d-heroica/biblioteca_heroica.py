@@ -468,3 +468,200 @@ if __name__ == "__main__":
          tubo("montante", 800, eixo="Z", posicao=(480, 0, 0), obs="corte 45°")]
     print(validar(montar(q), "quadro_metalon", mesa=(6000, 2000, 2000)))
     print(aproveitamento(q), f"peso ≈ {peso_total_kg(q)} kg")
+
+
+# ---------------------------------------------------------------------------
+# Chapas para CNC (compensado, MDF): painel 2D → 3D, plano de corte e DXF
+# ---------------------------------------------------------------------------
+CHAPA_COMPENSADO = {"comprimento": 2200, "largura": 1600, "margem": 10, "vao": 12}
+CAMADAS_DXF = {  # nome: cor ACI
+    "CORTE_EXTERNO": 1,     # vermelho: contorno da peça (por fora)
+    "CORTE_INTERNO": 5,     # azul: furos ≥ 8 mm e recortes (por dentro, cortar antes)
+    "FURO_GUIA_3": 3,       # verde: furo-guia Ø3 passante (parafuso, depois abrir 4,5)
+    "TEXTO_NAO_CORTAR": 8,  # cinza: identificação da peça (gravar leve ou ignorar)
+    "CHAPA": 9,             # limite da chapa (não cortar)
+}
+
+
+def _fio(wp):
+    """Workplane com polyline/arcos (não fechado) ou já fechado → cq.Wire."""
+    try:
+        return wp.close().val()
+    except ValueError:
+        return wp.val()
+
+
+def _extrudar(fio, altura, both=False):
+    face = cq.Face.makeFromWires(fio)
+    if both:
+        face = face.translate(cq.Vector(0, 0, -altura))
+        altura *= 2
+    return cq.Workplane("XY").add(cq.Solid.extrudeLinear(face, cq.Vector(0, 0, altura)))
+
+
+class Painel:
+    """Peça plana em coordenadas locais (u, v), espessura `esp`.
+
+    contorno: cq.Workplane desenhando um fio fechado no plano XY local (u, v).
+    recortes: lista de cq.Workplane fechados (cortes internos: porta, janelas).
+    furos: lista de (u, v, diametro); Ø ≤ 3 vai para FURO_GUIA_3, maior vira CORTE_INTERNO.
+    posicao: (origem, eixo_u, eixo_v, eixo_espessura) em coordenadas globais.
+    """
+
+    def __init__(self, ref, nome, contorno, esp, posicao, recortes=(), furos=(), qtd=1,
+                 material="compensado naval", obs=""):
+        self.ref, self.nome, self.esp = ref, nome, esp
+        self.fio = _fio(contorno)
+        self.fios_recorte = [_fio(r) for r in recortes]
+        self.posicao, self.furos = posicao, list(furos)
+        self.qtd, self.material, self.obs = qtd, material, obs
+
+    def _local(self):
+        """Location rígida (u, v → global) e sinal da espessura (+1 ou −1)."""
+        o, eu, ev, ew = (cq.Vector(*a) for a in self.posicao)
+        n = eu.cross(ev)
+        plano = cq.Plane(origin=o, xDir=eu, normal=n)
+        return cq.Location(plano), (1 if n.dot(ew) > 0 else -1)
+
+    def _peca_local(self, esp):
+        f = _extrudar(self.fio, esp)
+        for r in self.fios_recorte:
+            f = f.cut(_extrudar(r, esp * 3, both=True))
+        for u, v, d in self.furos:
+            if d > 3:
+                f = f.cut(cq.Workplane("XY").center(u, v).circle(d / 2).extrude(esp * 3, both=True))
+        return f
+
+    def caixa2d(self):
+        bb = self.fio.BoundingBox()
+        return bb.xmin, bb.ymin, bb.xmax, bb.ymax
+
+    def area_m2(self):
+        return self._peca_local(1).val().Volume() / 1e6
+
+    def solido(self):
+        loc, sinal = self._local()
+        f = self._peca_local(self.esp).val()
+        if sinal < 0:
+            f = f.translate(cq.Vector(0, 0, -self.esp))
+        return cq.Workplane("XY").add(f.moved(loc))
+
+    def recorte_solido(self, i=0, folga=0.0):
+        """Sólido 3D do i-ésimo recorte (ex.: a porta sai do próprio painel)."""
+        loc, sinal = self._local()
+        f = _extrudar(self.fios_recorte[i], self.esp).val()
+        if sinal < 0:
+            f = f.translate(cq.Vector(0, 0, -self.esp))
+        return cq.Workplane("XY").add(f.moved(loc))
+
+
+def plano_de_corte(paineis, chapa=CHAPA_COMPENSADO):
+    """Testa as orientações (deitada / em pé) e devolve o encaixe com menos chapas."""
+    melhor = None
+    for politica in ("deitada", "em_pe"):
+        try:
+            r = _plano_de_corte(paineis, chapa, politica)
+        except ValueError:
+            continue
+        if melhor is None or len(r) < len(melhor):
+            melhor = r
+    if melhor is None:
+        raise ValueError("alguma peça não cabe na chapa")
+    return melhor
+
+
+def _plano_de_corte(paineis, chapa=CHAPA_COMPENSADO, politica="deitada"):
+    """Encaixe simples por prateleiras (caixas retangulares, gira 90° se ajudar).
+
+    Retorna lista de chapas; cada chapa é lista de (painel, indice_copia, x, y, girado).
+    Ordena da maior para a menor altura. Bom o bastante para peças grandes e poucas.
+    """
+    C, Lg, mg, gap = chapa["comprimento"], chapa["largura"], chapa["margem"], chapa["vao"]
+    itens = []
+    for p in paineis:
+        x0, y0, x1, y1 = p.caixa2d()
+        for k in range(p.qtd):
+            itens.append((p, k, x1 - x0, y1 - y0))
+    # orientação: "deitada" = lado maior na horizontal; "em_pe" = lado maior na vertical
+    orient = []
+    for p, k, w, h in itens:
+        if politica == "deitada":
+            gir = h > w
+        else:
+            gir = w > h
+        if gir and not (h <= C - 2 * mg and w <= Lg - 2 * mg):
+            gir = False
+        if not gir and not (w <= C - 2 * mg and h <= Lg - 2 * mg):
+            gir = True
+        orient.append((p, k, (h, w) if gir else (w, h), gir))
+    orient.sort(key=lambda t: -t[2][1])
+    chapas = []   # cada uma: {"prats": [[y, altura, x_livre]], "pecas": []}
+    for p, k, (w, h), gir in orient:
+        colocado = False
+        for ch in chapas:
+            for pr in ch["prats"]:
+                if h <= pr[1] and pr[2] + w <= C - mg:
+                    ch["pecas"].append((p, k, pr[2], pr[0], gir))
+                    pr[2] += w + gap
+                    colocado = True
+                    break
+            if colocado:
+                break
+            topo = ch["prats"][-1][0] + ch["prats"][-1][1] + gap
+            if topo + h <= Lg - mg:
+                ch["prats"].append([topo, h, mg + w + gap])
+                ch["pecas"].append((p, k, mg, topo, gir))
+                colocado = True
+                break
+        if not colocado:
+            if w > C - 2 * mg or h > Lg - 2 * mg:
+                raise ValueError(f"{p.ref} {p.nome} ({w:.0f}×{h:.0f}) não cabe na chapa")
+            chapas.append({"prats": [[mg, h, mg + w + gap]], "pecas": [(p, k, mg, mg, gir)]})
+    return [ch["pecas"] for ch in chapas]
+
+
+def _local_para_chapa(p, x, y, gir):
+    """Location 2D: coordenadas locais da peça → posição na chapa (gira 90° se `gir`)."""
+    x0, y0, x1, y1 = p.caixa2d()
+    if not gir:
+        return cq.Location(cq.Vector(x - x0, y - y0, 0))
+    # gira 90° anti-horário (u→y, v→−x) e encosta no canto
+    return cq.Location(cq.Vector(x + y1, y - x0, 0), cq.Vector(0, 0, 1), 90)
+
+
+def dxf_chapas(chapas, pasta, prefixo="chapa", chapa=CHAPA_COMPENSADO):
+    """Um DXF por chapa, em mm, 1:1, com as camadas de CAMADAS_DXF."""
+    from cadquery.occ_impl.exporters.dxf import DxfDocument
+    os.makedirs(pasta, exist_ok=True)
+    arquivos = []
+    for i, pecas in enumerate(chapas, 1):
+        doc = DxfDocument()
+        for nome, cor in CAMADAS_DXF.items():
+            doc.add_layer(nome, color=cor)
+        msp = doc.document.modelspace()
+        msp.add_lwpolyline([(0, 0), (chapa["comprimento"], 0), (chapa["comprimento"], chapa["largura"]),
+                            (0, chapa["largura"])], close=True, dxfattribs={"layer": "CHAPA"})
+        for p, k, x, y, gir in pecas:
+            m = _local_para_chapa(p, x, y, gir)
+            doc.add_shape(p.fio.moved(m), "CORTE_EXTERNO")
+            for r in p.fios_recorte:
+                doc.add_shape(r.moved(m), "CORTE_INTERNO")
+            for u, v, d in p.furos:
+                c = cq.Vertex.makeVertex(u, v, 0).moved(m).Center()
+                msp.add_circle((c.x, c.y), d / 2,
+                               dxfattribs={"layer": "FURO_GUIA_3" if d <= 3 else "CORTE_INTERNO"})
+            x0, y0, x1, y1 = p.caixa2d()
+            c = cq.Vertex.makeVertex((x0 + x1) / 2, (y0 + y1) / 2, 0).moved(m).Center()
+            rot = 90 if gir and (y1 - y0) > (x1 - x0) else 0
+            msp.add_text(f"{p.ref}", height=40, dxfattribs={"layer": "TEXTO_NAO_CORTAR",
+                                                           "rotation": 0}).set_placement(
+                (c.x, c.y), align=ezdxf_align_meio())
+        arq = os.path.join(pasta, f"{prefixo}_{i}.dxf")
+        doc.document.saveas(arq)
+        arquivos.append(arq)
+    return arquivos
+
+
+def ezdxf_align_meio():
+    from ezdxf.enums import TextEntityAlignment
+    return TextEntityAlignment.MIDDLE_CENTER

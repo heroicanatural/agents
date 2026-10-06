@@ -1,0 +1,94 @@
+{
+ "interferencias_mm3": [],
+ "caixa_externa_mm": [
+  1190,
+  580,
+  800
+ ],
+ "altura_total_do_chao_mm": 1250,
+ "cabe_na_plataforma": true,
+ "peso_caixa_kg": 39.2,
+ "tampo_util_mm": [
+  1175,
+  550
+ ],
+ "cabe_controladora_e_som_deitado": true,
+ "porta_vao_mm": [
+  410,
+  405
+ ],
+ "interno_bau_mm": [
+  1160,
+  550,
+  520
+ ],
+ "caixa_x_plataforma_mm3": 0,
+ "chapas_2200x1600": 2,
+ "aproveitamento_%": 51,
+ "plano": [
+  [
+   [
+    "L",
+    10,
+    10,
+    false
+   ],
+   [
+    "F",
+    1212,
+    10,
+    true
+   ],
+   [
+    "B",
+    10,
+    822,
+    false
+   ],
+   [
+    "D",
+    1182,
+    822,
+    false
+   ],
+   [
+    "S1",
+    10,
+    1384,
+    false
+   ],
+   [
+    "S1",
+    482,
+    1384,
+    false
+   ],
+   [
+    "S2",
+    1744,
+    822,
+    true
+   ],
+   [
+    "S2",
+    954,
+    1384,
+    true
+   ]
+  ],
+  [
+   [
+    "L",
+    10,
+    10,
+    false
+   ],
+   [
+    "K",
+    10,
+    822,
+    false
+   ]
+  ]
+ ]
+}

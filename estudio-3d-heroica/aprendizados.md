@@ -14,6 +14,16 @@ Um bloco por projeto, mais recente no topo. Regras que se confirmarem em dois pr
 - Módulo adicionado/alterado na biblioteca:
 ```
 
+## 2026-10-06 — Box Run Club (caixa de compensado naval sobre carrinho-plataforma)
+- Processo/material: compensado naval 15 mm, corte CNC (DXF), montagem pelo próprio usuário. Carrinho comprado pronto.
+- Mudança de escopo no meio: o usuário mandou a foto do carrinho depois que eu já tinha projetado rodas, eixo e alça. Regra nova: **perguntar "o que vai embaixo / o que já existe" antes de projetar estrutura móvel.**
+- Funcionou: furos-guia Ø3 feitos pela CNC nas linhas de união (7,5 da borda, a cada ~150). O usuário monta sem medir nada, só cola, grampo, pré-furo e parafuso.
+- Funcionou: porta = recorte do próprio painel (a fresa Ø6 deixa ~3 mm de folga por lado) + batentes por dentro.
+- Encaixe nas chapas: largura da caixa escolhida para caber em 2 chapas (a 1ª tentativa ia para 3). O encaixe agora testa peças deitadas e em pé.
+- Bugs de ferramenta corrigidos: Workplane do CadQuery consome o fio pendente na 1ª extrusão (guardar `Wire`); `transformGeometry` vira spline e quebra o DXF (usar `Location`/`moved`).
+- Módulos adicionados à biblioteca: `Painel`, `plano_de_corte`, `dxf_chapas` (camadas CORTE_EXTERNO/INTERNO/FURO_GUIA_3/TEXTO). `ferramentas/desenho.py` (cotas, tabela, peça 2D).
+- Pendente: medida real da plataforma; retorno da fábrica sobre os furos Ø3; peso real.
+
 ## 2026-10-01 — Tambor Heroica (v0 conceitos → v1 fabricação)
 - Processo/material: tambor de aço 200 L recortado (serralheiro) + MDF (marceneiro) + vinil (gráfica). 4 unidades.
 - Funcionou: modelo paramétrico com peças nomeadas → lista de corte, DXF, PDF e renders saem do mesmo script. Prateleira em D (frente reta) dá a borda para a testeira porta-preço.
