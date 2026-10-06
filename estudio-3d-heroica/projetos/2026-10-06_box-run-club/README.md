@@ -27,7 +27,7 @@ Pedido (Roberto, 06/10/2026): estrutura móvel em compensado naval, inspirada no
 - **Montagem:** cola PU + parafusos 4,0 × 40 em 132 furos-guia feitos pela CNC.
 
 ## Validação (v2/saida/validacao.json)
-- 11 tipos de peça, todas válidas. **Zero interferências.**
+- 8 tipos de peça (15 peças + 2 portas que saem do recorte), todas válidas. **Zero interferências.**
 - Plano de corte verificado: distância real ≥ 12 mm entre peças e margem de 10 mm.
 
 ## A confirmar
