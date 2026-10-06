@@ -1,6 +1,6 @@
-# Pedido de orçamento — corte CNC
+# Pedido de orçamento — corte CNC (Luciano Lâminas)
 
-> Oi, [nome]! Aqui é o Roberto, da Heroica. Preciso orçar um corte CNC em compensado naval.
+> Oi, Luciano! Aqui é o Roberto, da Heroica. Preciso orçar um corte CNC em compensado naval.
 >
 > • Material: compensado naval 15 mm, 2 chapas de 2200 × 1600 (vocês fornecem ou eu levo?)
 > • Arquivos: chapa_1.dxf e chapa_2.dxf da v2 (mm, escala 1:1) e o PDF com o plano de corte e as peças cotadas.
