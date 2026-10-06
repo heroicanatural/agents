@@ -620,13 +620,63 @@ def _plano_de_corte(paineis, chapa=CHAPA_COMPENSADO, politica="deitada"):
     return [ch["pecas"] for ch in chapas]
 
 
+def _angulo(gir):
+    """`gir` do plano: bool (False=0°, True=90°) ou ângulo em graus (múltiplo de 90)."""
+    if gir is True:
+        return 90
+    if gir is False or gir is None:
+        return 0
+    return int(gir) % 360
+
+
 def _local_para_chapa(p, x, y, gir):
-    """Location 2D: coordenadas locais da peça → posição na chapa (gira 90° se `gir`)."""
-    x0, y0, x1, y1 = p.caixa2d()
-    if not gir:
-        return cq.Location(cq.Vector(x - x0, y - y0, 0))
-    # gira 90° anti-horário (u→y, v→−x) e encosta no canto
-    return cq.Location(cq.Vector(x + y1, y - x0, 0), cq.Vector(0, 0, 1), 90)
+    """Location 2D: coordenadas locais → chapa. Gira `gir` graus e encosta o canto em (x, y)."""
+    ang = _angulo(gir)
+    rot = cq.Location(cq.Vector(0, 0, 0), cq.Vector(0, 0, 1), ang)
+    bb = p.fio.moved(rot).BoundingBox()
+    return cq.Location(cq.Vector(x - bb.xmin, y - bb.ymin, 0)) * rot
+
+
+def plano_manual(paineis, posicoes):
+    """Plano de corte escrito à mão: posicoes = [[(ref, x, y, ang), ...] por chapa].
+
+    Peças com a mesma ref são usadas na ordem (cópias). Confira com verificar_plano().
+    """
+    por_ref = {p.ref: p for p in paineis}
+    usados = {}
+    chapas = []
+    for ch in posicoes:
+        lista = []
+        for ref, x, y, ang in ch:
+            k = usados.get(ref, 0)
+            usados[ref] = k + 1
+            lista.append((por_ref[ref], k, x, y, ang))
+        chapas.append(lista)
+    for p in paineis:
+        if usados.get(p.ref, 0) != p.qtd:
+            raise ValueError(f"{p.ref}: plano tem {usados.get(p.ref, 0)} cópias, precisa de {p.qtd}")
+    return chapas
+
+
+def verificar_plano(chapas, chapa=CHAPA_COMPENSADO):
+    """Distância real entre contornos ≥ vão e peças dentro da margem. Lista de problemas."""
+    problemas = []
+    for n, pecas in enumerate(chapas, 1):
+        faces = []
+        for p, k, x, y, gir in pecas:
+            f = cq.Face.makeFromWires(p.fio.moved(_local_para_chapa(p, x, y, gir)))
+            bb = f.BoundingBox()
+            mg = chapa["margem"] - 0.01
+            if bb.xmin < mg or bb.ymin < mg or bb.xmax > chapa["comprimento"] - mg or \
+                    bb.ymax > chapa["largura"] - mg:
+                problemas.append(f"chapa {n}: {p.ref} fora da margem")
+            faces.append((p.ref, f))
+        for i in range(len(faces)):
+            for j in range(i + 1, len(faces)):
+                d = faces[i][1].distance(faces[j][1])
+                if d < chapa["vao"] - 0.01:
+                    problemas.append(f"chapa {n}: {faces[i][0]} × {faces[j][0]} a {d:.1f} mm")
+    return problemas
 
 
 def dxf_chapas(chapas, pasta, prefixo="chapa", chapa=CHAPA_COMPENSADO):

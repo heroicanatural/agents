@@ -23,6 +23,9 @@ Um bloco por projeto, mais recente no topo. Regras que se confirmarem em dois pr
 - Bugs de ferramenta corrigidos: Workplane do CadQuery consome o fio pendente na 1ª extrusão (guardar `Wire`); `transformGeometry` vira spline e quebra o DXF (usar `Location`/`moved`).
 - Módulos adicionados à biblioteca: `Painel`, `plano_de_corte`, `dxf_chapas` (camadas CORTE_EXTERNO/INTERNO/FURO_GUIA_3/TEXTO). `ferramentas/desenho.py` (cotas, tabela, peça 2D).
 - Pendente: medida real da plataforma; retorno da fábrica sobre os furos Ø3; peso real.
+- v2 (mesmo dia): caixa pode passar 200 de cada lado do carrinho; acesso ao baú virou requisito ("vai servir pra guardar coisas"). Duas portas + divisória central (organiza e apoia o tampo de ~1 m).
+- Encaixe: o automático pedia 3 chapas; à mão, as 2 laterais trapezoidais encaixam invertidas pela diagonal → 2 chapas, 69%. Criados `plano_manual` + `verificar_plano` (distância real entre contornos). Regra: **peças trapezoidais iguais → testar par invertido antes de aceitar chapa extra.**
+- Regra nova: pedir a ficha técnica do item comprado (carrinho) logo no briefing. A ficha mudou o comprimento de 1190 para 990.
 
 ## 2026-10-01 — Tambor Heroica (v0 conceitos → v1 fabricação)
 - Processo/material: tambor de aço 200 L recortado (serralheiro) + MDF (marceneiro) + vinil (gráfica). 4 unidades.
