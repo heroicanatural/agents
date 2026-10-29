@@ -10,7 +10,7 @@ edição e o benefício do posicionamento para a marca patrocinadora.
 
 - Design: `DAHOu7M20VQ` · título "Heroica Femme 2027 · Patrocínio" (era "Cópia de [EDITÁVEL] HTX 2026")
 - Editar: https://www.canva.com/design/DAHOu7M20VQ/ljsaBGL3kHW6a797hEaopw/edit
-- 29 páginas. Estrutura após a adaptação:
+- 30 páginas. Estrutura após a adaptação:
   1. Capa: "HEROICA FEMME · edição única, só para mulheres / Rancho Queimado/SC | 22 a 24.01.2027"
   2. A marca (mantido)
   3. Rafa: "primeira edição do HTX só para mulheres. E 100% produzida por mulheres"
@@ -26,13 +26,17 @@ edição e o benefício do posicionamento para a marca patrocinadora.
   20. "Um território pronto para ser liderado por mulheres."
   21. "O que a sua marca leva" (5 benefícios diretos)
   22. "A última edição em números" (HTX 2026: 120 pessoas vs 40 em 2025, 80/80 finishers, 235 mil views)
-  23. Investimento: 1 naming R$ 12.000 + 4 parceiras R$ 8.500 (tabelas comparativas)
-  24. Cota Naming R$ 12.000,00
-  25. Cota Parceira R$ 8.500,00 (4 vagas)
-  26. Categorias com exclusividade (carro, calçado, outfit, energético, recovery, beleza e cuidado, investimentos)
-  27. Fechamento
-  28. **Nova**: "Marcas da edição" com 1 slot naming ("HEROICA FEMME · [SUA MARCA]") + 4 slots [LOGO]
-  29. Obrigada
+  23. **Nova**: "Quem já apostou no HTX" — grade de logos HTX26 (asset Canva `MAHWN0Pg2Sk`, do post
+      "filme htx agradecimento" DAHWN8syR98): Dimas, Goyah, Tüm, Bike Irada/Trek, Headcore, Atleta Cannabis,
+      Prefeitura de Rancho Queimado, Hey Sun, Coach Lab, Barz, Naveia, The 4am Culture, Temple, Frutas na Caixa,
+      Pure Foods, Ganas, Dois Mineiros, Contém Ovo, Maria Nuts
+  24. Investimento: 1 naming R$ 12.000 + 4 parceiras R$ 8.500 (tabelas comparativas)
+  25. Cota Naming R$ 12.000,00
+  26. Cota Parceira R$ 8.500,00 (4 vagas)
+  27. Categorias com exclusividade (carro, calçado, outfit, energético, recovery, beleza e cuidado, investimentos)
+  28. Fechamento
+  29. **Nova**: "Marcas da edição" com 1 slot naming ("HEROICA FEMME · [SUA MARCA]") + 4 slots [LOGO]
+  30. Obrigada
 
 ## Números usados e fontes
 
@@ -71,6 +75,7 @@ No deck aparece só como exemplo de naming, conforme o pedido.
 - Vídeos/fotos dos Drives (1ng86nLBtbwbb0qxx17JSO856Yy1z1HlK e 1mpDzPBjQRjXwWC4pBzSRkOyHw5h8Qcel)
   são 4 arquivos de vídeo de 600–835 MB; a API do Canva não importa de Drive privado. Inserir cortes
   manualmente no Canva (sugestão: capa, pág. 5, 7, 16 e 28).
-- Página 28 (logos) e capa usam fonte padrão do Canva; trocar para Pilcrow Rounded no editor.
+- Páginas 23 e 29 (logos) e capa usam fonte padrão do Canva; trocar para Pilcrow Rounded no editor.
+- Pág. 23: Dimas Ford não aparece separado na grade (só "DIMAS"); se quiser os dois, adicionar logo manualmente.
 - Decidir se a amostra da pesquisa (7 respostas) fica no deck ou sai.
 - Confirmar qual print do Instagram é de qual perfil (hipótese acima).
