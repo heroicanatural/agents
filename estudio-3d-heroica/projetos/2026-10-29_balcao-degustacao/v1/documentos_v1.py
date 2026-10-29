@@ -242,12 +242,17 @@ PASSOS = [
      "   (é onde vai alimento embalado; para alimento aberto, usar bandeja/forro próprio).\n"
      "2. Dobradiças: deite a frente F com a face de dentro para cima. Encoste cada\n"
      "   lateral L em pé na borda (a lateral fica ATRÁS da frente, alinhada pela\n"
-     "   borda de fora). 3 dobradiças por lado, a ~100, ~460 e ~820 do pé, com as\n"
-     "   abas nas faces de DENTRO. Confira que a lateral dobra para dentro e deita\n"
-     "   sobre a frente (as duas se encontram no meio).\n"
+     "   borda de fora), com a borda dela BEM ENCOSTADA na frente (prenda com grampo).\n"
+     "   3 dobradiças por lado, a ~100, ~460 e ~820 do pé, com as abas nas faces de\n"
+     "   DENTRO e o eixo bem na quina. Esse encosto é o batente dos 90°: a lateral\n"
+     "   não abre mais porque a borda dela bate na frente. Se ficar fresta, ela abre\n"
+     "   além de 90° e força os parafusos. Confira: a lateral dobra para dentro e\n"
+     "   deita sobre a frente (as duas se encontram no meio).\n"
      "3. Abraçadeiras: parafusos U pelos 8 furos Ø7 da testeira (por trás)."),
     ("1", "Abrir o corpo", "etapas/etapa_1.png",
-     "Abra as duas laterais até 90° (o corpo fica em pé sozinho, em U).\n"
+     "Abra as duas laterais até encostarem na frente: é 90°, elas não passam\n"
+     "disso (a borda da lateral bate na frente). O corpo fica em pé sozinho, em U.\n"
+     "Depois, base e tampo travam o esquadro de vez.\n"
      "Ainda NÃO coloque sobre a base: as laterais precisam abrir um pouco\n"
      "para receber as prateleiras."),
     ("2", "Prateleiras", "etapas/etapa_2.png",
