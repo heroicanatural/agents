@@ -715,3 +715,64 @@ def dxf_chapas(chapas, pasta, prefixo="chapa", chapa=CHAPA_COMPENSADO):
 def ezdxf_align_meio():
     from ezdxf.enums import TextEntityAlignment
     return TextEntityAlignment.MIDDLE_CENTER
+
+
+# ---------------------------------------------------------------------------
+# Encaixe espiga-e-rasgo para CNC (fresa de topo deixa canto interno arredondado)
+# ---------------------------------------------------------------------------
+FRESA = 6.0            # Ø da fresa da CNC (mm); canto interno sai com raio FRESA/2
+
+
+def contorno_espigas(x0, y0, x1, y1, prof, baixo=(), dir=(), cima=(), esq=(), fresa=FRESA):
+    """Retângulo com espigas (tabs) saindo das bordas, com alívio de fresa na base de cada espiga.
+
+    baixo/cima: lista de (x_centro, comprimento[, prof]); dir/esq: lista de (y_centro, comprimento[, prof]).
+    prof: quanto a espiga sai da borda (normalmente a espessura da peça que ela atravessa);
+    cada espiga pode ter a sua (3º valor da tupla).
+    O alívio é um entalhe de `fresa` de largura e fresa/2 de fundo ao lado de cada espiga, para o
+    ombro da peça assentar reto no rasgo (sem o raio da fresa atrapalhar).
+    """
+    r = fresa / 2
+    pts = [(x0, y0)]
+
+    def borda(p_ini, p_fim, espigas, normal):
+        # percorre uma borda reta, inserindo espigas; normal = vetor para fora da peça
+        (ax, ay), (bx, by) = p_ini, p_fim
+        dx, dy = (bx - ax), (by - ay)
+        comp = math.hypot(dx, dy)
+        ux, uy = dx / comp, dy / comp
+        nx, ny = normal
+        def ponto(t, n):
+            return (ax + ux * t + nx * n, ay + uy * t + ny * n)
+        # posição de cada espiga medida ao longo da borda, no sentido de percurso
+        ts = []
+        for e in espigas:
+            c, L = e[0], e[1]
+            pe = e[2] if len(e) > 2 else prof
+            t = ((c - ax) if ux else (c - ay)) * (ux + uy)
+            ts.append((t - L / 2, t + L / 2, pe))
+        for t0, t1, pe in sorted(ts):
+            pts.extend([ponto(t0 - fresa, 0), ponto(t0 - fresa, -r), ponto(t0, -r),
+                        ponto(t0, pe), ponto(t1, pe), ponto(t1, -r),
+                        ponto(t1 + fresa, -r), ponto(t1 + fresa, 0)])
+        pts.append(p_fim)
+
+    borda((x0, y0), (x1, y0), baixo, (0, -1))
+    borda((x1, y0), (x1, y1), dir, (1, 0))
+    borda((x1, y1), (x0, y1), cima, (0, 1))
+    borda((x0, y1), (x0, y0), esq, (-1, 0))
+    pts.pop()                                   # último ponto repete o primeiro
+    return cq.Workplane("XY").polyline(pts).close()
+
+
+def poli_ret(x0, y0, x1, y1):
+    """Retângulo fechado (Workplane) para contorno ou recorte de Painel."""
+    return cq.Workplane("XY").polyline([(x0, y0), (x1, y0), (x1, y1), (x0, y1)]).close()
+
+
+def rasgo(cx, cy, comprimento, largura, vertical=False, fresa=FRESA):
+    """Rasgo passante para receber uma espiga: comprimento + fresa (sobra fresa/2 em cada ponta)."""
+    c = comprimento + fresa
+    w, h = (largura, c) if vertical else (c, largura)
+    return cq.Workplane("XY").polyline([(cx - w / 2, cy - h / 2), (cx + w / 2, cy - h / 2),
+                                        (cx + w / 2, cy + h / 2), (cx - w / 2, cy + h / 2)]).close()

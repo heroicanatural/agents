@@ -14,6 +14,14 @@ Um bloco por projeto, mais recente no topo. Regras que se confirmarem em dois pr
 - Módulo adicionado/alterado na biblioteca:
 ```
 
+## 2026-10-29 — Balcão de degustação dobrável (compensado 12, peças planas)
+- Processo: CNC com espiga e rasgo; dobradiças só entre a frente e as laterais (fixas); o resto encaixa sem ferramenta.
+- Funcionou: base e tampo com rasgos travam o esquadro do "U" dobrável. As hastes da bandeira guiadas em 2 pontos (tampo + prateleira de cima) e apoiadas na prateleira de baixo dispensam suporte colado.
+- Erro pego no render: os rasgos das espigas da frente das prateleiras atravessavam a área de marca. Regra: **face de marca sem rasgo/furo passante**; prender a prateleira pelas laterais.
+- Ordem de montagem importa: com o corpo já na base, as laterais não abrem para receber as prateleiras. Prateleira entra ANTES da base (está no guia).
+- Encaixe CNC: rasgo = espessura REAL + 0,5; rasgo mais comprido que a espiga em Ø fresa; alívio de fresa (Ø × Ø/2) na base de cada espiga. Novos na biblioteca: `contorno_espigas`, `rasgo`, `poli_ret`, `FRESA`.
+- Pendente de calibração: espessura real do compensado 12 do fornecedor e folga 0,5 (testar 1 encaixe antes de cortar tudo).
+
 ## 2026-10-06 — Box Run Club (caixa de compensado naval sobre carrinho-plataforma)
 - Processo/material: compensado naval 15 mm, corte CNC (DXF), montagem pelo próprio usuário. Carrinho comprado pronto.
 - Mudança de escopo no meio: o usuário mandou a foto do carrinho depois que eu já tinha projetado rodas, eixo e alça. Regra nova: **perguntar "o que vai embaixo / o que já existe" antes de projetar estrutura móvel.**

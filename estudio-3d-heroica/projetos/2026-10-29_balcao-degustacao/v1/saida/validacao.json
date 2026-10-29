@@ -1,0 +1,90 @@
+{
+ "interferencias_mm3": [],
+ "dimensoes_mm": [
+  880,
+  440,
+  2000
+ ],
+ "altura_mesa_mm": 920,
+ "peso_compensado_kg": 22.4,
+ "haste_mm": 1675,
+ "haste_partes_mm": [
+  838,
+  838
+ ],
+ "vaos_livres_mm": {
+  "base→prateleira 1": 286,
+  "prateleira 1→2": 288,
+  "prateleira 2→tampo": 298
+ },
+ "prateleira_mm": [
+  814.0,
+  395
+ ],
+ "dobrado_laterais_cabem": true,
+ "dobrado_mm": [
+  840,
+  920,
+  34
+ ],
+ "espessura_rasgo_mm": 12.5,
+ "chapas_2200x1600": 2,
+ "aproveitamento_%": 44,
+ "plano": [
+  [
+   [
+    "F",
+    10,
+    10,
+    90
+   ],
+   [
+    "K",
+    942.0,
+    10,
+    0
+   ],
+   [
+    "B",
+    10,
+    862.0,
+    0
+   ],
+   [
+    "L",
+    862.0,
+    862.0,
+    90
+   ]
+  ],
+  [
+   [
+    "L",
+    10,
+    10,
+    90
+   ],
+   [
+    "P1",
+    942.0,
+    10,
+    0
+   ],
+   [
+    "P2",
+    10,
+    430.0,
+    0
+   ],
+   [
+    "Q",
+    862.0,
+    430.0,
+    0
+   ]
+  ]
+ ],
+ "plano_problemas": [],
+ "laterais_dobradas_interferencia_mm3": 0,
+ "dobrado_espessura_mm": 25
+}
