@@ -27,14 +27,15 @@ r.toneMapping = THREE.ACESFilmicToneMapping; r.toneMappingExposure = 1.05;
 document.body.appendChild(r.domElement);
 const s = new THREE.Scene();
 s.background = new THREE.Color(cena.fundo || "#f3efe9");
-s.add(new THREE.HemisphereLight(0xffffff, 0xd8cfc4, 1.1));
-const key = new THREE.DirectionalLight(0xffffff, 2.2);
+const amb = cena.ambiente ?? 1;   // 1 = estúdio; ~0.2 = loja à meia-luz (mostra LED)
+s.add(new THREE.HemisphereLight(0xffffff, 0xd8cfc4, 1.1 * amb));
+const key = new THREE.DirectionalLight(0xffffff, 2.2 * amb);
 key.position.set(-900, -1400, 2200); key.castShadow = true;
 key.shadow.mapSize.set(2048, 2048);
 Object.assign(key.shadow.camera, { left: -1200, right: 1200, top: 1200, bottom: -1200, near: 10, far: 6000 });
 s.add(key);
-const fill = new THREE.DirectionalLight(0xfff2e6, 0.6); fill.position.set(1400, -600, 900); s.add(fill);
-const rim = new THREE.DirectionalLight(0xffffff, 0.8); rim.position.set(300, 1500, 1500); s.add(rim);
+const fill = new THREE.DirectionalLight(0xfff2e6, 0.6 * amb); fill.position.set(1400, -600, 900); s.add(fill);
+const rim = new THREE.DirectionalLight(0xffffff, 0.8 * amb); rim.position.set(300, 1500, 1500); s.add(rim);
 // chão que só recebe sombra
 const chao = new THREE.Mesh(new THREE.PlaneGeometry(8000, 8000), new THREE.ShadowMaterial({ opacity: 0.18 }));
 chao.receiveShadow = true; s.add(chao);
@@ -47,7 +48,7 @@ for (const p of cena.pecas) {
     : new THREE.MeshStandardMaterial({ color: p.cor, roughness: p.rugosidade ?? 0.6, metalness: p.metal ?? 0.1, side: THREE.DoubleSide });
   const mesh = new THREE.Mesh(g, m); mesh.castShadow = true; mesh.receiveShadow = true; s.add(mesh);
   if (p.luz) { // luz pontual (LED)
-    const l = new THREE.PointLight(p.cor, p.luz, 700, 1.5); l.position.set(...p.luz_pos); s.add(l);
+    const l = new THREE.PointLight(p.cor, p.luz, p.luz_alcance ?? 700, 1.5); l.position.set(...p.luz_pos); s.add(l);
   }
 }
 window.renderVista = (v) => {

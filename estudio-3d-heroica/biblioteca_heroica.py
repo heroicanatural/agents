@@ -366,7 +366,7 @@ def validar(peca, nome="peca", mesa=(220, 220, 250)):
     return rel
 
 
-def cena_json(itens, vistas, arquivo, largura=900, altura=1200, fundo="#f3efe9", tol=0.5):
+def cena_json(itens, vistas, arquivo, largura=900, altura=1200, fundo="#f3efe9", tol=0.5, ambiente=1.0):
     """Grava a cena para ferramentas/render_cena.mjs.
 
     itens: lista de (cq.Workplane, cor) ou (cq.Workplane, dict) com chaves
@@ -382,7 +382,7 @@ def cena_json(itens, vistas, arquivo, largura=900, altura=1200, fundo="#f3efe9",
         estilo["idx"] = [i for t in tris for i in t]
         pecas.append(estilo)
     with open(arquivo, "w") as f:
-        json.dump({"largura": largura, "altura": altura, "fundo": fundo,
+        json.dump({"largura": largura, "altura": altura, "fundo": fundo, "ambiente": ambiente,
                    "pecas": pecas, "vistas": vistas}, f)
 
 
@@ -394,7 +394,7 @@ def renderizar(itens, vistas, pasta, **kw):
     import subprocess
     os.makedirs(pasta, exist_ok=True)
     arq = os.path.join(pasta, "_cena.json")
-    cena_json(itens, vistas, arq, **kw)
+    cena_json(itens, vistas, arq, **kw)   # kw: largura, altura, fundo, tol, ambiente
     script = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ferramentas", "render_cena.mjs")
     raiz_global = subprocess.run(["npm", "root", "-g"], capture_output=True, text=True).stdout.strip()
     nm = os.environ.get("ESTUDIO_NODE_MODULES", os.path.join(os.getcwd(), "node_modules"))

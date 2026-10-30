@@ -6,7 +6,16 @@ Pedido (Roberto, 29/10/2026): balcão promocional para degustação em PDV, no f
 - prateleiras internas encaixáveis;
 - 2 furos no tampo para as hastes da bandeira.
 
-## v1 (29/10) — pronta para orçamento de corte
+## Versão atual: v2 (30/10) — v1 + LED
+- Fábrica: `v2/saida/Balcao_Degustacao_v2_FABRICA.pdf` + `v2/saida/dxf/chapa_1.dxf`, `chapa_2.dxf`
+- Montagem: `v2/saida/Balcao_Degustacao_v2_GUIA_DE_MONTAGEM.pdf`
+- Mudanças: beiral da frente do tampo 20 → 40 (esconde o perfil); fita LED 5 V 3000 K de 800 mm em perfil
+  de alumínio com difusor sob o beiral, lavando a frente; cabo entra por um furo Ø10 na frente (escondido
+  sob o tampo) até um power bank de 20 000 mAh na prateleira de baixo (~8 h).
+- Efeito: halo nos ~25 cm de cima da frente. Discreto sobre marrom escuro; mais forte com arte clara.
+- Chapas: 1 balcão = 2; 2 = 3; 3 = 5; 4 = 6.
+
+## v1 (29/10)
 - Fábrica: `v1/saida/Balcao_Degustacao_v1_FABRICA.pdf` + `v1/saida/dxf/chapa_1.dxf`, `chapa_2.dxf`
 - Montagem e desmontagem: `v1/saida/Balcao_Degustacao_v1_GUIA_DE_MONTAGEM.pdf`
 
