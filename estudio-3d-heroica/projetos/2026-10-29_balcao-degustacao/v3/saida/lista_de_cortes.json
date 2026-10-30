@@ -1,0 +1,98 @@
+[
+ {
+  "ref": "F",
+  "nome": "frente",
+  "comp": 896,
+  "larg": 840,
+  "qtd": 1,
+  "obs": "preto; Ø10 do cabo + 38 guias das ripas"
+ },
+ {
+  "ref": "L",
+  "nome": "lateral",
+  "comp": 896,
+  "larg": 408,
+  "qtd": 2,
+  "obs": "preto; 6 guias das travessas; 3 dobradiças"
+ },
+ {
+  "ref": "K",
+  "nome": "tampo",
+  "comp": 880,
+  "larg": 460,
+  "qtd": 1,
+  "obs": "madeira natural; 2 furos Ø28 (serra-copo)"
+ },
+ {
+  "ref": "B",
+  "nome": "base",
+  "comp": 840,
+  "larg": 420,
+  "qtd": 1,
+  "obs": "preto"
+ },
+ {
+  "ref": "P1",
+  "nome": "prateleira de baixo",
+  "comp": 812,
+  "larg": 393,
+  "qtd": 1,
+  "obs": "madeira natural"
+ },
+ {
+  "ref": "P2",
+  "nome": "prateleira de cima",
+  "comp": 812,
+  "larg": 393,
+  "qtd": 1,
+  "obs": "madeira natural; furos Ø28"
+ },
+ {
+  "ref": "A",
+  "nome": "taco",
+  "comp": 60,
+  "larg": 60,
+  "qtd": 16,
+  "obs": "colar + 2 parafusos 3,5×30"
+ },
+ {
+  "ref": "R",
+  "nome": "travessa de prateleira",
+  "comp": 368,
+  "larg": 30,
+  "qtd": 8,
+  "obs": "colar + parafusar na lateral, por dentro"
+ },
+ {
+  "ref": "Rp",
+  "nome": "ripa do ripado",
+  "comp": 896,
+  "larg": 30,
+  "qtd": 19,
+  "obs": "preto"
+ },
+ {
+  "ref": "M",
+  "nome": "placa da marca",
+  "comp": 560,
+  "larg": 300,
+  "qtd": 1,
+  "obs": "rosa/arte; LED em volta, por trás"
+ },
+ {
+  "ref": "E",
+  "nome": "espaçador da placa",
+  "comp": 40,
+  "larg": 40,
+  "qtd": 4,
+  "obs": ""
+ },
+ {
+  "ref": "Q",
+  "nome": "testeira",
+  "comp": 840,
+  "larg": 300,
+  "qtd": 1,
+  "obs": "preto + arte; 4 abraçadeiras U"
+ }
+]

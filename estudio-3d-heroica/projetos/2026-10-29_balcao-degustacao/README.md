@@ -6,7 +6,22 @@ Pedido (Roberto, 29/10/2026): balcão promocional para degustação em PDV, no f
 - prateleiras internas encaixáveis;
 - 2 furos no tampo para as hastes da bandeira.
 
-## Versão atual: v2 (30/10) — v1 + LED
+## Versão atual: v3 (30/10) — estética "expositor Red Bull", serra OU CNC
+Mesmo desenho, dois pacotes de fabricação (o Roberto escolhe no orçamento):
+- **Serra (Luciano Lâminas):** `v3/saida/Balcao_v3_SERRA_lista_de_cortes.pdf` — 12 medidas, 56 peças, todas
+  retangulares, 2 chapas, plano em faixas. Furos feitos na montagem (medidas no guia).
+- **CNC:** `v3/saida/Balcao_v3_CNC.pdf` + `v3/saida/cnc_dxf/chapa_1.dxf`, `chapa_2.dxf` — 2 chapas, com 5 furos
+  (hastes Ø28, cabo Ø10) e 50 furos-guia (ripas, travessas).
+- **Montagem (os dois):** `v3/saida/Balcao_v3_GUIA_DE_MONTAGEM.pdf`
+
+O que mudou da v2:
+- **Estética:** estrutura, base e testeira em preto fosco; ripado preto vertical na frente (19 ripas de 30, vão de 15); tampo e prateleiras em madeira natural; placa da marca rosa 560 × 300 afastada do ripado com halo de LED; LED sob o beiral; cantoneiras de alumínio pretas nas quinas; hastes pretas.
+- **Construção sem encaixe CNC:**
+  - 4 tacos (60 × 60, 2 camadas) colados embaixo do tampo e em cima da base travam o corpo por dentro das quinas. Eles são colados com o balcão montado, então ficam no lugar sem medir.
+  - As prateleiras apoiam em travessas coladas nas laterais.
+- Validação: zero interferências, ~28 kg, corpo dobrado com ~60 mm.
+
+## v2 (30/10) — v1 + LED
 - Fábrica: `v2/saida/Balcao_Degustacao_v2_FABRICA.pdf` + `v2/saida/dxf/chapa_1.dxf`, `chapa_2.dxf`
 - Montagem: `v2/saida/Balcao_Degustacao_v2_GUIA_DE_MONTAGEM.pdf`
 - Mudanças: beiral da frente do tampo 20 → 40 (esconde o perfil); fita LED 5 V 3000 K de 800 mm em perfil

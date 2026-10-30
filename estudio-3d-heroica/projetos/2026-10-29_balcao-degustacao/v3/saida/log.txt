@@ -1,0 +1,36 @@
+{
+ "interferencias_mm3": [],
+ "dimensoes_mm": [
+  880,
+  460,
+  2000
+ ],
+ "peso_compensado_kg": 28.5,
+ "haste_mm": 1675,
+ "dobrado_espessura_mm": 60,
+ "vaos_livres_mm": [
+  286,
+  288,
+  274
+ ],
+ "chapas_2200x1600": 2,
+ "plano_problemas": []
+}
+F frente 1 896 x 840
+L lateral 2 896 x 408
+K tampo 1 880 x 460
+B base 1 840 x 420
+P1 prateleira de baixo 1 812 x 393
+P2 prateleira de cima 1 812 x 393
+A taco 16 60 x 60
+R travessa de prateleira 8 368 x 30
+Rp ripa do ripado 19 896 x 30
+M placa da marca 1 560 x 300
+E espaçador da placa 4 40 x 40
+Q testeira 1 840 x 300
+ok /home/user/agents/estudio-3d-heroica/projetos/2026-10-29_balcao-degustacao/v3/saida/renders/render_frente.png
+ok /home/user/agents/estudio-3d-heroica/projetos/2026-10-29_balcao-degustacao/v3/saida/renders/render_promotor.png
+ok /home/user/agents/estudio-3d-heroica/projetos/2026-10-29_balcao-degustacao/v3/saida/renders/render_led.png
+['/home/user/agents/estudio-3d-heroica/projetos/2026-10-29_balcao-degustacao/v3/saida/renders/render_frente.png', '/home/user/agents/estudio-3d-heroica/projetos/2026-10-29_balcao-degustacao/v3/saida/renders/render_promotor.png', '/home/user/agents/estudio-3d-heroica/projetos/2026-10-29_balcao-degustacao/v3/saida/renders/render_led.png']
+ok /home/user/agents/estudio-3d-heroica/projetos/2026-10-29_balcao-degustacao/v3/saida/renders/explodido.png
+['/home/user/agents/estudio-3d-heroica/projetos/2026-10-29_balcao-degustacao/v3/saida/renders/explodido.png']

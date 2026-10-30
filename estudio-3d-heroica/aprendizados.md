@@ -21,6 +21,10 @@ Um bloco por projeto, mais recente no topo. Regras que se confirmarem em dois pr
 - Ordem de montagem importa: com o corpo já na base, as laterais não abrem para receber as prateleiras. Prateleira entra ANTES da base (está no guia).
 - Encaixe CNC: rasgo = espessura REAL + 0,5; rasgo mais comprido que a espiga em Ø fresa; alívio de fresa (Ø × Ø/2) na base de cada espiga. Novos na biblioteca: `contorno_espigas`, `rasgo`, `poli_ret`, `FRESA`.
 - Pendente de calibração: espessura real do compensado 12 do fornecedor e folga 0,5 (testar 1 encaixe antes de cortar tudo).
+- **Perguntar o PROCESSO do fornecedor antes de desenhar.** Luciano Lâminas corta em serra (esquadrejadeira), não CNC: espiga, rasgo e furo não saem. Regra: o mesmo desenho ganha 2 pacotes — SERRA (lista de cortes, só retângulos, plano em faixas, furos na montagem) e CNC (DXF com furos e furos-guia).
+- Substitutos de encaixe para serra: tacos colados com a peça montada (ficam no lugar sem medir) e travessas de apoio. Ficam invisíveis por fora, melhor que espiga aparente.
+- v3 com estética de referência (expositor Red Bull): preto fosco + madeira natural + ripado + placa com halo de LED. Ripado parafusado por DENTRO (furos-guia na frente), sem parafuso aparente.
+- Renderizador ganhou `ambiente` (luz geral) para mostrar LED em "loja à meia-luz". LED de 5 W sobre fundo escuro dá halo discreto; avisar o cliente.
 
 ## 2026-10-06 — Box Run Club (caixa de compensado naval sobre carrinho-plataforma)
 - Processo/material: compensado naval 15 mm, corte CNC (DXF), montagem pelo próprio usuário. Carrinho comprado pronto.
