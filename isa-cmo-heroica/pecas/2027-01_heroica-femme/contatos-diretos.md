@@ -41,7 +41,7 @@ fontes internas; o relacionamento correu por WhatsApp pessoal de Roberto, Rafa e
 | Rampinelli | Thiago Rampinelli (diretor comercial) | linkedin.com/in/thiago-rampinelli-0a802424 | público, parcial |
 | Rampinelli | Juliana Rampinelli (marketing) | (48) 3463-8700; formulário rampinelli.com.br/contato | público |
 | Simple (Hypera) | Carla Dias (diretora de marketing) | linkedin.com/in/carla-dias-araújo-374b1340 | público, parcial |
-| Unimed Grande Floripa | canal oficial de patrocínio | comunicacaoemarketing@unimedflorianopolis.com.br | público; só por edital semestral. Felipe Marino pode ter saído |
+| Unimed Grande Floripa | Clariany Jacques, supervisora de comunicação e marketing (desde fev/2025) | linkedin.com/in/clariany-jacques-b4a01b21; canal oficial comunicacaoemarketing@unimedflorianopolis.com.br | público, confiança alta. Decide acima dela: gerência de mercado (Larissa Schütz da Silva até abr/2026; Evandro Endrigo Lima possível sucessor em 2026) e o CEO Evaldo Soares Rodrigues (desde out/2025). Felipe de Toledo Marino saiu em 2022 (NP Digital). Patrocínio só por edital semestral |
 | Fort / Grupo Pereira | Gustavo Petry Custódio (diretor de marketing) | linkedin.com/in/gustavo-petry-custodio-marketing | público, verificado. Gerente nacional Fort: Silvia Marquez |
 | Dimas Ford | "Poliana" | sem e-mail | Notion Gerenciador: proposta enviada R$ 15k, sem retorno |
 
