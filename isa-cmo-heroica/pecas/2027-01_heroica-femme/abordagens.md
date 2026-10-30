@@ -6,7 +6,8 @@ Deck: https://www.canva.com/design/DAHOu7M20VQ/ljsaBGL3kHW6a797hEaopw/edit
 Cotas: 1 Naming R$ 12.000 · 4 Parceiras R$ 8.500 (exclusividade por categoria).
 Formato: 22 a 24/01/2027, Rancho Queimado/SC. 20 vagas na imersão de dois dias + sábado aberto para mais 50 mulheres.
 
-Antes de enviar para a Dimas: resolver o recebível em aberto do HTX26 (Slack #heroica-tarefas, 29/10).
+Dimas: contrato do HTX26 assinado e R$ 1.900 pagos (confirmado 30/10/2026). Caminho livre para a naming.
+Contatos: Maju Porton (maria.porton@dimas.com.br), Willian Martins (willian.martins@dimasconstrucoes.com.br).
 4am Culture e Colcci Fitness disputam a mesma categoria (outfit). Enviar para a segunda só se a primeira recusar.
 Tüm e Red Bull disputam energético. Red Bull fica como parceira de experiência, sem cota.
 

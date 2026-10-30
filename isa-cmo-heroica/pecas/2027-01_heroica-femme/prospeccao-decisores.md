@@ -10,7 +10,7 @@ Cotas: Naming R$ 12.000 (1) · Parceira R$ 8.500 (4), exclusividade por categori
 
 | Categoria | Marca | Quem decide | Confiança | Por quê |
 |---|---|---|---|---|
-| Carro / naming | Grupo Dimas (Floripa) | Maria Julia Porton, gerente de marketing Dimas Auto / Grupo Dimas; Willian Martins, gerente de marketing Dimas Construções | alta / média-alta | Já foi principal no HTX26; 50 anos em 2026 com patrocínio Avaí e Figueirense; Construções é anfitriã da CASACOR SC |
+| Carro / naming | Grupo Dimas (Floripa) | Maria Julia Porton, gerente de marketing Dimas Auto / Grupo Dimas; Willian Martins, gerente de marketing Dimas Construções | alta / média-alta | Já foi principal no HTX26 (contrato assinado e pago); 50 anos em 2026 com patrocínio Avaí e Figueirense; Construções é anfitriã da CASACOR SC |
 | Supermercado | Imperatriz / Mundial Mix (Grande Floripa) | Júlio César Lohn, diretor de marketing; Leandro Hommerding, gerente de marketing | alta / média-alta | Naming da Jurerê Wine Run Super Imperatriz (jun/2026), Arena de Verão, 20 lojas onde o público mora |
 | Supermercado, alternativa | Angeloni (Criciúma) | Ricardo Santos Cândido de Oliveira, diretor de marketing e categorias (chegou em 2026) | alta | Circuito Angeloni de Corridas (12 etapas, 2 na Grande Floripa); apoiou prova feminina do Ironman 70.3 |
 | Casa / cama-mesa-banho | Karsten (Blumenau) | Joana Campestrini Fuchs, gerente de marketing | alta | Patrocinou a Night Run Floripa (jun/2026) com 2.000 toalhas e discurso de autocuidado; campanhas para público feminino |
