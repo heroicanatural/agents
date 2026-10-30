@@ -51,6 +51,6 @@ Hoka: Patrícia Brito, patriciabritto@grupoaste.com.br (ganho R$ 6k no HTX26). S
 Mitsubishi/HPE: patrocinios@hpeautos.com.br. Pure Foods: Lucas (ganho R$ 3,5k). Grupo DVA: Elisa Toniolo,
 elisatoniolo@grupodva.com.br (recusou em jul/2026, "foco em varejo").
 
-## Pendência interna
+## Nota
 
-Patrocínio Dimas HTX26 (R$ 1.900) sem contrato e com recebível pendente (tarefa HN-79). Resolver antes de pedir a naming.
+Patrocínio Dimas HTX26 (R$ 1.900): contrato assinado e pago, confirmado por Roberto em 30/10/2026. A tarefa HN-79 no Notion e a aba MARCAS da planilha podem ainda mostrar como pendente; atualizar lá.
