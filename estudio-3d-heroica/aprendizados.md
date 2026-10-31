@@ -14,6 +14,12 @@ Um bloco por projeto, mais recente no topo. Regras que se confirmarem em dois pr
 - Módulo adicionado/alterado na biblioteca:
 ```
 
+## 2026-10-31 — Pódio Heroica (balcão de degustação em 3 caixas)
+- Conceito escolhido entre 3 (pódio, pouch gigante, bar de granola) por contar a marca sem texto ("Celebre suas conquistas") e caber na serra.
+- Caixas que encaixam umas nas outras (matrioska): dimensionar de dentro para fora, com folga de 10 por lado; NADA pode ficar saliente por dentro da caixa maior (travessa vira pino removível; a travessa de fundo fica embaixo e conta na profundidade interna). Validação feita nos 2 estados: montado e encaixado.
+- Peça redonda num projeto de serra: mandar para a gráfica (PVC expandido) em vez de forçar CNC.
+- Render "em corte" (cortar as caixas externas ao meio) é a melhor forma de mostrar o encaixe para o cliente.
+
 ## 2026-10-29 — Balcão de degustação dobrável (compensado 12, peças planas)
 - Processo: CNC com espiga e rasgo; dobradiças só entre a frente e as laterais (fixas); o resto encaixa sem ferramenta.
 - Funcionou: base e tampo com rasgos travam o esquadro do "U" dobrável. As hastes da bandeira guiadas em 2 pontos (tampo + prateleira de cima) e apoiadas na prateleira de baixo dispensam suporte colado.

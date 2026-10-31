@@ -1,0 +1,137 @@
+[
+ {
+  "ref": "F1",
+  "nome": "frente da 1",
+  "comp": 905,
+  "larg": 700,
+  "qtd": 1,
+  "obs": "número 1 + QR",
+  "caixa": 1
+ },
+ {
+  "ref": "L1",
+  "nome": "lateral da 1",
+  "comp": 905,
+  "larg": 485,
+  "qtd": 2,
+  "obs": "2 furos Ø5 (pinos da prateleira)",
+  "caixa": 1
+ },
+ {
+  "ref": "K1",
+  "nome": "tampo da 1 (mesa)",
+  "comp": 730,
+  "larg": 540,
+  "qtd": 1,
+  "obs": "madeira natural; furo Ø28 da haste",
+  "caixa": 1
+ },
+ {
+  "ref": "P1",
+  "nome": "prateleira da 1",
+  "comp": 666,
+  "larg": 460,
+  "qtd": 1,
+  "obs": "removível (pinos)",
+  "caixa": 1
+ },
+ {
+  "ref": "S1",
+  "nome": "travessa de fundo da 1",
+  "comp": 670,
+  "larg": 80,
+  "qtd": 1,
+  "obs": "entre as laterais, embaixo",
+  "caixa": 1
+ },
+ {
+  "ref": "F2",
+  "nome": "frente da 2",
+  "comp": 650,
+  "larg": 605,
+  "qtd": 2,
+  "obs": "número 2",
+  "caixa": 2
+ },
+ {
+  "ref": "K2",
+  "nome": "tampo da 2",
+  "comp": 650,
+  "larg": 450,
+  "qtd": 1,
+  "obs": "madeira natural",
+  "caixa": 2
+ },
+ {
+  "ref": "L2",
+  "nome": "lateral da 2",
+  "comp": 605,
+  "larg": 420,
+  "qtd": 2,
+  "obs": "",
+  "caixa": 2
+ },
+ {
+  "ref": "B2",
+  "nome": "borda frente da 2",
+  "comp": 650,
+  "larg": 30,
+  "qtd": 1,
+  "obs": "",
+  "caixa": 2
+ },
+ {
+  "ref": "C2",
+  "nome": "borda lado da 2",
+  "comp": 435,
+  "larg": 30,
+  "qtd": 2,
+  "obs": "",
+  "caixa": 2
+ },
+ {
+  "ref": "F3",
+  "nome": "frente da 3",
+  "comp": 600,
+  "larg": 405,
+  "qtd": 2,
+  "obs": "número 3",
+  "caixa": 3
+ },
+ {
+  "ref": "K3",
+  "nome": "tampo da 3",
+  "comp": 600,
+  "larg": 400,
+  "qtd": 1,
+  "obs": "madeira natural",
+  "caixa": 3
+ },
+ {
+  "ref": "L3",
+  "nome": "lateral da 3",
+  "comp": 405,
+  "larg": 370,
+  "qtd": 2,
+  "obs": "",
+  "caixa": 3
+ },
+ {
+  "ref": "B3",
+  "nome": "borda frente da 3",
+  "comp": 600,
+  "larg": 30,
+  "qtd": 1,
+  "obs": "",
+  "caixa": 3
+ },
+ {
+  "ref": "C3",
+  "nome": "borda lado da 3",
+  "comp": 385,
+  "larg": 30,
+  "qtd": 2,
+  "obs": "",
+  "caixa": 3
+ }
+]
