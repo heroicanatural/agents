@@ -1,6 +1,6 @@
 # Papo dos Heroicos · 02/11/2026
 
-Deck no Canva: `DAHZy_6bNF4` ("Papo dos Heroicos 02/11"), 17 páginas.
+Deck no Canva: `DAHZy_6bNF4` ("Papo dos Heroicos 02/11"), 18 páginas.
 Reunião mensal com os creators do programa Seja Heroica.
 
 ## Tema central
@@ -26,6 +26,7 @@ Cuidados que valem para qualquer número abaixo:
 
 | Pág. | Conteúdo | Dado usado |
 |---|---|---|
+| 3 | Duas novidades: Angeloni e newsletter | Entrada no Angeloni (maior rede varejista de SC); reel do anúncio em 16/10 com 6.989 views e 191 comentários (perfil da Rafa). Newsletter com três edições: nutri, receitas e bastidores. Página criada em 02/11 a pedido do Roberto; as páginas antigas 3 e 4 viraram 4 e 5 |
 | 2 | Destaques de outubro | 29 pedidos com cupom · 16 heroicos com venda · 97 publicações · 245 mil views (receita R$ 3.229,69, ticket médio R$ 111, ROAS 3,6 ficam só na fala) |
 | 7 | Case 1º lugar: Carolina Baldança (@nutricarolb) | 5 pedidos · R$ 585,13 · 4 semanas com venda · 2 reels, 100% com cupom e produto · 7.349 views · ROAS 14,7 |
 | 8 | Case 2º lugar: Ágatha Rosa (@nutriagathaheinz) | 4 pedidos · R$ 432,16 · 3 semanas com venda · 4 publicações, 100% com cupom · reel do Ironman (19/10): 3.163 views, 25 comentários, 1 pedido em 72h |
@@ -51,7 +52,8 @@ apresentado. Ranking completo por receita está no export.
 
 ## Pendências manuais
 
-- Fotos da página 7 ainda são da Marina (setembro). Trocar pelas da Carol.
-- Página 13 tem um segundo mockup de celular vazio sobreposto; apagar ou usar.
-- Conferir no Canva se a fonte dos textos adicionados nas páginas 12 e 13
-  bateu com a Nunito do restante.
+- Fotos da página 7 (agora 7, case da Carol) ainda são da Marina (setembro). Trocar pelas da Carol.
+- Página 14 (rotina que vira conversa) tem um segundo mockup de celular vazio sobreposto; apagar ou usar.
+- A página 3 (Angeloni + newsletter) e os textos adicionados nas páginas 13
+  e 14 saíram na fonte padrão do Canva, não na Nunito. A API não troca
+  família de fonte; ajustar à mão no editor (selecionar texto, Nunito Black).
