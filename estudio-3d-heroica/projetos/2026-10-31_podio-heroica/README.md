@@ -2,7 +2,15 @@
 
 Conceito A da v4 do balcão (escolhido pelo Roberto em 31/10/2026): um pódio de 3 caixas no lugar do balcão com bandeira.
 
-## v1 (31/10) — pronta para orçamento
+## Versão atual: v2 (02/11) — leve, para o PILOTO
+- Serra: `v2/saida/Podio_v2_SERRA_lista_de_cortes.pdf` · CNC: `v2/saida/Podio_v2_CNC.pdf` + `v2/saida/cnc_dxf/`
+- Montagem: `v2/saida/Podio_v2_GUIA_DE_MONTAGEM.pdf`
+- **Material:** compensado de pinus 9 mm (era 15). As quinas são unidas por 14 cantoneiras de alumínio 20 × 20 × 1,5 por dentro (6,2 m no total). O tampo é colado e parafusado nas bordas, e a caixa 1 ganhou uma travessa no alto do fundo.
+- **Peso:** **~27 kg total** com haste, selo e LED (v1: ~46,5 kg). A caixa 1 tem 11 kg e dá para 1 pessoa levantar.
+- **Medidas:** caixas 2 e 3 um pouco maiores (662 × 462 × 620 e 624 × 424 × 420), porque a parede fina libera espaço para o encaixe. Montado: 2026 × 540.
+- **Validação:** zero interferências montado e encaixado (com as cantoneiras); 2 chapas, 74% de aproveitamento.
+
+## v1 (31/10) — substituída pela v2 (pesada: 45 kg)
 - **Serra (Luciano):** `v1/saida/Podio_v1_SERRA_lista_de_cortes.pdf`. 22 peças retangulares, 2 chapas de 15 mm, 71% de aproveitamento.
 - **CNC:** `v1/saida/Podio_v1_CNC.pdf` + `v1/saida/cnc_dxf/chapa_1.dxf`, `chapa_2.dxf`. Furos Ø28 da haste, Ø5 dos pinos e furos-guia.
 - **Montagem:** `v1/saida/Podio_v1_GUIA_DE_MONTAGEM.pdf`. Preparação na oficina, 4 passos no PDV e áreas de arte.

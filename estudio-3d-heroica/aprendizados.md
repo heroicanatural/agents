@@ -19,6 +19,9 @@ Um bloco por projeto, mais recente no topo. Regras que se confirmarem em dois pr
 - Caixas que encaixam umas nas outras (matrioska): dimensionar de dentro para fora, com folga de 10 por lado; NADA pode ficar saliente por dentro da caixa maior (travessa vira pino removível; a travessa de fundo fica embaixo e conta na profundidade interna). Validação feita nos 2 estados: montado e encaixado.
 - Peça redonda num projeto de serra: mandar para a gráfica (PVC expandido) em vez de forçar CNC.
 - Render "em corte" (cortar as caixas externas ao meio) é a melhor forma de mostrar o encaixe para o cliente.
+- v2: o cliente achou 45 kg pesado. **Regra: informar o peso total no 1º conceito e perguntar o limite de quem carrega.** Para PDV, ~10–12 kg por volume.
+- 15 → 9 mm de pinus cortou o peso pela metade. Com 9 mm a borda não segura parafuso: as quinas viram cantoneiras de alumínio por dentro (1,5 mm não atrapalha o encaixe das caixas; validado).
+- Ambiente: após reinício, `pip` apontava para Python 3.13 e `python3` era 3.11 → usar `python3 -m pip install cadquery trimesh pillow`.
 
 ## 2026-10-29 — Balcão de degustação dobrável (compensado 12, peças planas)
 - Processo: CNC com espiga e rasgo; dobradiças só entre a frente e as laterais (fixas); o resto encaixa sem ferramenta.
