@@ -21,6 +21,8 @@ Um bloco por projeto, mais recente no topo. Regras que se confirmarem em dois pr
 - Render "em corte" (cortar as caixas externas ao meio) é a melhor forma de mostrar o encaixe para o cliente.
 - v2: o cliente achou 45 kg pesado. **Regra: informar o peso total no 1º conceito e perguntar o limite de quem carrega.** Para PDV, ~10–12 kg por volume.
 - 15 → 9 mm de pinus cortou o peso pela metade. Com 9 mm a borda não segura parafuso: as quinas viram cantoneiras de alumínio por dentro (1,5 mm não atrapalha o encaixe das caixas; validado).
+- v3: o cliente lembrou que **quem monta é a promotora, sozinha**. O critério certo é o MAIOR VOLUME que ela levanta (≤ ~15 kg), não o peso total. Espessura mista (15 mm onde apanha, 9 mm no resto) + carrinho dobrável comprado.
+- Truque de transporte: encaixar as caixas DE CABEÇA PARA BAIXO sobre o carrinho. Cada caixa só desce dentro da outra, sem levantar acima da cintura. Validar o estado "no carrinho" como 3º estado do modelo.
 - Ambiente: após reinício, `pip` apontava para Python 3.13 e `python3` era 3.11 → usar `python3 -m pip install cadquery trimesh pillow`.
 
 ## 2026-10-29 — Balcão de degustação dobrável (compensado 12, peças planas)

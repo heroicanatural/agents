@@ -2,7 +2,15 @@
 
 Conceito A da v4 do balcão (escolhido pelo Roberto em 31/10/2026): um pódio de 3 caixas no lugar do balcão com bandeira.
 
-## Versão atual: v2 (02/11) — leve, para o PILOTO
+## Versão atual: v3 (03/11) — PILOTO: 15 mm onde apanha + carrinho dobrável
+- Serra: `v3/saida/Podio_v3_SERRA_lista_de_cortes.pdf` · CNC: `v3/saida/Podio_v3_CNC.pdf` + `v3/saida/cnc_dxf/` (1 chapa 15 mm + 2 chapas 9 mm)
+- Montagem e transporte: `v3/saida/Podio_v3_GUIA_DE_MONTAGEM.pdf`
+- **Material:** frentes e tampos em 15 mm (aguentam pancada de carrinho de compras); laterais, fundos, travessas, bordas e prateleira em 9 mm. Quinas com cantoneiras de alumínio por dentro.
+- **Peso:** total ~33,5 kg; caixa 1 com 14 kg, caixa 2 com 10 kg e caixa 3 com 7 kg. É o maior peso que a promotora levanta de uma vez.
+- **Transporte:** carrinho de plataforma dobrável comprado (≥ 910 × 610, 300 kg). As caixas vão encaixadas de **cabeça para baixo**: a 1 com o tampo no piso do carrinho, a 2 desce dentro da 1, a 3 dentro da 2. Ninguém levanta acima da cintura. O conjunto fica com 730 × 540 × 1090 de altura.
+- **Validação:** zero interferências montado, encaixado e no carrinho.
+
+## v2 (02/11) — 9 mm em tudo, ~27 kg (substituída pela v3)
 - Serra: `v2/saida/Podio_v2_SERRA_lista_de_cortes.pdf` · CNC: `v2/saida/Podio_v2_CNC.pdf` + `v2/saida/cnc_dxf/`
 - Montagem: `v2/saida/Podio_v2_GUIA_DE_MONTAGEM.pdf`
 - **Material:** compensado de pinus 9 mm (era 15). As quinas são unidas por 14 cantoneiras de alumínio 20 × 20 × 1,5 por dentro (6,2 m no total). O tampo é colado e parafusado nas bordas, e a caixa 1 ganhou uma travessa no alto do fundo.
