@@ -1,0 +1,18 @@
+﻿Ref;Peça;Qtd;Comprimento (mm);Largura (mm);Espessura (mm);Material
+F1;frente da 1;1;905;700;15;compensado de pinus
+F2;frente da 2;1;662;605;15;compensado de pinus
+K1;tampo da 1 (mesa);1;730;540;15;compensado de pinus
+K2;tampo da 2;1;662;456;15;compensado de pinus
+K3;tampo da 3;1;624;412;15;compensado de pinus
+F3;frente da 3;1;624;405;15;compensado de pinus
+L1;lateral da 1;2;905;485;9;compensado de pinus
+T2;fundo da 2;1;662;605;9;compensado de pinus
+P1;prateleira da 1;1;678;466;9;compensado de pinus
+L2;lateral da 2;2;605;432;9;compensado de pinus
+T3;fundo da 3;1;624;405;9;compensado de pinus
+L3;lateral da 3;2;405;388;9;compensado de pinus
+S1;travessa de fundo da 1;2;682;80;9;compensado de pinus
+B2;borda frente da 2;1;662;30;9;compensado de pinus
+B3;borda frente da 3;1;624;30;9;compensado de pinus
+C2;borda lado da 2;2;447;30;9;compensado de pinus
+C3;borda lado da 3;2;403;30;9;compensado de pinus
