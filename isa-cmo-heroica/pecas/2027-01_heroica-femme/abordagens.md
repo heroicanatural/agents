@@ -3,7 +3,7 @@
 Assinatura: Rafa (fundadora). Canal sugerido: WhatsApp para quem já é parceiro, e-mail curto para quem não conhece a Heroica.
 Deck: https://www.canva.com/design/DAHOu7M20VQ/ljsaBGL3kHW6a797hEaopw/edit
 
-Cotas: 1 Naming R$ 12.000 · 4 Parceiras R$ 8.500 (exclusividade por categoria).
+Cotas: 1 Naming R$ 15.000 · 4 Parceiras R$ 8.500 (exclusividade por categoria).
 Formato: 22 a 24/01/2027, Rancho Queimado/SC. 20 vagas na imersão de dois dias + sábado aberto para mais 50 mulheres.
 
 Dimas: contrato do HTX26 assinado e R$ 1.900 pagos (confirmado 30/10/2026). Caminho livre para a naming.
@@ -21,7 +21,7 @@ Em julho a Dimas foi a marca principal do HTX e ficou marcada nas fotos, no pór
 
 Agora vamos fazer uma edição só para mulheres, 100% produzida por mulheres: Heroica Femme, 22 a 24 de janeiro, em Rancho Queimado. São 20 mulheres na imersão de dois dias e o sábado aberto para mais 50.
 
-A edição vai levar o nome de uma marca. Queria que fosse "Heroica Femme · Dimas". A cota é R$ 12.000, com exclusividade em carro e uma vaga só. Antes de abrir para outra marca, queria ouvir vocês. Posso mandar a apresentação?
+A edição vai levar o nome de uma marca. Queria que fosse "Heroica Femme · Dimas". A cota é R$ 15.000, com exclusividade em carro e uma vaga só. Antes de abrir para outra marca, queria ouvir vocês. Posso mandar a apresentação?
 
 ## 2. Ável Investimentos (parceira · investimentos) · e-mail
 
@@ -65,7 +65,7 @@ Organizo o Heroica Trail Experience em Rancho Queimado. Em 2026 recebemos 120 pe
 
 Em janeiro faremos uma edição exclusiva para mulheres, produzida inteiramente por mulheres, com 20 participantes numa imersão de dois dias e um sábado aberto para mais 50. Trail, mesa ao ar livre, recovery, conversa e descanso. Saúde da mulher no sentido mais concreto da palavra.
 
-A edição levará o nome de uma marca, e gostaria que fosse "Heroica Femme · Unimed". A cota de naming é R$ 12.000, com uma vaga só, e inclui espaço para uma ativação de saúde dentro do evento. Posso enviar a apresentação completa e agendar uma conversa?
+A edição levará o nome de uma marca, e gostaria que fosse "Heroica Femme · Unimed". A cota de naming é R$ 15.000, com uma vaga só, e inclui espaço para uma ativação de saúde dentro do evento. Posso enviar a apresentação completa e agendar uma conversa?
 
 ## 6. The 4am Culture (parceira · outfit) · WhatsApp
 

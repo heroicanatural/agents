@@ -3,7 +3,7 @@
 **Pedido (Roberto, 29/10/2026):** adaptar o deck HTX 2026 para o Heroica Femme, edição única e
 exclusiva para mulheres, em Rancho Queimado/SC, de 22 a 24/01/2027, 100% produzida por mulheres
 (atrações, prestadoras de serviço, fornecedoras, marcas que falam com o universo feminino).
-Cotas: 1 naming R$ 12.000 + 4 parceiras R$ 8.500. Comunicação concisa, com números da última
+Cotas: 1 naming R$ 15.000 + 4 parceiras R$ 8.500. Comunicação concisa, com números da última
 edição e o benefício do posicionamento para a marca patrocinadora.
 
 ## Canva
@@ -30,8 +30,8 @@ edição e o benefício do posicionamento para a marca patrocinadora.
       "filme htx agradecimento" DAHWN8syR98): Dimas, Goyah, Tüm, Bike Irada/Trek, Headcore, Atleta Cannabis,
       Prefeitura de Rancho Queimado, Hey Sun, Coach Lab, Barz, Naveia, The 4am Culture, Temple, Frutas na Caixa,
       Pure Foods, Ganas, Dois Mineiros, Contém Ovo, Maria Nuts
-  24. Investimento: 1 naming R$ 12.000 + 4 parceiras R$ 8.500 (tabelas comparativas)
-  25. Cota Naming R$ 12.000,00
+  24. Investimento: 1 naming R$ 15.000 + 4 parceiras R$ 8.500 (tabelas comparativas)
+  25. Cota Naming R$ 15.000,00
   26. Cota Parceira R$ 8.500,00 (4 vagas)
   27. Categorias com exclusividade (carro, calçado, outfit, energético, recovery, beleza e cuidado, investimentos)
   28. Fechamento
@@ -111,5 +111,6 @@ Cuidados:
   fidelidade, substituir por aplicação do logo oficial sobre a foto.
 - Textos dos slides novos estão na fonte padrão do Canva (a API não troca
   família); ajustar para a fonte do deck na mão.
-- Corrigido nesta rodada: a página da cota naming dizia R$15.000,00; agora
-  diz R$12.000,00, igual à página de investimento.
+- 03/11: Roberto confirmou que a cota naming subiu para R$ 15.000. Deck,
+  brief, prospecção e mensagens de abordagem atualizados. Parceira segue
+  R$ 8.500.

@@ -4,7 +4,7 @@ Pesquisa feita em 29–30/10/2026 por busca web (leitura direta de várias pági
 os dados vêm dos trechos indexados). **Confirmar cargo no LinkedIn antes de enviar.** Nenhum nome foi inventado;
 todos têm fonte pública. Confiança: alta / média / baixa = probabilidade de a pessoa seguir no cargo hoje.
 
-Cotas: Naming R$ 12.000 (1) · Parceira R$ 8.500 (4), exclusividade por categoria.
+Cotas: Naming R$ 15.000 (1) · Parceira R$ 8.500 (4), exclusividade por categoria.
 
 ## Prioridade por categoria
 
