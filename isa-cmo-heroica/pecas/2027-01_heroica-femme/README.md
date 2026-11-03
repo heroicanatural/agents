@@ -92,9 +92,9 @@ ilustrativa, gerada para esta proposta."
 
 | Pág. | Marca | Categoria sugerida | Mockup | Media id |
 |---|---|---|---|---|
-| 27 | Jeep DVA | Carro oficial | Commander plotado Heroica, serra ao fundo | MAHZ3CwAoZ8 |
+| 27 | Jeep DVA | Carro oficial | Commander prata com assinatura discreta na porta: logo Heroica Trail Experience + "JEEP DVA" em vinil | MAHZ3QXYPXo |
 | 28 | Dimas Construções | Parceira institucional | Casa em azul-marinho com o wordmark DIMAS (4 fotos) + logo vetorial oficial no slide | MAHZ3REu3C4 |
-| 29 | Dimas Ford | Carro oficial | Maverick plotada Heroica, caçamba com kits | MAHZ3MQaPvg |
+| 29 | Dimas Ford | Carro oficial | Maverick prata com assinatura discreta na porta: logo Heroica Trail Experience + "DIMAS FORD" em vinil, caçamba com kits | MAHZ3c0FwKE |
 | 30 | The 4am Culture | Outfit oficial | Casa em preto e branco com o wordmark THE 4AM CULTURE (4 fotos) + logo vetorial oficial no slide | MAHZ3Uf2zOE |
 | 31 | Rampinelli | Alimentação oficial | Casa FILA reenvelopada em vermelho e amarelo, arroz nos displays (4 fotos) | MAHZ3XN8qlw |
 | 32 | Mizuno | Calçado oficial | Casa FILA reenvelopada em azul royal (4 fotos) | MAHZ3YsjR3w |
@@ -116,6 +116,15 @@ referência de imagem para o gerador. Versões anteriores (pousada vista do lago
 MAHZ3KLJFFc, MAHZ3BFypyk, MAHZ3LFvQuw, MAHZ3FS5pjs, MAHZ3OPrL_c. A foto da
 Casa FILA enviada no chat não pôde ser subida pela sessão (proxy bloqueia
 upload direto no Canva); a mesma imagem já existia na biblioteca.
+
+Quarta rodada (03/11): a pedido do Roberto, os carros deixaram de ser
+plotados. Referência: foto de picape de apoio com "SCOTT | SRAM" pequeno na
+porta. Agora as duas marcas aparecem lado a lado como colaboradoras, com o
+logo original da Heroica Trail Experience (media `MAGyBs3DZ7c`). Versões
+plotadas ficaram na biblioteca: MAHZ3CwAoZ8 (Commander) e MAHZ3MQaPvg
+(Maverick). Rodapé dos sete slides ganhou o aviso de que móveis, almofadas,
+displays, veículo e plotagem são exemplos, fora do escopo das entregas, com
+produção por conta da marca.
 
 Cuidados:
 
