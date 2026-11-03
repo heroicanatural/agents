@@ -93,17 +93,26 @@ ilustrativa, gerada para esta proposta."
 | Pág. | Marca | Categoria sugerida | Mockup | Media id |
 |---|---|---|---|---|
 | 27 | Jeep DVA | Carro oficial | Commander plotado Heroica, serra ao fundo | MAHZ3CwAoZ8 |
-| 28 | Dimas Construções | Parceira institucional | Casa FILA reenvelopada em azul-marinho (4 fotos) | MAHZ3eEprmQ |
+| 28 | Dimas Construções | Parceira institucional | Casa em azul-marinho com o wordmark DIMAS (4 fotos) + logo vetorial oficial no slide | MAHZ3REu3C4 |
 | 29 | Dimas Ford | Carro oficial | Maverick plotada Heroica, caçamba com kits | MAHZ3MQaPvg |
-| 30 | The 4am Culture | Outfit oficial | Casa FILA reenvelopada em preto e branco (4 fotos) | MAHZ3YyzXgU |
+| 30 | The 4am Culture | Outfit oficial | Casa em preto e branco com o wordmark THE 4AM CULTURE (4 fotos) + logo vetorial oficial no slide | MAHZ3Uf2zOE |
 | 31 | Rampinelli | Alimentação oficial | Casa FILA reenvelopada em vermelho e amarelo, arroz nos displays (4 fotos) | MAHZ3XN8qlw |
 | 32 | Mizuno | Calçado oficial | Casa FILA reenvelopada em azul royal (4 fotos) | MAHZ3YsjR3w |
 | 33 | HOKA | Calçado oficial | Casa FILA reenvelopada em laranja e azul (4 fotos) | MAHZ3fyUoJk |
 
 Segunda rodada (03/11, pedido do Roberto): as cinco casas passaram a usar a
-colagem real da Casa FILA do HTX 2026 (media `MAHGYzythQg`, página 29 do deck
-HTX 2026 [f]) como referência, trocando tudo que era FILA pela marca de cada
-slide. Versões anteriores (pousada vista do lago) ficaram na biblioteca:
+colagem "Casa FILA" (media `MAHGYzythQg`, página 29 do deck HTX 2026 [f]) como
+referência, trocando tudo que era FILA pela marca de cada slide. Atenção: a
+Casa FILA foi uma simulação para proposta, nunca existiu no HTX 2026. Nenhum
+slide deve dizer "como foi a Casa FILA"; o texto fala só da Vila Vert.
+
+Terceira rodada (03/11): Roberto mandou as logos oficiais em PDF (Dimas
+positiva, The 4am Culture). Dimas e 4am foram gerados de novo descrevendo o
+wordmark oficial, e os dois slides ganharam o logo vetorial real (paths
+copiados dos designs `DAHPpiDXKvs` e `DAHV1HHQuOI` da biblioteca) no canto
+superior direito. O upload de arquivos e a importação por URL para o Canva
+não funcionam nesta sessão; por isso o logo entrou como vetor e não como
+referência de imagem para o gerador. Versões anteriores (pousada vista do lago) ficaram na biblioteca:
 MAHZ3KLJFFc, MAHZ3BFypyk, MAHZ3LFvQuw, MAHZ3FS5pjs, MAHZ3OPrL_c. A foto da
 Casa FILA enviada no chat não pôde ser subida pela sessão (proxy bloqueia
 upload direto no Canva); a mesma imagem já existia na biblioteca.
@@ -113,8 +122,8 @@ Cuidados:
 - Jeep DVA e Dimas Ford disputam a mesma categoria (carro oficial); Mizuno e
   HOKA também (calçado). Ao enviar para cada marca, remover o slide da
   concorrente ou deixar claro que a categoria é exclusiva para quem fechar.
-- As cores da Dimas Construções foram chutadas (azul-marinho e branco);
-  conferir no manual da marca antes de enviar.
+- A cor de fundo da Dimas (azul-marinho) foi escolha nossa; o logo oficial é
+  monocromático. Conferir no manual da marca antes de enviar.
 - Os logos nas imagens são aproximações do gerador. Se a marca pedir
   fidelidade, substituir por aplicação do logo oficial sobre a foto.
 - Textos dos slides novos estão na fonte padrão do Canva (a API não troca
