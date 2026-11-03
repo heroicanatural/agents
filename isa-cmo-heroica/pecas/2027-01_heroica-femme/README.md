@@ -92,9 +92,9 @@ ilustrativa, gerada para esta proposta."
 
 | Pág. | Marca | Categoria sugerida | Mockup | Media id |
 |---|---|---|---|---|
-| 27 | Jeep DVA | Carro oficial | Commander prata com assinatura discreta na porta: logo Heroica Trail Experience + "JEEP DVA" em vinil | MAHZ3QXYPXo |
+| 27 | Jeep DVA | Carro oficial | Gladiator prata, versão completa, com logo Heroica Trail Experience + "JEEP DVA" em vinil na porta e caçamba | MAHZ3YkNu1U |
 | 28 | Dimas Construções | Parceira institucional | Casa em azul-marinho com o wordmark DIMAS (4 fotos) + logo vetorial oficial no slide | MAHZ3REu3C4 |
-| 29 | Dimas Ford | Carro oficial | Maverick prata com assinatura discreta na porta: logo Heroica Trail Experience + "DIMAS FORD" em vinil, caçamba com kits | MAHZ3c0FwKE |
+| 29 | Dimas Ford | Carro oficial | Maverick topo de linha (Lariat FX4) prata, com logo Heroica Trail Experience + "DIMAS FORD" em vinil na porta e caçamba, kits na caçamba | MAHZ3QeNwXQ |
 | 30 | The 4am Culture | Outfit oficial | Casa em preto e branco com o wordmark THE 4AM CULTURE (4 fotos) + logo vetorial oficial no slide | MAHZ3Uf2zOE |
 | 31 | Rampinelli | Alimentação oficial | Casa FILA reenvelopada em vermelho e amarelo, arroz nos displays (4 fotos) | MAHZ3XN8qlw |
 | 32 | Mizuno | Calçado oficial | Casa FILA reenvelopada em azul royal (4 fotos) | MAHZ3YsjR3w |
@@ -122,6 +122,9 @@ plotados. Referência: foto de picape de apoio com "SCOTT | SRAM" pequeno na
 porta. Agora as duas marcas aparecem lado a lado como colaboradoras, com o
 logo original da Heroica Trail Experience (media `MAGyBs3DZ7c`). Versões
 plotadas ficaram na biblioteca: MAHZ3CwAoZ8 (Commander) e MAHZ3MQaPvg
+(Maverick). Depois, Roberto pediu Gladiator no lugar do Commander, com a
+aplicação do mesmo tamanho da Ford, e a Maverick em versão topo de linha; as
+versões discretas anteriores ficaram em MAHZ3QXYPXo (Commander) e MAHZ3c0FwKE
 (Maverick). Rodapé dos sete slides ganhou o aviso de que móveis, almofadas,
 displays, veículo e plotagem são exemplos, fora do escopo das entregas, com
 produção por conta da marca.
