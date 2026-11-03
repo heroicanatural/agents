@@ -93,12 +93,20 @@ ilustrativa, gerada para esta proposta."
 | Pág. | Marca | Categoria sugerida | Mockup | Media id |
 |---|---|---|---|---|
 | 27 | Jeep DVA | Carro oficial | Commander plotado Heroica, serra ao fundo | MAHZ3CwAoZ8 |
-| 28 | Dimas Construções | Parceira institucional | Pousada e pórtico de chegada azul-marinho | MAHZ3KLJFFc |
+| 28 | Dimas Construções | Parceira institucional | Casa FILA reenvelopada em azul-marinho (4 fotos) | MAHZ3eEprmQ |
 | 29 | Dimas Ford | Carro oficial | Maverick plotada Heroica, caçamba com kits | MAHZ3MQaPvg |
-| 30 | The 4am Culture | Outfit oficial | Pousada preto e branco ao amanhecer | MAHZ3BFypyk |
-| 31 | Rampinelli | Alimentação oficial | Pousada vermelha com tenda de café | MAHZ3LFvQuw |
-| 32 | Mizuno | Calçado oficial | Pórtico de largada e fachada azul royal | MAHZ3FS5pjs |
-| 33 | HOKA | Calçado oficial | Fachada laranja e estação de tênis | MAHZ3OPrL_c |
+| 30 | The 4am Culture | Outfit oficial | Casa FILA reenvelopada em preto e branco (4 fotos) | MAHZ3YyzXgU |
+| 31 | Rampinelli | Alimentação oficial | Casa FILA reenvelopada em vermelho e amarelo, arroz nos displays (4 fotos) | MAHZ3XN8qlw |
+| 32 | Mizuno | Calçado oficial | Casa FILA reenvelopada em azul royal (4 fotos) | MAHZ3YsjR3w |
+| 33 | HOKA | Calçado oficial | Casa FILA reenvelopada em laranja e azul (4 fotos) | MAHZ3fyUoJk |
+
+Segunda rodada (03/11, pedido do Roberto): as cinco casas passaram a usar a
+colagem real da Casa FILA do HTX 2026 (media `MAHGYzythQg`, página 29 do deck
+HTX 2026 [f]) como referência, trocando tudo que era FILA pela marca de cada
+slide. Versões anteriores (pousada vista do lago) ficaram na biblioteca:
+MAHZ3KLJFFc, MAHZ3BFypyk, MAHZ3LFvQuw, MAHZ3FS5pjs, MAHZ3OPrL_c. A foto da
+Casa FILA enviada no chat não pôde ser subida pela sessão (proxy bloqueia
+upload direto no Canva); a mesma imagem já existia na biblioteca.
 
 Cuidados:
 
