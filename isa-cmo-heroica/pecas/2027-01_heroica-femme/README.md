@@ -79,3 +79,37 @@ No deck aparece só como exemplo de naming, conforme o pedido.
 - Pág. 23: Dimas Ford não aparece separado na grade (só "DIMAS"); se quiser os dois, adicionar logo manualmente.
 - Decidir se a amostra da pesquisa (7 respostas) fica no deck ou sai.
 - Confirmar qual print do Instagram é de qual perfil (hipótese acima).
+
+
+## Slides de aplicação por patrocinador (03/11/2026)
+
+Sete páginas novas (27 a 33), logo depois da cota parceira, com mockups
+gerados por IA no Canva (generate-image) a partir da foto da Pousada Vila Vert
+que já estava na página 11 (`MAGuwmxyHoo`). Cada slide traz rótulo de
+categoria, nome da marca, imagem 16:9, um título de aplicação, 2 a 3 frases
+sobre o que a marca ganha e o aviso "Simulação de aplicação. Imagem
+ilustrativa, gerada para esta proposta."
+
+| Pág. | Marca | Categoria sugerida | Mockup | Media id |
+|---|---|---|---|---|
+| 27 | Jeep DVA | Carro oficial | Commander plotado Heroica, serra ao fundo | MAHZ3CwAoZ8 |
+| 28 | Dimas Construções | Parceira institucional | Pousada e pórtico de chegada azul-marinho | MAHZ3KLJFFc |
+| 29 | Dimas Ford | Carro oficial | Maverick plotada Heroica, caçamba com kits | MAHZ3MQaPvg |
+| 30 | The 4am Culture | Outfit oficial | Pousada preto e branco ao amanhecer | MAHZ3BFypyk |
+| 31 | Rampinelli | Alimentação oficial | Pousada vermelha com tenda de café | MAHZ3LFvQuw |
+| 32 | Mizuno | Calçado oficial | Pórtico de largada e fachada azul royal | MAHZ3FS5pjs |
+| 33 | HOKA | Calçado oficial | Fachada laranja e estação de tênis | MAHZ3OPrL_c |
+
+Cuidados:
+
+- Jeep DVA e Dimas Ford disputam a mesma categoria (carro oficial); Mizuno e
+  HOKA também (calçado). Ao enviar para cada marca, remover o slide da
+  concorrente ou deixar claro que a categoria é exclusiva para quem fechar.
+- As cores da Dimas Construções foram chutadas (azul-marinho e branco);
+  conferir no manual da marca antes de enviar.
+- Os logos nas imagens são aproximações do gerador. Se a marca pedir
+  fidelidade, substituir por aplicação do logo oficial sobre a foto.
+- Textos dos slides novos estão na fonte padrão do Canva (a API não troca
+  família); ajustar para a fonte do deck na mão.
+- Corrigido nesta rodada: a página da cota naming dizia R$15.000,00; agora
+  diz R$12.000,00, igual à página de investimento.
