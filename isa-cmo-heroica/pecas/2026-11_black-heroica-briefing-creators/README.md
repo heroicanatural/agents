@@ -92,3 +92,29 @@ corrigir acentuação, que o Klike devolve sem diacríticos.
   de fonte. Pendência manual: no editor, selecionar tudo e aplicar Pilcrow
   Rounded (títulos bold, corpo regular).
 - A versão longa de 11 páginas (`DAHZ9kKmM9U`) fica como material de apoio.
+
+### Slide 5 (04/11): mais roteiros e carrosséis
+
+- Pedido do Roberto: "mais um slide com outras duas opções de roteiros e
+  sugestões de carrosséis", usando @lucureau (Luíza Cureau) como referência.
+- O Instagram, o site lucureau.com.br e o TikTok dela estão bloqueados na rede
+  desta sessão. O que usei veio da pesquisa do Klike (`research`): "não crie
+  por views, crie por pessoas"; capa com promessa clara; um problema por
+  conteúdo; gancho que diz para quem é o vídeo; CTA de salvar, comentar ou
+  aplicar. Vale conferir o perfil dela diretamente antes de citar no briefing.
+- Roteiros novos (Klike, modo influencer, 30s, Meta, tons Conversacional e
+  Venda sutil; briefing preenchido por mim sem confirmação prévia):
+  A "Antes e depois da rotina" e B "Resposta a um comentário". Reescrevi
+  trechos do Klike que faziam comparação com "granola industrial cheia de
+  açúcar" e afirmação de "não inflam preços", para não prometer o que não
+  posso provar.
+- Carrosséis (meus, na estrutura capa > contexto > erro > conteúdo > síntese
+  > CTA): "O que eu olho no rótulo de uma granola", "3 jeitos de usar a
+  Heroica na semana", "O que vale comprar na Black Friday". Os ingredientes
+  citados (melado, mascavo, sem conservante artificial) vêm do briefing
+  "Granola Clássica" de julho.
+- Corrigido na página 2: o gerador tinha escrito "melhor desempenho entre
+  setembro e novembro"; o deck de novembro diz "em novembro".
+- Fonte dos textos novos: padrão do Canva, pendente trocar para Pilcrow
+  Rounded no editor, como o resto do deck.
+
