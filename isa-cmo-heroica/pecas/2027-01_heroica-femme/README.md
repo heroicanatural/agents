@@ -83,7 +83,7 @@ No deck aparece só como exemplo de naming, conforme o pedido.
 
 ## Slides de aplicação por patrocinador (03/11/2026)
 
-Sete páginas novas (27 a 33), logo depois da cota parceira, com mockups
+Oito páginas novas (27 a 34), logo depois da cota parceira, com mockups
 gerados por IA no Canva (generate-image) a partir da foto da Pousada Vila Vert
 que já estava na página 11 (`MAGuwmxyHoo`). Cada slide traz rótulo de
 categoria, nome da marca, imagem 16:9, um título de aplicação, 2 a 3 frases
@@ -94,11 +94,12 @@ ilustrativa, gerada para esta proposta."
 |---|---|---|---|---|
 | 27 | Jeep DVA | Carro oficial | Gladiator prata, versão completa, com logo Heroica Trail Experience + "JEEP DVA" em vinil na porta e caçamba | MAHZ3YkNu1U |
 | 28 | Dimas Construções | Parceira institucional | Casa em azul-marinho com o wordmark DIMAS (4 fotos) + logo vetorial oficial no slide | MAHZ3REu3C4 |
-| 29 | Dimas Ford | Carro oficial | Maverick topo de linha (Lariat FX4) prata, com logo Heroica Trail Experience + "DIMAS FORD" em vinil na porta e caçamba, kits na caçamba | MAHZ3QeNwXQ |
-| 30 | The 4am Culture | Outfit oficial | Casa em preto e branco com o wordmark THE 4AM CULTURE (4 fotos) + logo vetorial oficial no slide | MAHZ3Uf2zOE |
-| 31 | Rampinelli | Alimentação oficial | Casa FILA reenvelopada em vermelho e amarelo, arroz nos displays (4 fotos) | MAHZ3XN8qlw |
-| 32 | Mizuno | Calçado oficial | Casa FILA reenvelopada em azul royal (4 fotos) | MAHZ3YsjR3w |
-| 33 | HOKA | Calçado oficial | Casa FILA reenvelopada em laranja e azul (4 fotos) | MAHZ3fyUoJk |
+| 29 | GND Incorporadora | Parceira institucional | Casa em azul-escuro com o wordmark GND (4 fotos) + logo vetorial oficial no slide, extraída do PDF enviado pelo Roberto | MAHZ3kFB84E |
+| 30 | Dimas Ford | Carro oficial | Maverick topo de linha (Lariat FX4) prata, com logo Heroica Trail Experience + "DIMAS FORD" em vinil na porta e caçamba, kits na caçamba | MAHZ3QeNwXQ |
+| 31 | The 4am Culture | Outfit oficial | Casa em preto e branco com o wordmark THE 4AM CULTURE (4 fotos) + logo vetorial oficial no slide | MAHZ3Uf2zOE |
+| 32 | Rampinelli | Alimentação oficial | Casa FILA reenvelopada em vermelho e amarelo, arroz nos displays (4 fotos) | MAHZ3XN8qlw |
+| 33 | Mizuno | Calçado oficial | Casa FILA reenvelopada em azul royal (4 fotos) | MAHZ3YsjR3w |
+| 34 | HOKA | Calçado oficial | Casa FILA reenvelopada em laranja e azul (4 fotos) | MAHZ3fyUoJk |
 
 Segunda rodada (03/11, pedido do Roberto): as cinco casas passaram a usar a
 colagem "Casa FILA" (media `MAHGYzythQg`, página 29 do deck HTX 2026 [f]) como
@@ -143,3 +144,20 @@ Cuidados:
 - 03/11: Roberto confirmou que a cota naming subiu para R$ 15.000. Deck,
   brief, prospecção e mensagens de abordagem atualizados. Parceira segue
   R$ 8.500.
+
+### Rodada 5 (04/11): GND Incorporadora
+
+- Roberto pediu um slide igual ao da Dimas Construções para a GND
+  Incorporadora e enviou o logo vetorial em PDF (`LOGO_GND_vetor.pdf`).
+- Página 29 (id `PB76lMM8bHLjDSs5`), logo depois da Dimas. Mesmo layout:
+  rótulo "Parceira institucional", título, mockup 840x630, subtítulo
+  "Casa GND na pousada", texto e o disclaimer de escopo.
+- Mockup `MAHZ3kFB84E` gerado a partir da mesma foto base das outras casas,
+  reenvelopada em azul-escuro com o wordmark GND.
+- O logo entrou como shape vetorial (bege #eedab3) no canto superior direito,
+  convertido do PDF com `pdftocairo -svg` e normalizado em Python; o
+  retângulo de fundo e os clip paths do PDF foram descartados.
+- Páginas seguintes de patrocinador deslocadas em um: Dimas Ford 30, 4am 31,
+  Rampinelli 32, Mizuno 33, HOKA 34. Deck com 38 páginas.
+- Fonte do texto novo ainda é a padrão do Canva: ajustar no editor como nos
+  outros slides de patrocinador.
