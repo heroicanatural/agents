@@ -41,8 +41,9 @@ corrigir acentuação, que o Klike devolve sem diacríticos.
   "Pós-Treino de Quem Mora Aqui".
 - Fora de SC: "Apoie marcas nacionais neste treino", "Valorize o que é nosso
   de verdade", "A história por trás da sua granola".
-- Um dos posts do Klike dizia "até trinta e cinco por cento"; não foi usado.
-  A oferta no deck é sempre "até 30% + 5% com cupom".
+- O Klike citou "até trinta e cinco por cento" em um post. Está correto: o
+  deck do Papo dos Heroicos diz que o cupom a 5% acumula sobre os até 30% do
+  site, "na prática 35% para quem compra com o cupom".
 
 ## Dados usados
 
@@ -72,3 +73,22 @@ corrigir acentuação, que o Klike devolve sem diacríticos.
   ajustar no editor para a fonte do deck.
 - Decidir se os roteiros vão como estão ou se o Klike roda uma segunda rodada
   com briefing revisado por você.
+
+## Versão enxuta de 4 slides (04/11, pedido do Roberto)
+
+- Design `DAHZ-PcbNVE`, "Briefing Black Heroica", 4 páginas 16:9.
+- Editar: https://www.canva.com/d/qhhkH62owz_A1fc
+- Ver: https://www.canva.com/d/JnqxJ8bF664I1uY
+- Estrutura pedida: 1 capa; 2 a campanha (como o cupom funciona, chance de
+  liberar o seeding, por que novembro funciona); 3 roteiros (Floripa/SC e
+  fora de SC, 30s, lado a lado); 4 figurinhas.
+- Mecânica confirmada no Papo dos Heroicos: até 30% no site sem cupom, cupom
+  a 5% acumulando (35% na prática), faixa de comissão acompanha, uma vez por
+  ano. Seeding libera com R$189 em vendas ou 380 nuts. Cupom de melhor
+  desempenho em novembro ganha prêmio surpresa.
+- Fotos: capa com `MAHZ90tvrz4` (embalagem real), figurinhas `MAHZ9shkVtQ`.
+- **Fonte:** Roberto pediu Pilcrow Rounded em tudo. O brief do create-design
+  pediu a fonte, mas o gerador não aplicou e a API não permite trocar família
+  de fonte. Pendência manual: no editor, selecionar tudo e aplicar Pilcrow
+  Rounded (títulos bold, corpo regular).
+- A versão longa de 11 páginas (`DAHZ9kKmM9U`) fica como material de apoio.
