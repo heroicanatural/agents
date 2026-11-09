@@ -1,0 +1,262 @@
+[
+ {
+  "ref": "F1",
+  "nome": "frente da 1",
+  "comp": 905,
+  "larg": 700,
+  "qtd": 1,
+  "esp": 15,
+  "obs": "15 mm",
+  "caixa": 1
+ },
+ {
+  "ref": "K1",
+  "nome": "tampo da 1 (mesa)",
+  "comp": 730,
+  "larg": 540,
+  "qtd": 1,
+  "esp": 15,
+  "obs": "15 mm; furo Ø28 da haste",
+  "caixa": 1
+ },
+ {
+  "ref": "F2",
+  "nome": "frente da 2",
+  "comp": 650,
+  "larg": 605,
+  "qtd": 1,
+  "esp": 15,
+  "obs": "15 mm",
+  "caixa": 2
+ },
+ {
+  "ref": "K2",
+  "nome": "tampo da 2",
+  "comp": 650,
+  "larg": 450,
+  "qtd": 1,
+  "esp": 15,
+  "obs": "15 mm",
+  "caixa": 2
+ },
+ {
+  "ref": "F3",
+  "nome": "frente da 3",
+  "comp": 600,
+  "larg": 405,
+  "qtd": 1,
+  "esp": 15,
+  "obs": "15 mm",
+  "caixa": 3
+ },
+ {
+  "ref": "K3",
+  "nome": "tampo da 3",
+  "comp": 600,
+  "larg": 400,
+  "qtd": 1,
+  "esp": 15,
+  "obs": "15 mm",
+  "caixa": 3
+ },
+ {
+  "ref": "L1",
+  "nome": "lateral esquerda da 1",
+  "comp": 905,
+  "larg": 485,
+  "qtd": 1,
+  "esp": 9,
+  "obs": "dobra primeiro (rente à frente)",
+  "caixa": 1
+ },
+ {
+  "ref": "M1",
+  "nome": "lateral direita da 1",
+  "comp": 905,
+  "larg": 476,
+  "qtd": 1,
+  "esp": 9,
+  "obs": "9 mais curta; dobra por cima",
+  "caixa": 1
+ },
+ {
+  "ref": "P1",
+  "nome": "prateleira da 1",
+  "comp": 678,
+  "larg": 446,
+  "qtd": 1,
+  "esp": 9,
+  "obs": "removível, sobre 4 pinos",
+  "caixa": 1
+ },
+ {
+  "ref": "R1",
+  "nome": "tira da frente da 1",
+  "comp": 905,
+  "larg": 30,
+  "qtd": 1,
+  "esp": 9,
+  "obs": "colada; batente da lateral direita",
+  "caixa": 1
+ },
+ {
+  "ref": "S1",
+  "nome": "travessa do tampo da 1",
+  "comp": 678,
+  "larg": 40,
+  "qtd": 1,
+  "esp": 9,
+  "obs": "entre as laterais, atrás",
+  "caixa": 1
+ },
+ {
+  "ref": "A1",
+  "nome": "taco do tampo da 1",
+  "comp": 60,
+  "larg": 60,
+  "qtd": 4,
+  "esp": 9,
+  "obs": "2 camadas de 9",
+  "caixa": 1
+ },
+ {
+  "ref": "L2",
+  "nome": "lateral esquerda da 2",
+  "comp": 605,
+  "larg": 435,
+  "qtd": 1,
+  "esp": 9,
+  "obs": "dobra primeiro (rente à frente)",
+  "caixa": 2
+ },
+ {
+  "ref": "M2",
+  "nome": "lateral direita da 2",
+  "comp": 605,
+  "larg": 426,
+  "qtd": 1,
+  "esp": 9,
+  "obs": "9 mais curta; dobra por cima",
+  "caixa": 2
+ },
+ {
+  "ref": "S2",
+  "nome": "travessa do tampo da 2",
+  "comp": 628,
+  "larg": 40,
+  "qtd": 1,
+  "esp": 9,
+  "obs": "entre as laterais, atrás",
+  "caixa": 2
+ },
+ {
+  "ref": "B2",
+  "nome": "borda frente da 2",
+  "comp": 650,
+  "larg": 30,
+  "qtd": 1,
+  "esp": 9,
+  "obs": "",
+  "caixa": 2
+ },
+ {
+  "ref": "R2",
+  "nome": "tira da frente da 2",
+  "comp": 605,
+  "larg": 30,
+  "qtd": 1,
+  "esp": 9,
+  "obs": "colada; batente da lateral direita",
+  "caixa": 2
+ },
+ {
+  "ref": "C2",
+  "nome": "borda lado da 2",
+  "comp": 441,
+  "larg": 30,
+  "qtd": 2,
+  "esp": 9,
+  "obs": "",
+  "caixa": 2
+ },
+ {
+  "ref": "A2",
+  "nome": "taco do tampo da 2",
+  "comp": 60,
+  "larg": 60,
+  "qtd": 4,
+  "esp": 9,
+  "obs": "2 camadas de 9",
+  "caixa": 2
+ },
+ {
+  "ref": "L3",
+  "nome": "lateral esquerda da 3",
+  "comp": 405,
+  "larg": 385,
+  "qtd": 1,
+  "esp": 9,
+  "obs": "dobra primeiro (rente à frente)",
+  "caixa": 3
+ },
+ {
+  "ref": "M3",
+  "nome": "lateral direita da 3",
+  "comp": 405,
+  "larg": 376,
+  "qtd": 1,
+  "esp": 9,
+  "obs": "9 mais curta; dobra por cima",
+  "caixa": 3
+ },
+ {
+  "ref": "S3",
+  "nome": "travessa do tampo da 3",
+  "comp": 578,
+  "larg": 40,
+  "qtd": 1,
+  "esp": 9,
+  "obs": "entre as laterais, atrás",
+  "caixa": 3
+ },
+ {
+  "ref": "B3",
+  "nome": "borda frente da 3",
+  "comp": 600,
+  "larg": 30,
+  "qtd": 1,
+  "esp": 9,
+  "obs": "",
+  "caixa": 3
+ },
+ {
+  "ref": "R3",
+  "nome": "tira da frente da 3",
+  "comp": 405,
+  "larg": 30,
+  "qtd": 1,
+  "esp": 9,
+  "obs": "colada; batente da lateral direita",
+  "caixa": 3
+ },
+ {
+  "ref": "C3",
+  "nome": "borda lado da 3",
+  "comp": 391,
+  "larg": 30,
+  "qtd": 2,
+  "esp": 9,
+  "obs": "",
+  "caixa": 3
+ },
+ {
+  "ref": "A3",
+  "nome": "taco do tampo da 3",
+  "comp": 60,
+  "larg": 60,
+  "qtd": 4,
+  "esp": 9,
+  "obs": "2 camadas de 9",
+  "caixa": 3
+ }
+]

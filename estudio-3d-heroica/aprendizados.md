@@ -63,6 +63,12 @@ Um bloco por projeto, mais recente no topo. Regras que se confirmarem em dois pr
 - Módulos adicionados à biblioteca: `tambor_200l`, `setor`, `interferencias`, `cena_json`/`renderizar`.
 - Pendente de calibração real: cor RAL 3005 vs. marca; diâmetro interno do bordão (disco de centragem); vinil em superfície curva.
 
+## 2026-11-09 · Pódio v4 (desmontável/flat)
+- Laterais longas demais para dobrar lado a lado: uma dobra por cima da outra. Uma tira de 9 mm na frente afasta o eixo da segunda e ainda serve de batente de 90°.
+- Tampo com tacos + travessa por baixo trava o corpo no esquadro sem ferragem no PDV (mesmo princípio validado no balcão dobrável).
+- Validar sempre 3 estados: montado, dobrado e pilha. Dobradiças em caixa baixa sobrepõem na dobra: usar 2 por lateral abaixo de 500 mm.
+- Flat cortou o volume de transporte para 73 × 90 × 35 cm e a maior peça para 9,6 kg, com 1 chapa de 15 + 1 de 9 (antes 1 + 2).
+
 ## Calibração atual
 
 | Parâmetro | Valor | Origem |

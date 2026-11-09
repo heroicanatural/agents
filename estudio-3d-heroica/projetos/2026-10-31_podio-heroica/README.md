@@ -2,7 +2,14 @@
 
 Conceito A da v4 do balcão (escolhido pelo Roberto em 31/10/2026): um pódio de 3 caixas no lugar do balcão com bandeira.
 
-## Versão atual: v3 (03/11) — PILOTO: 15 mm onde apanha + carrinho dobrável
+## Versão atual: v4 (09/11) — DESMONTÁVEL / FLAT
+- Cada caixa = corpo dobrável (frente 15 + 2 laterais 9 em dobradiças; a direita dobra por cima da esquerda graças a uma tira de 9 mm) + tampo 15 com 2 tacos e travessa por baixo, que travam o esquadro. Todas abertas atrás.
+- Desmontado: pilha de 730 × 905 × 348 mm, ~31 kg; peça mais pesada = corpo 1 dobrado (9,6 kg). Montagem no PDV em 4 passos, sem ferramenta.
+- Serra: `v4/saida/Podio_v4_SERRA_lista_de_cortes.pdf` + CSV · CNC: `v4/saida/Podio_v4_CNC.pdf` + `v4/saida/cnc_dxf/` (1 chapa 15 mm + 1 chapa 9 mm)
+- Desmontado e montagem: `v4/saida/Podio_v4_GUIA_desmontado_e_montagem.pdf`
+- Modelo e validação: `v4/podio_v4.py` (interferências montado e dobrado = 0) · documentos: `v4/documentos_v4.py`
+
+## v3 (03/11) — PILOTO: 15 mm onde apanha + carrinho dobrável (substituída pela v4)
 - Serra: `v3/saida/Podio_v3_SERRA_lista_de_cortes.pdf` · CNC: `v3/saida/Podio_v3_CNC.pdf` + `v3/saida/cnc_dxf/` (1 chapa 15 mm + 2 chapas 9 mm)
 - Montagem e transporte: `v3/saida/Podio_v3_GUIA_DE_MONTAGEM.pdf`
 - **Material:** frentes e tampos em 15 mm (aguentam pancada de carrinho de compras); laterais, fundos, travessas, bordas e prateleira em 9 mm. Quinas com cantoneiras de alumínio por dentro.

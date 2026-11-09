@@ -1,0 +1,27 @@
+﻿Ref;Peça;Qtd;Comprimento (mm);Largura (mm);Espessura (mm);Material
+F1;frente da 1;1;905;700;15;compensado de pinus
+K1;tampo da 1 (mesa);1;730;540;15;compensado de pinus
+F2;frente da 2;1;650;605;15;compensado de pinus
+K2;tampo da 2;1;650;450;15;compensado de pinus
+F3;frente da 3;1;600;405;15;compensado de pinus
+K3;tampo da 3;1;600;400;15;compensado de pinus
+L1;lateral esquerda da 1;1;905;485;9;compensado de pinus
+M1;lateral direita da 1;1;905;476;9;compensado de pinus
+P1;prateleira da 1;1;678;446;9;compensado de pinus
+R1;tira da frente da 1;1;905;30;9;compensado de pinus
+S1;travessa do tampo da 1;1;678;40;9;compensado de pinus
+A1;taco do tampo da 1;4;60;60;9;compensado de pinus
+L2;lateral esquerda da 2;1;605;435;9;compensado de pinus
+M2;lateral direita da 2;1;605;426;9;compensado de pinus
+S2;travessa do tampo da 2;1;628;40;9;compensado de pinus
+B2;borda frente da 2;1;650;30;9;compensado de pinus
+R2;tira da frente da 2;1;605;30;9;compensado de pinus
+C2;borda lado da 2;2;441;30;9;compensado de pinus
+A2;taco do tampo da 2;4;60;60;9;compensado de pinus
+L3;lateral esquerda da 3;1;405;385;9;compensado de pinus
+M3;lateral direita da 3;1;405;376;9;compensado de pinus
+S3;travessa do tampo da 3;1;578;40;9;compensado de pinus
+B3;borda frente da 3;1;600;30;9;compensado de pinus
+R3;tira da frente da 3;1;405;30;9;compensado de pinus
+C3;borda lado da 3;2;391;30;9;compensado de pinus
+A3;taco do tampo da 3;4;60;60;9;compensado de pinus
