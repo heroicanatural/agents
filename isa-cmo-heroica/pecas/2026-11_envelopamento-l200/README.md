@@ -65,3 +65,24 @@ confirmada.
 - A rede da sessão passou a permitir `www.canva.com` (upload direto) e
   `export-download.canva.com` (baixar exportações). `media.canva.com`
   continua bloqueado, então a revisão foi pelas miniaturas do deck.
+
+## Pneu e roda: o que o render não define (10/11)
+
+Roberto perguntou qual roda, modelo e medida de pneu foram usados no mock.
+Resposta honesta: nenhum. O gerador recebeu só "pneu all-terrain 30
+polegadas, aro preto fosco, suspensão levemente elevada"; não existe
+medida nem modelo por trás da imagem. Pesquisa feita para orientar a
+decisão (fontes: manual 2012 no Scribd, wheel-size.com, Quatro Rodas,
+Resolução Contran 916/2022 e 847/2021, serviço do Governo de SC):
+
+- Original (GLX/HPE 4x4): 265/70 R16 (~777 mm, 30,6"), roda 16x7J,
+  offset ET46, furação 6x139,7. Conferir na etiqueta da porta.
+- Tolerância legal para caminhonete: ±3% no diâmetro em pneu radial, ou
+  seja, até ~800 mm. 265/75 R16 (804 mm) fica no limite; 285/75 R16
+  (834 mm, ~33") e 285/70 R17 (830 mm) ultrapassam. Exceção para
+  "misto/utilitário/jipe" (Res. 847/2021) depende da classificação no
+  CRLV-e da L200.
+- Lift de suspensão é alteração de característica: autorização prévia,
+  CSV em ITL (Inmetro), vistoria ECV, anotação da altura no CRLV-e. Em SC,
+  prazo administrativo de até 10 dias úteis; custo de regularização
+  estimado em R$500 a R$1.500, fora kit e instalação.
