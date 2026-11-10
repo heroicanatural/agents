@@ -32,3 +32,37 @@ Apresentação para patrocínio da Rafa (Rafaela Catão, fundadora da Heroica e 
 - [x] Valores: versão EN com cota USD 1.900 ou EUR 1.900. Versão PT segue "Definir a condição" (Roberto não definiu valor em reais).
 - [x] Versão em inglês criada (DAHZZsuO84s), 11 páginas traduzidas.
 - [ ] Vigência/data do Mundial UCI 2027 (França): confirmar data oficial antes de citar.
+
+## Versões exclusivas por marca (10/11/2026)
+
+Cópias do deck PT (`DAHZZTu-bG4`), com capa, página 6 ("rafa + marca") e
+página 10 (contrapartidas) ajustadas. Fonte e fotos iguais ao original.
+
+### Soul (bicicletas) · `DAHaiNwhpJ0`
+- Edição https://www.canva.com/d/8J8Tb5sjY1ljq1n · visualização https://www.canva.com/d/yBPDPMhmRRppK9y
+- Valor em aberto, a pedido do Roberto. Entregáveis da Rafa (página 10):
+  bastidores dos treinos sem equipe profissional (pré, durante e pós UCI
+  Gravel, Ironman 70.3 e Mundial, se classificar); 3 captações profissionais
+  dedicadas à Soul, custo da equipe por conta da marca, uso de imagem por 12
+  meses; captações sugeridas: reconhecimento do percurso da UCI Gravel, Social
+  Ride Heroica + Soul, percurso de bike do Ironman Floripa.
+- O que a Rafa precisa: inscrição do Ironman 70.3; equipe de captação para as
+  3 produções (cerca de R$2.500 por captação); custeio da viagem para o
+  Mundial, se classificar (cerca de R$20 mil). Valores aproximados, do Roberto.
+
+### Furbo (roupas) · `DAHaiESf_Wo`
+- Edição https://www.canva.com/d/a8QS8cx-0sw2_-u · visualização https://www.canva.com/d/On39WeoEk3_cogZ
+- Roberto não detalhou a Furbo. A página 10 está como rascunho meu, espelhando
+  a Soul: bastidores vestindo Furbo nas mesmas provas, 3 captações
+  profissionais com uso de imagem por 12 meses, captações sugeridas (treino
+  longo em Floripa, dia de prova na UCI Gravel, rotina fábrica e treino). A
+  lista de necessidades é a mesma da Soul. Fechamento "Bora treinar juntos?".
+  Precisa de validação antes de enviar.
+
+### Pendências
+- Furbo: confirmar entregáveis e necessidades com o Roberto.
+- Soul: as duas marcas pedem as mesmas necessidades (inscrição, equipe,
+  viagem). Se as duas fecharem, dividir a lista para não pedir a mesma coisa
+  duas vezes.
+- Fotos continuam as do kit 2025 (placeholder).
+
