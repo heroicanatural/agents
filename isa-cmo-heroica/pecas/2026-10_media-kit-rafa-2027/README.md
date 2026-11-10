@@ -52,17 +52,17 @@ página 10 (contrapartidas) ajustadas. Fonte e fotos iguais ao original.
 
 ### Furbo (roupas) · `DAHaiESf_Wo`
 - Edição https://www.canva.com/d/a8QS8cx-0sw2_-u · visualização https://www.canva.com/d/On39WeoEk3_cogZ
-- Roberto não detalhou a Furbo. A página 10 está como rascunho meu, espelhando
-  a Soul: bastidores vestindo Furbo nas mesmas provas, 3 captações
-  profissionais com uso de imagem por 12 meses, captações sugeridas (treino
-  longo em Floripa, dia de prova na UCI Gravel, rotina fábrica e treino). A
-  lista de necessidades é a mesma da Soul. Fechamento "Bora treinar juntos?".
-  Precisa de validação antes de enviar.
+- Definido pelo Roberto em 10/11: contrapartidas da Rafa iguais às da Soul
+  (bastidores, 3 captações profissionais com uso de imagem por 12 meses,
+  mesmas captações sugeridas, com Social Ride Heroica + Furbo). Do lado da
+  Furbo: outfit de bike exclusivo Rafa + Furbo para treinos e provas, e 50
+  jerseys bonificadas para a Rafa vender e custear a viagem do Mundial.
+  Rótulo da condição: "Parceria em produto". Fechamento "Bora treinar
+  juntos?".
 
 ### Pendências
-- Furbo: confirmar entregáveis e necessidades com o Roberto.
-- Soul: as duas marcas pedem as mesmas necessidades (inscrição, equipe,
-  viagem). Se as duas fecharem, dividir a lista para não pedir a mesma coisa
-  duas vezes.
+- Soul pede inscrição, equipe de captação e viagem; Furbo entra com produto e
+  as 50 jerseys que também ajudam na viagem. Se as duas fecharem, alinhar o
+  que cada uma cobre do custeio do Mundial.
 - Fotos continuam as do kit 2025 (placeholder).
 
