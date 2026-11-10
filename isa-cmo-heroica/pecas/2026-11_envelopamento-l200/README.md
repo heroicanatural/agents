@@ -86,3 +86,17 @@ Resolução Contran 916/2022 e 847/2021, serviço do Governo de SC):
   CSV em ITL (Inmetro), vistoria ECV, anotação da altura no CRLV-e. Em SC,
   prazo administrativo de até 10 dias úteis; custo de regularização
   estimado em R$500 a R$1.500, fora kit e instalação.
+
+### Roda e offset sem espaçador (10/11)
+
+Especificação para passar à loja (confirmar por escrito antes de comprar):
+furação 6x139,7; cubo 67,1 mm; porca M12x1,5; carga por roda compatível
+com a L200. Com 265/70 R17: roda 17x8 ET20 a ET25 (ET15 dá mais folga
+interna e um pouco mais de "poke"). Com 285/70 R17: 17x8 ET10 a ET15. Evitar
+ET35 ou maior com 285 (bate por dentro) e 17x9 ET0 ou negativo (passa do
+para-lama, reprova). Espaçador só é "necessário" quando se mantém roda de
+offset alto; escolher o ET certo dispensa. Modelos citados na pesquisa
+(disponibilidade e ET a confirmar): KR R72 17x7 ET25, Krmai M32, Scorro e
+Presenza para 6x139,7, roda de aço tipo Trail 17x8, Method, Fuel, Black
+Rhino. Fontes: tabelas de aplicação da Triton, lojas brasileiras (VPR,
+Crestana, Truck Plaza, Tuning Parts) e fórum L200 do Carro Club.
