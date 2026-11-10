@@ -161,3 +161,35 @@ Cuidados:
   Rampinelli 32, Mizuno 33, HOKA 34. Deck com 38 páginas.
 - Fonte do texto novo ainda é a padrão do Canva: ajustar no editor como nos
   outros slides de patrocinador.
+
+### Rodada 6 (10/11): Grupo Ável
+
+- Pedido do Roberto: "uma página dedicada ao grupo Ável na nossa
+  apresentação do Heroica Femme para eu salvar e enviar a eles"
+  (https://avel.me/). Contexto: houve uma call por Google Meet em
+  06/10/2026 com Alvaro Luiz Catão e Stephanie Richardt (Ável), Roberto e
+  Igor; o convite está no Gmail, sem pauta escrita.
+- Página 30 (id `PB4SQ3yXyC3CLJfm`), logo depois da GND. Mesmo layout das
+  casas: rótulo "APLICAÇÃO · INVESTIMENTOS" (categoria exclusiva do deck),
+  título GRUPO ÁVEL, mockup `MAHajraKTNI` (colagem Casa FILA
+  `MAHGYzythQg` reenvelopada em verde escuro #0d3d28 com lettering "ável" e
+  detalhes #1dc077, cores tiradas do CSS do site), subtítulo "Casa Ável na
+  pousada", texto e o disclaimer de escopo.
+- Logo: o site não expõe um SVG; o arquivo é um webp em `material.avel.me`,
+  host fora da rede da sessão. Entrou o wordmark em texto "grupo ável."
+  (bege, bold, alinhado à direita), que é o fallback que o próprio site usa.
+  Se a Ável mandar o logo vetorial, trocar.
+- Fatos sobre a Ável usados no texto, de pesquisa pública (site, Veja Radar
+  Econômico, LinkedIn): ecossistema de planejamento financeiro, assessoria
+  de investimentos (credenciada XP) e consultoria; fundada em 2019 em Porto
+  Alegre; escritórios em Florianópolis (Rua Hoepcke, 168, Centro) e
+  Curitiba; faz eventos esportivos de relacionamento com clientes (Ável Cup
+  2025, tênis/padel/beach tennis em Punta del Este). Não há evidência
+  pública de programa da Ável voltado a mulheres; o texto não afirma isso.
+- Páginas seguintes deslocadas em um: Dimas Ford 31, 4am 32, Rampinelli 33,
+  Mizuno 34, HOKA 35. Deck com 39 páginas.
+- Ao enviar para a Ável: exportar só a página 30 junto com o deck base, e
+  tirar as páginas das outras marcas (27 a 29 e 31 a 35), que são propostas
+  a terceiros.
+- Fonte do texto novo é a padrão do Canva; ajustar no editor como nos outros
+  slides de patrocinador.
