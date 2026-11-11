@@ -78,3 +78,9 @@ Um bloco por projeto, mais recente no topo. Regras que se confirmarem em dois pr
 | Chapa MDF inteira | 2750 × 1850 mm | padrão de mercado, confirmar com o marceneiro |
 | Kerf laser | 0,15 mm | padrão do prompt, ainda não medido |
 | Folga de produto em berço/prateleira (embalagem flexível) | 5 mm por lado | suposição, testar com a granola |
+
+## 2026-11-11 · Uniforme ciclismo v1 (mockup recolorido)
+- Mockup do fornecedor vem achatado (uma imagem). Recolorir = recortar silhueta + extrair sombreado + multiplicar a arte nova.
+- Recorte: barreira de borda (gradiente de cor) + "descascar" a sombra externa descendo o gradiente até a linha escura do contorno.
+- Sombreado da camisa: canal R (rosa e branco têm R parecido); artes antigas removidas por convolução normalizada em várias escalas (melhor que inpaint para áreas grandes).
+- Tecido escuro recolorido em cor clara: comprimir o sombreado (gama 0,75) senão fica com cara de plástico.
