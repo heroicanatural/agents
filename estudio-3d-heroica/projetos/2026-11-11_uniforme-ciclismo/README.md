@@ -23,3 +23,9 @@ O PDF original do fornecedor não fica no repositório.
 - Sangria de ~5 mm em todas as peças. Logo HEROICA vetorial (tirado do arquivo da AR); selo do sorriso em imagem 300 dpi.
 - Conferir com a AR: qual ponta da LATERAL é a axila (assumido: ponta estreita em cima) e a altura da cintura nela (assumido 400 pt ≈ 141 mm); a bermuda não está na faca — tecido rosa-choque liso.
 - Script: `v1/scripts/sublimacao_build.py` (lê as páginas 1, 4 e 5 do PDF da AR convertidas em SVG).
+
+## v2 · conceito 2 (paleta Heroica) — atual
+Roberto (11/11): usar só cores da paleta; o rosa-choque não é da marca.
+Brandbook ainda não está na base, então usei só cores de artes já aprovadas: marrom #602221 (peças aprovadas) e, do arquivo da AR, rosa claro #F5C7C8, bege #EAD7B9 e magenta #C2236B.
+- Degradê rosa claro → bege (frente, costas, mangas); HEROICA em marrom em todas as aplicações; bermuda e laterais da perna em magenta.
+- Mockup: `v2/saida/Heroica_uniforme_2026_conceito2.png` · Sublimação G: `v2/sublimacao/` (com faca, espelhado, SVG).
