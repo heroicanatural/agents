@@ -15,3 +15,11 @@ Pedido do Roberto (11/11/2026): novo uniforme inspirado na referência de gravel
 4. `compose.py`: aplica cores e artes multiplicando pelo sombreado.
 
 O PDF original do fornecedor não fica no repositório.
+
+## v1 · arte de sublimação na faca da AR (tamanho G)
+- `v1/sublimacao/Heroica_uniforme_2026_sublimacao_G_com_faca.pdf` — arte + linha de corte (azul, não imprime), lado certo do tecido.
+- `v1/sublimacao/Heroica_uniforme_2026_sublimacao_G_espelhado_para_impressao.pdf` — só a arte, espelhada para o papel de sublimação.
+- `v1/sublimacao/Heroica_uniforme_2026_sublimacao_G.svg` — vetorial editável (Corel/Illustrator), escala real 1380 × 912 mm.
+- Sangria de ~5 mm em todas as peças. Logo HEROICA vetorial (tirado do arquivo da AR); selo do sorriso em imagem 300 dpi.
+- Conferir com a AR: qual ponta da LATERAL é a axila (assumido: ponta estreita em cima) e a altura da cintura nela (assumido 400 pt ≈ 141 mm); a bermuda não está na faca — tecido rosa-choque liso.
+- Script: `v1/scripts/sublimacao_build.py` (lê as páginas 1, 4 e 5 do PDF da AR convertidas em SVG).
