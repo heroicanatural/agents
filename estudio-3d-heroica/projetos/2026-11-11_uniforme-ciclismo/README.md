@@ -2,7 +2,7 @@
 
 Pedido do Roberto (11/11/2026): novo uniforme inspirado na referência de gravel (degradê rosa→pêssego→amarelo, branco no meio, bermuda rosa-choque com letras escuras), usando como base o mockup do macaquinho do fornecedor (sem as informações do layout antigo).
 
-## v1 · conceito 1
+## v1 · conceito 1 (bermuda rosa-choque aprovada em 11/11)
 - `v1/saida/Heroica_uniforme_2026_conceito1.png` (frente e costas)
 - Cores: rosa #F7A3BC · pêssego #FFC39C · amarelo #FFE07A · rosa-choque #EF4F98 · marrom #3B2116 · branco
 - Frente: degradê no peito e ombros, mangas em amarelo com HEROICA vertical marrom, faixa branca com HEROICA grande marrom, bermuda rosa-choque com HEROICA marrom na coxa.
